@@ -1,0 +1,17 @@
+. 模块名item_money_log.erl
+
+. 爱情水晶也是物品，物品id为1
+
+. item_money_log:select_item(Keeper, ItemID, FromTime) when is_list(Keeper), is_integer(ItemID)
+  注意Keeper是个字符串
+  当Keeper为"system"时，表示查整个系统的出入账, 
+  gain表示玩家给系统多个少个物品(通常是删物品),
+  lost 表示系统给玩家多少个(通常是买物品)
+
+  当Keeper为integer_to_list(HouseID)时, 表示查某个房间的出入账
+  
+. 需要复杂查询的话，用item_money_log:select(Condiction)
+  Condiction具体如何写, 要参考mongodb文档
+
+
+

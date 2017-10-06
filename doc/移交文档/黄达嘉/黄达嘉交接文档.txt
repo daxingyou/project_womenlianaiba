@@ -1,0 +1,83 @@
+编写的《我们恋爱吧》主要模块：
+	1、食物库存和制作系统
+		系统代码在Scripts/BartenderSys文件夹下
+			BartenderSys.js——主要系统逻辑模块
+			BartenderSysTablesMgr.js——数据表和在线实时数据
+			BartenderHintStyles.js——系统的hint样式脚本
+		
+		界面代码文件：
+			iGUICode_BartenderUI.js——食物库存系统的主界面
+			foodReservesItem：这个是SmartObject，由这个生成foodReservesItemPrefab——每个食物信息界面的预制件、iGUISmartPrefab_foodReservesItem.js——每个食物信息的界面代码
+			shakingPanel、shakingPanelPrefab——每个食物制作区格界面、iGUISmartPrefab_shakingPanel.js——每个制作区格子界面代码
+			stockInfoItemContainer、stockInfoItemContainerPrefab——食物的库存进度条中的每个格子的界面预制件、iGUISmartPrefab_stockInfoItemContainer.js——每个食物的库存进度条中的每个格子界面代码
+	
+
+	2、聊天模块
+		代码在Scripts/Chat文件夹下，此模块后来由zhr重构过
+		其中的YYChannelChatLogic.js是在YY平台下的酒吧界面的聊天功能，对应界面：iGUICode_YYChannelListRoot.js
+
+	3、闯关模块
+		逻辑代码在Scripts/Chuangguan文件夹下，对应界面：iGUICode_ChuangguanRoot.js
+
+	4、收集模块：
+		逻辑代码在Scripts/CollectComp文件夹下，对应界面：iGUICode_CollectRoot.js
+
+	5、日常活跃奖励模块：
+		逻辑代码在Scripts/DailyActiveAward文件夹下，对应界面：iGUICode_DaliyActiveRoot.js
+
+
+	6、兑换模块：
+		逻辑代码在Scripts/ExchangeModule文件夹下， 对应界面: iGUICode_ExchangeUIRoot.js
+
+	
+	7、首次充值模块：
+		逻辑代码在Scripts/FirstPayComp文件夹下，对应界面：iGUICode_FirstPayRoot.js
+
+
+	8、房屋升级模块：
+		逻辑代码在Scripts/HouseUpdate文件夹下，对应界面：iGUICode_HouseUpdateRoot.js
+
+
+	9、新手模块：
+		逻辑代码在Scripts/NewPlayGuideModule.js脚本文件，对应界面：iGUICode_NewGuideModalRoot.js、iGUICode_NewHandGuideUI.js、iGUICode_NewhandTaskGuide.js
+		对应新手脚本在：Scripts/NewHandTask文件夹下
+
+
+	10、人物自身动作模块：
+		逻辑代码在：Scripts/SelfAnimation文件夹下，对应界面：iGUICode_SelfAnimationRoot.js
+	
+	11、YY频道列表模块：
+		逻辑代码在Scripts/YYChannelListLogic文件夹下，对应界面：iGUICode_YYChannelListRoot.js
+
+	12、人物等级、经验模块：
+		逻辑代码在Scripts/LvExpMgr.js脚本
+
+	13、体力模块：
+		逻辑代码在Scripts/PhyPowerMgr.js脚本
+
+	14、小喇叭模块：
+		逻辑代码在Scripts/SpeakerComp.js脚本， 对应界面：iGUICode_SpeakerRoot.js
+
+	15、系统消息模块：
+		逻辑代码在：Scripts/SysMsgHandler.js脚本，
+		对应界面：
+			模态信息框：iGUICode_ModalRoot.js
+			非模态信息框：iGUICode_NoModalTipRoot.js
+
+	16、欢迎语模块：
+		逻辑代码在Script/WelcomeComp.js脚本， 对应界面：iGUICode_WelcomeRoot.js
+
+	17、许愿模块：
+		逻辑代码在Script/WishListComp.js脚本，对应界面：iGUICode_WishListRoot.js
+
+	18、泡泡消息模块：
+		逻辑代码在Script/PaoPaoControl.js脚本
+
+	19、消息公告模块：
+		在iGUIcode_NoticeRoot.js脚本文件
+
+	20、杂项界面：
+		生成SmartObject对象的界面源在界面iGUICode_makePrefabRoot.js和对应的预制件里
+		
+	
+		

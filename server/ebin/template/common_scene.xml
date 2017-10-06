@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<common_scene>
+		<id>1</id>
+		<name>爱情海广场</name>
+		<copy_count>4</copy_count>
+		<max_players>50</max_players>
+		<born_id>25</born_id>
+		<furnitures>default1.xml</furnitures>
+		<scene_name>house_0140002</scene_name>
+		<type>1</type>
+		<bg_music>love_home.mp3.u3d</bg_music>
+	</common_scene>
+	<common_scene>
+		<id>2</id>
+		<name>爱情酒吧</name>
+		<copy_count>1</copy_count>
+		<max_players>50</max_players>
+		<born_id>20</born_id>
+		<furnitures>default1.xml</furnitures>
+		<scene_name>house_0140001</scene_name>
+		<type>2</type>
+		<bg_music>love_bar.mp3.u3d</bg_music>
+	</common_scene>
+</root>

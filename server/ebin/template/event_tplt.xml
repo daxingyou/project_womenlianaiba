@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<event_tplt>
+		<id>1</id>
+		<event>water_self_flower_event</event>
+		<rate>0</rate>
+		<item_id>0</item_id>
+		<diamond>0</diamond>
+		<exp>0</exp>
+		<hp>0</hp>
+	</event_tplt>
+	<event_tplt>
+		<id>2</id>
+		<event>water_other_flower_event</event>
+		<rate>0</rate>
+		<item_id>0</item_id>
+		<diamond>0</diamond>
+		<exp>0</exp>
+		<hp>0</hp>
+	</event_tplt>
+	<event_tplt>
+		<id>3</id>
+		<event>house_level_up</event>
+		<rate>0</rate>
+		<item_id>0</item_id>
+		<diamond>0</diamond>
+		<exp>0</exp>
+		<hp>0</hp>
+	</event_tplt>
+</root>

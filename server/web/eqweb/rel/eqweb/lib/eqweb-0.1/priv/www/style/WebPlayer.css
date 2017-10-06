@@ -1,0 +1,215 @@
+body {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border:0;
+	padding:0;
+	margin:0;
+	font-size: 12px;
+}
+ul{list-style:none;}
+li{float:left;}
+a:link, a:visited {
+	color: #000;
+}
+a:active, a:hover {
+	color: #666;
+}
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	font-size: x-small;
+}
+div.content {
+	margin: auto;
+	width: 760px;
+}
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.missing img {
+	border-width: 0px;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 600px;
+	width: 760px;
+}
+div#canopy{
+	width: 760px;
+	height: 600px;
+	background-image:url("../images/pause.png");
+	margin: auto;
+	text-align:center;
+	display:none;
+	cursor:pointer;
+	*background:none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/pause.png', sizingMethod='crop');
+}
+a#setup{
+	display:block;
+	position:relative;
+	width: 335px;
+	height: 94px;
+	top: 200px;
+	left: 50px;
+	background-image: url("../images/plugin/setup.png");
+	*background:none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/plugin/setup.png', sizingMethod='crop');
+}
+a#setup:hover{
+	background-image: url("../images/plugin/setup_hover.png");
+	*background:none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/plugin/setup_hover.png', sizingMethod='crop');
+}
+a#setup:active{
+	background-image: url("../images/plugin/setup_active.png");
+	*background:none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/plugin/setup_active.png', sizingMethod='crop');
+}
+span#arrow{
+	background-image: url("../images/plugin/arrow.png");
+	display: block;
+	width: 118px;
+	height: 69px;
+	position:relative;
+	left: 400px;
+	top: 120px;
+	*background:none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/plugin/arrow.png', sizingMethod='crop');
+}
+
+#love_banner
+{
+    margin: auto;
+    width: 760px;
+    height: 113px;
+    vertical-align:bottom;
+    background-image: url( "../images/banner.png" );
+}
+#banner_content
+{
+    padding-left: 260px;
+    padding-top: 40px;
+}
+#banner_enter
+{
+	cursor:pointer;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/enter_normal.png" );
+    display: block;
+    position: relative;
+    cursor: pointer; *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/enter_normal.png',sizingMethod='crop');}
+#banner_enter:hover
+{
+    background-image: url( "../images/enter_hover.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/enter_hover.png',sizingMethod='crop');
+}
+#banner_enter:active
+{
+    background-image: url( "../images/enter_active.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/enter_active.png',sizingMethod='crop');
+}
+
+#banner_invite
+{
+	cursor:pointer;
+	margin-top:40px;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/invite_normal.png" );
+	background-repeat:no-repeat;
+	*background: none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='../images/invite_normal.png');
+}
+#banner_invite:hover
+{
+	background-image: url(../images/invite_hover.png);
+	background-repeat:no-repeat;
+	*background: none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='../images/invite_hover.png');
+}
+#banner_invite:active
+{
+	background-image: url(../images/invite_active.png);
+	background-repeat:no-repeat;
+	*background: none;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='../images/invite_active.png');
+}
+#banner_help
+{
+	cursor:pointer;
+    margin-top:40px;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/help_normal.png" );
+    display: block;
+    position: relative;
+    cursor: pointer; *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/help_normal.png',sizingMethod='crop');}
+#banner_help:hover
+{
+    background-image: url( "../images/help_hover.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/help_hover.png',sizingMethod='crop');}
+#banner_help:active
+{
+    background-image: url( "../images/help_active.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/help_active.png',sizingMethod='crop');}
+#banner_weibo
+{
+	cursor:pointer;
+    margin-top:40px;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/weibo_normal.png" );
+    display: block;
+    position: relative;
+    cursor: pointer; *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/weibo_normal.png',sizingMethod='crop');}
+#banner_weibo:hover
+{
+    background-image: url( "../images/weibo_hover.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/weibo_hover.png',sizingMethod='crop');}
+#banner_weibo:active
+{
+    background-image: url( "../images/weibo_active.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/weibo_active.png',sizingMethod='crop');}
+#banner_bbs
+{
+	cursor:pointer;
+    margin-top:40px;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/bbs_normal.png" );
+    display: block;
+    position: relative;
+    cursor: pointer; *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bbs_normal.png',sizingMethod='crop');}
+#banner_bbs:hover
+{
+    background-image: url( "../images/bbs_hover.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bbs_hover.png',sizingMethod='crop');}
+#banner_bbs:active
+{
+    background-image: url( "../images/bbs_active.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bbs_active.png',sizingMethod='crop');}
+#banner_privilege
+{
+	cursor:pointer;
+    margin-top:40px;
+    width: 83px;
+    height: 45px;
+    background-image: url( "../images/privilege_normal.png" );
+    display: block;
+    position: relative;
+    cursor: pointer; *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/privilege_normal.png',sizingMethod='crop');}
+#banner_privilege:hover
+{
+    background-image: url( "../images/privilege_hover.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/privilege_hover.png',sizingMethod='crop');}
+#banner_privilege:active
+{
+    background-image: url( "../images/privilege_active.png" ); *background:none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/privilege_active.png',sizingMethod='crop');
+}

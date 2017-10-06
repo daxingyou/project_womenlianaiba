@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp href="UnityWebPlayer.jnlp">
+	<information>
+		<title>Unity Web Player</title>
+		<vendor>Unity Technologies ApS</vendor>
+		<icon href="http://webplayer.unity3d.com/installation/unityicon48.gif" />
+	</information>
+	<!--<security>
+		<all-permissions />
+	</security>-->
+	<resources>
+		<j2se version="1.4.2+" />
+		<jar href="UnityWebPlayer.jar" main="true" />
+	</resources>
+	<applet-desc name="Unity Web Player" main-class="UnityWebPlayer" width="600" height="450">
+		<param name="icon" value="http://webplayer.unity3d.com/installation/unityicon48.gif" />
+	</applet-desc>
+</jnlp>

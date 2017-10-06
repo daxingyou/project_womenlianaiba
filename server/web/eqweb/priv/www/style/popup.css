@@ -1,0 +1,73 @@
+ .select {}{ margin: 0; padding: 0; border:1px solid #cccccc; float: left; display: inline; }
+ .select div {}{ border:1px solid #f9f9f9; float: left; }
+ .select>div {}{ overflow: hidden; }
+ * html .select div select {}{ display:block; float: left; margin: -2px; }
+ .select div>select {}{ display:block; float:none; margin: -2px; padding: 0px; }
+ .select:hover {}{ border:1px solid #666; }
+
+body{
+	font-family:'Microsoft Yahei', Arial, tahoma;
+}
+ .pupopOKButton {
+	overflow-x: visible;
+	border-radius: 3px;
+	background: transparent url(../images/popup/confirm.png) 0 0 repeat-x;
+	cursor: pointer;
+	height: 25px;
+	width: 58px;
+	border-width: 0px;
+	border-spacing: 0; 
+	border-collapse: collapse;
+}
+
+.popupCancelButton {
+	overflow-x: visible;
+	border-radius: 3px;
+	background: transparent url(../images/popup/cancel.png) 0 0 repeat-x;
+	cursor: pointer;
+	height: 25px;
+	width: 58px;
+	border-width: 0px;
+	border-spacing: 0; 
+	border-collapse: collapse;
+	margin-left:10px;
+}
+
+.bgTableTd{
+	border-collapse: collapse;
+  border-spacing: 0;
+	border:0 none;
+	background:transparent url(../images/popup/spirit.png) 0 0 scroll repeat;	
+	}
+.bgTableTd.bglt
+{
+		width:8px;
+		height:8px;
+		background-position: -10px -30px;
+}
+
+.bgTableTd.bglr
+{
+		width:8px;
+		height:8px;
+		background-position: -10px -10px;
+}
+
+.bgTableTd.bgfl
+{
+		width:8px;
+		height:8px;
+		background-position: -10px -40px;
+}
+
+.bgTableTd.bgfr
+{
+		width:8px;
+		height:8px;
+		background-position: -10px -20px;
+}
+
+.alterok
+{
+	float:right;
+}

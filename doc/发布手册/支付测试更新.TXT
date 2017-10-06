@@ -1,0 +1,20 @@
+﻿运行mstsc 10.35.0.10 机子上操作
+
+1 进入E:\LoveHome\branches\版本号\publishpublish，运行export-src.bat，生成lovehome文件夹，然后打包上传。
+
+2 使用SecureCRTPortable.exe登陆服务器183.60.66.71，
+  进入/home/user00 文件夹
+	sudo su - root
+	cd /home/use_00
+  下载lovehome.zip，并解压(lftp -u app35398,xmp3nnuk cvmftp.tencentyun.com:53000 -e 'get /lovehome.zip; quit'; unzip lovehome.zip)
+
+3 进入/home/user00/lovehome/server，运行make debug 从新编译服务端
+
+
+4 停服，备份数据，开服()
+
+停服步骤:
+ps -ef | grep love@
+kill 进程pid
+进入/home/user00/lovehome/server/ebin
+运行run.sh

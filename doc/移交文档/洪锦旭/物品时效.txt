@@ -1,0 +1,1 @@
+. item:clear_del_time 用来清物品时效，清完后，物品永久使用

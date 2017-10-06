@@ -1,0 +1,29 @@
+{application, eqweb,
+ [{description, "eqweb"},
+  {vsn, "0.01"},
+  {modules, [
+    eqweb,
+    eqweb_app,
+    eqweb_sup,
+    eqweb_web,
+    eqweb_deps
+  ]},
+  {registered, []},
+  {mod, {eqweb_app, []}},
+  {env, [{databasesvr, "love@10.35.16.224"},
+		    {port, 80},
+		    %%{app_id, "33734"},
+		    %%{app_key, "3e9b8b603e8149afa6ca0f35a2132f51"},
+		    %%{app_name, "app33734"},
+		    {app_id, "100617282"},
+		    {app_key, "84fcaab7e7f30d9f2116ce2d5822edf9"},
+		    {app_name, "app100617282"},
+		    %%{app_id, "35398"},
+		    %%{app_key, "9142f12312c0ba142b526ce3ef477637"},
+		    %%{app_name, "app35398"},
+		    {open_api_host, "http://119.147.19.43"},         %%测试服务器
+		    %%{open_api_host, "http://113.108.20.23"},   %%正式服务器
+		    {gamepage, "/WebPlayer/WebPlayer.html?vision=1"}
+		]},
+
+  {applications, [kernel, stdlib, crypto]}]}.

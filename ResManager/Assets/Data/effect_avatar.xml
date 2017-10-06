@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<effect_avatar>
+		<id>2200009</id>
+		<icon>duck</icon>
+		<model>otherroles100000</model>
+	</effect_avatar>
+	<effect_avatar>
+		<id>2200010</id>
+		<icon>frog</icon>
+		<model>otherroles100001</model>
+	</effect_avatar>
+	<effect_avatar>
+		<id>2200019</id>
+		<icon>baby</icon>
+		<model>otherroles100002</model>
+	</effect_avatar>
+	<effect_avatar>
+		<id>2200047</id>
+		<icon>harvestbuff</icon>
+	</effect_avatar>
+	<effect_avatar>
+		<id>2200070</id>
+		<icon>bainiangzi</icon>
+		<model>otherroles100003</model>
+	</effect_avatar>
+	<effect_avatar>
+		<id>2200071</id>
+		<icon>xuxian</icon>
+		<model>otherroles100004</model>
+	</effect_avatar>
+</root>

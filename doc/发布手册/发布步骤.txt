@@ -1,0 +1,68 @@
+﻿qq服务端发布步骤
+1 登录putty 10.35.16.224，运行./newversion.sh 版本号，迁出文件。
+2 进入 cd /home/user_00/lovehome-版本号/publish/production/generate，运行./generate-server.sh， 生成发布包, 生成的包放在/home/user_00/lovehome-1.0.0/publish/production/server
+, 然后拷贝那个zip包下来
+3 使用winscp下载发布包(zip包), 把发布包命名为game.zip, 然后通过ftp上传
+4 通过ftp上传到腾讯的ftp临时存放服务器上(选择183.60.66.71, 密码为动态密码+xmp3nnuk)
+4 登陆腾讯跳板机, 然后输入ssh -q 10.182.14.60
+5 输入密码xmp3nnuk
+5 sudo su - root
+6 cd /home/use_00/
+7 ./update.sh 发布到此结束
+
+##########验证是否开服完成
+cd game/bin
+./server attach
+
+备注: 文件存放地为/home/user_00/game 里, 需要热更新beam文件的时候如下操作:
+1 上传beam文件到ftp
+2 到/home/user_00/game/lib/server-1/ebin
+3 lftp -u app35398,xmp3nnuk cvmftp.tencentyun.com:53000 -e 'get /shit_player.beam; quit'   (shit_player.beam文件替换成你要的文件名)
+4 到目录/home/user_00/game/bin
+5 ./server attach
+6 c:nl(shit_player).     (shit_player文件替换成你要的文件名)
+
+
+104发布步骤(104的账号是root, 密码:1)
+1 登陆104(使用putty登入), 进入cd /home/linyijie/，运行./newversion.sh 版本号，迁出文件。 这台机器磁盘较小, 可以先删除/home/linyijie/lovehome-版本号 文件夹(rm -rf 文件名)
+2 登陆10(使用mstsc登入)，进入E:\LoveHome\branches，使用svn迁出文件, 这台机器磁盘较小, 可以先删除E:\LoveHome\branches\版本号 文件夹
+3 访问http://10.35.0.10:81，修改客户端和服务端的相应参数（就是版本号）。
+
+注意事项：目前，104的编译，会
+将/home/linyijie/vm.args.bak复制到/home/linyijie/lovehome/game/etc/vm.args，如果需要修改启动参数，需要修改vm.args.bak
+将/home/linyijie/app.config.bak复制到/home/linyijie/lovehome/game/etc/app.config，如果需要修改appid等参数以及mongodb,master_db，需要修改app.config.bak
+
+10发布
+发布脚本放在E:\LoveHome\trunk\local-release目录下
+将需要文件复制到E:\LoveHome\trunk\local-release，然后再运行run.bat启动。
+
+yy发布步骤 js css 图片等需要手工更新
+1.设置winscp的环境变量
+2 进入具体分支下的publish文件夹，运行release-yy.bat(假如拷贝文件失败，需要手动拷贝)
+3 登陆yy服务器(118.244.197.5)， 进入/lovehome/publish/production/generate，运行 ./upgrade-yy.sh 
+*不用处理：3 登陆yy服务器(118.244.197.5)，停服(cd /lovehome/game/bin/)，备份(cd /data)发布包和数据，使用scp复制新的发布包， 开启服务。scp命令示例：scp -r root@118.244.197.6:/lovehome/publish/production/server/20130312205600370229000_game.zip ./game.zip
+
+yy客户端发布步骤(备用，可以参考release-yy-client.scp)
+*1 进入具体分支，运行publish/production/generate_client.bat
+*2 将相关的文件上传到服务端(使用winscp上传比较快)
+1.上面点击release-yy.bat后，会自动发布客户端，并上传svn，这里直接操作第二步
+2 http://cdn.efly.cc:4554/Home/Login，更新cdn文件 帐号：35hulian 密码：35hulian
+3.进入缓存管理->清理目录缓存->http://cdn.love.eq.cn/
+
+yy发布新的发布流程
+1 进入具体分支下的publish文件夹，运行release-yy.bat(假如拷贝文件失败，需要手动拷贝)
+2 登陆yy服务器(118.244.197.5)， 进入/lovehome/publish/production/generate，运行./upgrade-yy.sh 
+3 可以手工同步诸如yy.html等一些web方面相关的文件, 因为这些文件不经常更新, 所以自动更新里不会更新这些文件, 可以登录服务器后, 用rz命令同步文件
+这些文件放在/lovehome/web/
+yy服务器的ip, 账号, 密码
+一 ip:118.244.197.5 账号：root  密码：z53uLsSZ_u  备注：这台服务器开通了80端口、另只添加公司及118.244.197.6的访问权限。
+二 ip:118.244.197.6 账号：root   密码：M_6F6Pe_xp  备注：这台服务器未添加任何端口 只添加公司及118.244.197.5的访问权限。
+
+
+yy备份数据库的编译更新
+1. 源代码放到/lovehome/backupdb
+2. cd /lovehome/backupdb
+3. ./rebar compile
+4. ./rebar generate
+5. cd /lovehome/backupdb/rel/backupdb/bin
+6. ./backupdb star

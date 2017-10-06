@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<total_payment_return_tplt>
+		<consume_amount>100</consume_amount>
+		<return_diamond>100</return_diamond>
+		<return_items>[{2200000, 5}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>200</consume_amount>
+		<return_diamond>200</return_diamond>
+		<return_items>[{2200000, 10}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>500</consume_amount>
+		<return_diamond>500</return_diamond>
+		<return_items>[{2200000, 15},{2200011, 5}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>1000</consume_amount>
+		<return_diamond>1000</return_diamond>
+		<return_items>[{2200000, 20},{2200011, 10},{2200033, 10}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>2000</consume_amount>
+		<return_diamond>2000</return_diamond>
+		<return_items>[{2200000, 25},{2200011, 15},{2200033, 20},{2200041, 10}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>5000</consume_amount>
+		<return_diamond>5000</return_diamond>
+		<return_items>[{2200000, 30},{2200011, 20},{2200033, 30},{2200041, 20},{2200046, 40}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>10000</consume_amount>
+		<return_diamond>10000</return_diamond>
+		<return_items>[{2200000, 40},{2200011, 30},{2200033, 50},{2200041, 50},{2200046, 60},{2200047, 10}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>20000</consume_amount>
+		<return_diamond>20000</return_diamond>
+		<return_items>[{2200000, 50},{2200011, 40},{2200033, 80},{2200041, 100},{2200046, 100},{2200047, 50}]</return_items>
+	</total_payment_return_tplt>
+	<total_payment_return_tplt>
+		<consume_amount>50000</consume_amount>
+		<return_diamond>50000</return_diamond>
+		<return_items>[{2200000, 100},{2200011, 50},{2200033, 100},{2200041, 150},{2200046, 150},{2200047, 60}
+,{0200814, 1},{0200812, 1},{0200809, 1},{0200808, 1},{0200810, 1},{0200816, 1}
+,{0200811, 1},{0200813, 1}]</return_items>
+	</total_payment_return_tplt>
+</root>

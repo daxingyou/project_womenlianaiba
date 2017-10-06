@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<ID>1</ID>
+		<Name>furni_0200149</Name>
+		<Pos>-0.002, 2.05, 0.19</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>236 177 85</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>8</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>2</ID>
+		<Name>furni_0200133</Name>
+		<Pos>0, 2.1, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>252 255 215</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>15</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>3</ID>
+		<Name>furni_0200137</Name>
+		<Pos>0, 0.41, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>252 211 255</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>4</ID>
+		<Name>furni_0200147</Name>
+		<Pos>0, 0.92, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>230 105 234</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>10</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>5</ID>
+		<Name>furni_0200048</Name>
+		<Pos>0.001, 0.41, -0.16</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 134 0</Colour>
+		<Intensity>8</Intensity>
+		<Range>0.66</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>6</ID>
+		<Name>furni_0200082</Name>
+		<Pos>0, 2.63, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>251 174 56</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>20</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>7</ID>
+		<Name>furni_0200082</Name>
+		<Pos>-0.25, 2.63, 0.25</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>244 223 191</Colour>
+		<Intensity>0.15</Intensity>
+		<Range>40</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>8</ID>
+		<Name>furni_0200082</Name>
+		<Pos>0.25, 2.63, -0.25</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>244 223 191</Colour>
+		<Intensity>0.15</Intensity>
+		<Range>40</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>9</ID>
+		<Name>furni_0200082</Name>
+		<Pos>0.25, 2.63, 0.25</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>244 223 191</Colour>
+		<Intensity>0.15</Intensity>
+		<Range>40</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>10</ID>
+		<Name>furni_0200077</Name>
+		<Pos>-0.008, 2.06, -0.075</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 255 255</Colour>
+		<Intensity>0.4</Intensity>
+		<Range>10</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>11</ID>
+		<Name>furni_0200067</Name>
+		<Pos>0, 0.96, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>221 129 8</Colour>
+		<Intensity>1.5</Intensity>
+		<Range>1</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>12</ID>
+		<Name>furni_0200056</Name>
+		<Pos>0, 1.23, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>249 220 166</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>15</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>13</ID>
+		<Name>furni_0200076</Name>
+		<Pos>0, 0.41, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 255 255</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>14</ID>
+		<Name>furni_0200085</Name>
+		<Pos>0, 1.5, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>219 160 33</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>10</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>15</ID>
+		<Name>豪华吊灯</Name>
+		<Pos>0, 2.69, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>253 201 159</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>15</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>16</ID>
+		<Name>“好生活”吸顶灯</Name>
+		<Pos>0, 2.69, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>199 233 251</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>15</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>17</ID>
+		<Name>红光走马吊灯</Name>
+		<Pos>0, 2.34, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>242 148 148</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>15</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>18</ID>
+		<Name>金属落地灯</Name>
+		<Pos>0, 1.46, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>244 213 107</Colour>
+		<Intensity>0.55</Intensity>
+		<Range>10</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>19</ID>
+		<Name>南瓜头灯</Name>
+		<Pos>0, 0.12, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>202 100 20</Colour>
+		<Intensity>3.5</Intensity>
+		<Range>0.6</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>20</ID>
+		<Name>蓝色星星灯</Name>
+		<Pos>0, 1.66, -0.12</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>0 180 255</Colour>
+		<Intensity>1.5</Intensity>
+		<Range>1</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>21</ID>
+		<Name>寰宇三星灯</Name>
+		<Pos>0, 0.32, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>0 240 255</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>1.2</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>22</ID>
+		<Name>欧式复古台灯</Name>
+		<Pos>0, 0.54, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 134 85</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>23</ID>
+		<Name>欧式复古吊灯</Name>
+		<Pos>0, 2.39, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 238 202</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>18</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>24</ID>
+		<Name>欧式复古壁灯</Name>
+		<Pos>0.02, 2.26, -0.32</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 169 85</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>2</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>25</ID>
+		<Name>欧式复古落地灯</Name>
+		<Pos>-0.009, 2.41, -0.5</Pos>
+		<Dir>90 0 0</Dir>
+		<Type>2</Type>
+		<Colour>224 160 255</Colour>
+		<Intensity>2.5</Intensity>
+		<Range>6</Range>
+		<SpotAngle>95</SpotAngle>
+	</Row>
+	<Row>
+		<ID>26</ID>
+		<Name>欧式复古烛光灯饰</Name>
+		<Pos>0, 0.57, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 170 88</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>27</ID>
+		<Name>欧式复古蜡烛灯饰</Name>
+		<Pos>0, 0.48, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 169 85</Colour>
+		<Intensity>1.4</Intensity>
+		<Range>1.6</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>28</ID>
+		<Name>宜家落地灯</Name>
+		<Pos>0, 1.61, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 125 108</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>29</ID>
+		<Name>宜家吊灯</Name>
+		<Pos>0, 2.25, 0.1</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 128 128</Colour>
+		<Intensity>1.2</Intensity>
+		<Range>7</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>30</ID>
+		<Name>宜家壁灯</Name>
+		<Pos>0, 2.23, 0.06</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 160 254</Colour>
+		<Intensity>0.9</Intensity>
+		<Range>3.5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>31</ID>
+		<Name>宜家台灯</Name>
+		<Pos>0, 0.43, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 226 152</Colour>
+		<Intensity>0.7</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>32</ID>
+		<Name>豪庭庭院路灯</Name>
+		<Pos>0, 2.4, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 216 118</Colour>
+		<Intensity>1.2</Intensity>
+		<Range>8</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>33</ID>
+		<Name>豪庭简约落地灯</Name>
+		<Pos>0, 1.84, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 216 118</Colour>
+		<Intensity>0.7</Intensity>
+		<Range>6</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>34</ID>
+		<Name>豪庭烛台落地灯</Name>
+		<Pos>0, 1.45, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 178 118</Colour>
+		<Intensity>0.7</Intensity>
+		<Range>6</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>35</ID>
+		<Name>豪庭12头吊灯</Name>
+		<Pos>0, 2.4, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 227 125</Colour>
+		<Intensity>1.2</Intensity>
+		<Range>7</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>36</ID>
+		<Name>豪庭6头吊灯</Name>
+		<Pos>0, 2.26, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 227 125</Colour>
+		<Intensity>1.2</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>37</ID>
+		<Name>豪庭5头吊灯</Name>
+		<Pos>0.02, 2.66, 0.01</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 227 125</Colour>
+		<Intensity>1.2</Intensity>
+		<Range>5</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>38</ID>
+		<Name>豪庭烛形壁灯</Name>
+		<Pos>0, 2.15, 0.06</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 198 118</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>3</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>39</ID>
+		<Name>豪庭花式壁灯</Name>
+		<Pos>0, 1.98, 0.07</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 198 118</Colour>
+		<Intensity>0.6</Intensity>
+		<Range>3</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>40</ID>
+		<Name>豪庭酒瓶壁灯</Name>
+		<Pos>0, 0.28, 0.4</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 186 69</Colour>
+		<Intensity>0.7</Intensity>
+		<Range>3</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>41</ID>
+		<Name>豪庭烛形装饰灯</Name>
+		<Pos>0, 0.1, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>129 218 255</Colour>
+		<Intensity>0.8</Intensity>
+		<Range>2</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>42</ID>
+		<Name>壁灯</Name>
+		<Pos>0, 2.24, -0.02</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>167 144 255</Colour>
+		<Intensity>0.9</Intensity>
+		<Range>3</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>43</ID>
+		<Name>台灯</Name>
+		<Pos>0, 0.377, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>174 156 255</Colour>
+		<Intensity>1</Intensity>
+		<Range>3</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>44</ID>
+		<Name>吊灯</Name>
+		<Pos>0, 2.5, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>182 137 255</Colour>
+		<Intensity>0.9</Intensity>
+		<Range>12</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>45</ID>
+		<Name>落地灯</Name>
+		<Pos>0, 1.42, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>183 129 255</Colour>
+		<Intensity>1.1</Intensity>
+		<Range>4</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>46</ID>
+		<Name>春节灯笼</Name>
+		<Pos>0, 2.17, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 132 103</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>11</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>47</ID>
+		<Name>春节灯笼</Name>
+		<Pos>0, 2.17, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 132 103</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>11</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>48</ID>
+		<Name>春节灯笼</Name>
+		<Pos>0, 1.73, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 132 103</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>13</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+	<Row>
+		<ID>49</ID>
+		<Name>春节灯笼</Name>
+		<Pos>0, 1.73, 0</Pos>
+		<Dir>0 0 0</Dir>
+		<Type>0</Type>
+		<Colour>255 132 103</Colour>
+		<Intensity>0.5</Intensity>
+		<Range>13</Range>
+		<SpotAngle>0</SpotAngle>
+	</Row>
+</Import>

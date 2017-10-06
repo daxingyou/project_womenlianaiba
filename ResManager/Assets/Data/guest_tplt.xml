@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<guest_tplt>
+		<id>1</id>
+		<sex>1</sex>
+		<model>npc100001.prefab.u3d</model>
+		<name>爱因斯坦</name>
+	</guest_tplt>
+</root>

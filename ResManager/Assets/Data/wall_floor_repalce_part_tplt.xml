@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<wall_floor_repalce_part_tplt>
+		<id>0100000</id>
+		<floors>house_0100000_floor_101_00,house_0100000_floor_102_00,house_0100000_floor_103_00</floors>
+		<floors_replace>0800007,0800007,0800002</floors_replace>
+		<inner_walls></inner_walls>
+		<inner_walls_replace></inner_walls_replace>
+		<outer_walls>house_0100000_outwall_101_00</outer_walls>
+		<outer_walls_replace>0700002</outer_walls_replace>
+	</wall_floor_repalce_part_tplt>
+	<wall_floor_repalce_part_tplt>
+		<id>0100001</id>
+		<floors></floors>
+		<floors_replace></floors_replace>
+		<inner_walls></inner_walls>
+		<inner_walls_replace></inner_walls_replace>
+		<outer_walls>house_0100001_outwall_101_03,house_0100001_outwall_101_04,house_0100001_outwall_102_04,house_0100001_outwall_103_03,house_0100001_outwall_104_03,house_0100001_outwall_105_01</outer_walls>
+		<outer_walls_replace>0700004,0700004,0700008,0700008,0700009,0700009</outer_walls_replace>
+	</wall_floor_repalce_part_tplt>
+	<wall_floor_repalce_part_tplt>
+		<id>0110101</id>
+		<floors>house_0110101_floor_101_00,house_0110101_floor_102_00,house_0110101_floor_103_00,house_0110101_floor_104_00</floors>
+		<floors_replace>0800024,0800023,0800026,0800002</floors_replace>
+		<inner_walls></inner_walls>
+		<inner_walls_replace></inner_walls_replace>
+		<outer_walls>house_0110101_outwall_101_00</outer_walls>
+		<outer_walls_replace>0700052</outer_walls_replace>
+	</wall_floor_repalce_part_tplt>
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<find_item_task_tplt>
+		<id>1</id>
+		<content>43243225</content>
+		<npc_options>23423432423</npc_options>
+		<npc_content>4234324</npc_content>
+		<target>42342342342</target>
+		<area_event_id>234242</area_event_id>
+		<map_name>4243242</map_name>
+		<reward_item>423423432</reward_item>
+	</find_item_task_tplt>
+</root>

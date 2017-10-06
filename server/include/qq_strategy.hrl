@@ -1,0 +1,1 @@
+-record(pengyou,{openid, gender, nickname, imageurl, is_yellow_vip, is_yellow_year_vip, yellow_vip_level}).

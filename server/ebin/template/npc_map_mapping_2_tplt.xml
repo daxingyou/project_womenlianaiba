@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_map_mapping_tplt>
+		<id>12</id>
+		<npc_id>27</npc_id>
+		<npc_name>漂流水池</npc_name>
+		<x>259</x>
+		<y>0</y>
+		<z>800</z>
+		<script_id>0</script_id>
+		<action>0</action>
+		<towards>230</towards>
+	</npc_map_mapping_tplt>
+</root>

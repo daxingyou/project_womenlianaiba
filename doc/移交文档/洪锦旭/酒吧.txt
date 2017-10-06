@@ -1,0 +1,12 @@
+. 与YY语音相关的消息有两条
+  req_update_pub_voice_id 只有主播进房间后, 客户端才会向服务器发这条, 服务端
+会把收到的YY语音id 广播被房间的每个人(非主播)
+
+  notify_update_pub_voice_id 告诉玩家当前的YY语音id, 
+    voice_id大于0, 表示正常的YY语音id, 这个值是由客户端req_update_pub_voice_id传过来的
+    voice_id为0时，表示清除YY语音id, 
+    目前在主播离开房间时会通知清0, 自已离开主播房间时也会通知清0
+
+. 相关缓存
+  channel_service:start_announce(Account, PubID, YYID); 正建提供的接口，用来缓存YY语音id
+  channel_service:stop_announce(Account, PubID) 用来将缓存的YY语音id设为0

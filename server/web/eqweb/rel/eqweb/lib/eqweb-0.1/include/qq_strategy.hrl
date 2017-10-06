@@ -1,0 +1,1 @@
+-record(pengyou,{openid, gender, nickname, imageurl}).

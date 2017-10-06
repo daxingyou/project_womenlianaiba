@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<born>
+		<id>1</id>
+		<pos>3.63 0.0 3.57</pos>
+		<dir>154</dir>
+		<lookat>3.63 1.2 3.57</lookat>
+		<pitch>21</pitch>
+		<yaw>231</yaw>
+		<zoom>3.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>2</id>
+		<pos>-1.15 0.0 -4.45</pos>
+		<dir>-63</dir>
+		<lookat>-1.15 1.2 -4.45</lookat>
+		<pitch>36</pitch>
+		<yaw>25</yaw>
+		<zoom>3.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>3</id>
+		<pos>3.59 0.0 -0.58</pos>
+		<dir>154</dir>
+		<lookat>3.59 1.2 -0.58</lookat>
+		<pitch>38</pitch>
+		<yaw>299</yaw>
+		<zoom>4.65</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>4</id>
+		<pos>3.75 0.0 0.4</pos>
+		<dir>-63</dir>
+		<lookat>3.75 1.2 0.4</lookat>
+		<pitch>41</pitch>
+		<yaw>274</yaw>
+		<zoom>5.48</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>5</id>
+		<pos>3.03 0.0 -1.21</pos>
+		<dir>154</dir>
+		<lookat>3.03 1.2 -1.21</lookat>
+		<pitch>31</pitch>
+		<yaw>281</yaw>
+		<zoom>4.54</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>6</id>
+		<pos>2.02 0.0 2.24</pos>
+		<dir>-63</dir>
+		<lookat>2.02 1.2 2.24</lookat>
+		<pitch>40</pitch>
+		<yaw>188</yaw>
+		<zoom>5.31</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>7</id>
+		<pos>-5.0 0.0 0.35</pos>
+		<dir>154</dir>
+		<lookat>-5.0 1.2 0.35</lookat>
+		<pitch>37</pitch>
+		<yaw>89</yaw>
+		<zoom>5.22</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>8</id>
+		<pos>2.13 0.0 3.6</pos>
+		<dir>-63</dir>
+		<lookat>2.13 1.2 3.6</lookat>
+		<pitch>23</pitch>
+		<yaw>220</yaw>
+		<zoom>7.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>9</id>
+		<pos>-6.93 0.0 4.84</pos>
+		<dir>0</dir>
+		<lookat>-6.93 1.2 4.84</lookat>
+		<pitch>8.5</pitch>
+		<yaw>125</yaw>
+		<zoom>7</zoom>
+		<farclip>40</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>10</id>
+		<pos>-2.9 0.0 2.8</pos>
+		<dir>0</dir>
+		<lookat>-2.9 1.2 2.8</lookat>
+		<pitch>25</pitch>
+		<yaw>100</yaw>
+		<zoom>5.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>11</id>
+		<pos>4.7 0.0 25.6</pos>
+		<dir>0</dir>
+		<lookat>4.7 1.2 25.6</lookat>
+		<pitch>19.5</pitch>
+		<yaw>193</yaw>
+		<zoom>5.0</zoom>
+		<farclip>100</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>12</id>
+		<pos>-3.5 0.0 -6.2</pos>
+		<dir>95</dir>
+		<lookat>-3.5 1.2 -6.2</lookat>
+		<pitch>25</pitch>
+		<yaw>95</yaw>
+		<zoom>5.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>13</id>
+		<pos>-43.03 3.55 34.7</pos>
+		<dir>0</dir>
+		<lookat>16.45 1.2 -5.5</lookat>
+		<pitch>10.0</pitch>
+		<yaw>322</yaw>
+		<zoom>5.4</zoom>
+		<farclip>160</farclip>
+		<field>60</field>
+		<watch_mode>4</watch_mode>
+		<view_floor>2</view_floor>
+	</born>
+	<born>
+		<id>14</id>
+		<pos>-5.18 0.0 -2.04</pos>
+		<dir>180</dir>
+		<lookat>-5.18 1.2 -2.04</lookat>
+		<pitch>17.5</pitch>
+		<yaw>92.5</yaw>
+		<zoom>3.7</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>15</id>
+		<pos>-5.22 0.0 2.7</pos>
+		<dir>180</dir>
+		<lookat>-5.22 1.2 2.7</lookat>
+		<pitch>25.5</pitch>
+		<yaw>99</yaw>
+		<zoom>5.0</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>16</id>
+		<pos>0.66 0.0 -6.0</pos>
+		<dir>180</dir>
+		<lookat>0.66 1.2 -6.0</lookat>
+		<pitch>14.5</pitch>
+		<yaw>359</yaw>
+		<zoom>4.3</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>17</id>
+		<pos>-6.1 0.0 0.68</pos>
+		<dir>180</dir>
+		<lookat>-6.1 1.2 0.68</lookat>
+		<pitch>12</pitch>
+		<yaw>88</yaw>
+		<zoom>3.33</zoom>
+		<farclip>3000</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>18</id>
+		<pos>4.46 0.0 -17.4</pos>
+		<dir>180</dir>
+		<lookat>4.46 1.2 -17.4</lookat>
+		<pitch>4</pitch>
+		<yaw>320</yaw>
+		<zoom>7</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>19</id>
+		<pos>5.71 0.0 18.71</pos>
+		<dir>180</dir>
+		<lookat>5.71 1.2 18.71</lookat>
+		<pitch>12</pitch>
+		<yaw>216</yaw>
+		<zoom>7</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>20</id>
+		<pos>-7.00 0.0 -3.7</pos>
+		<dir>180</dir>
+		<lookat>-7.00 1.2 -3.7</lookat>
+		<pitch>16.5</pitch>
+		<yaw>51</yaw>
+		<zoom>4.16</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>21</id>
+		<pos>-23.60 0.0 -0.064</pos>
+		<dir>180</dir>
+		<lookat>-23.60 1.2 -0.064</lookat>
+		<pitch>18</pitch>
+		<yaw>89</yaw>
+		<zoom>7</zoom>
+		<farclip>60</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>22</id>
+		<pos>5.95 0.0 0.94</pos>
+		<dir>0</dir>
+		<lookat>5.95 0.0 0.94</lookat>
+		<pitch>30</pitch>
+		<yaw>270</yaw>
+		<zoom>6.11</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>23</id>
+		<pos>10.18 0.0 0.50</pos>
+		<dir>0</dir>
+		<lookat>10.18 0.0 0.50</lookat>
+		<pitch>27</pitch>
+		<yaw>270</yaw>
+		<zoom>6.11</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+	<born>
+		<id>24</id>
+		<pos>-0.3 0.0 6.3</pos>
+		<dir>0</dir>
+		<lookat>-0.3 1.2 6.3</lookat>
+		<pitch>15</pitch>
+		<yaw>178</yaw>
+		<zoom>6.11</zoom>
+		<farclip>80</farclip>
+		<field>60</field>
+		<watch_mode>2</watch_mode>
+		<view_floor>1</view_floor>
+	</born>
+</root>

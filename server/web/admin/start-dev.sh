@@ -1,0 +1,1 @@
+erl -pa ebin deps/mochiweb-src/ebin -boot start_sasl -s admin -name loveadmin@10.35.16.224 -setcookie love -detached

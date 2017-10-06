@@ -1,0 +1,4 @@
+操作系统：Windows XP (Service Pack 3)， Windows 7
+CPU：双核处理器，如Intel Pentium D 或 AMD Athlon 64 X2或更高性能CPU
+内存：2 GB内存（Win7用户建议4GB内存）
+显卡：拥有顶点及像素着色功能的256MB显存3D显卡，例如 NVIDIA GeForce 8600 或 ATI HD 2600或更高性能显卡

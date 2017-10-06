@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A2859A56-AB4A-51F9-60BB-1B6FC96E8C70}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_3;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>G:/program files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>G:/program files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Xffect\Examples\Scripts\CompositeXffect.cs" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\ExampleCamera.cs" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\ExampleManager.cs" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\Fx\XftVolumeFogObject.cs" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\SimpleMissile.cs" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\SimpleRotate.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\Affector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\AirFieldAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\BombAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\DragAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\GravityAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\TurbulenceFieldAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Affectors\VortexAffector.cs" />
+     <Compile Include="Assets\Xffect\Script\Component\EffectLayer.cs" />
+     <Compile Include="Assets\Xffect\Script\Component\XffectCache.cs" />
+     <Compile Include="Assets\Xffect\Script\Component\XffectComponent.cs" />
+     <Compile Include="Assets\Xffect\Script\Cone.cs" />
+     <Compile Include="Assets\Xffect\Script\EffectNode.cs" />
+     <Compile Include="Assets\Xffect\Script\Emitter.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\CameraShakeEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\GlowEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\LightEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\RadialBlurEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\SoundEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\XftCameraShakeComp.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\XftEvent.cs" />
+     <Compile Include="Assets\Xffect\Script\Events\XftEventComponent.cs" />
+     <Compile Include="Assets\Xffect\Script\ImageEffects\XftGlow.cs" />
+     <Compile Include="Assets\Xffect\Script\ImageEffects\XftRadialBlur.cs" />
+     <Compile Include="Assets\Xffect\Script\RenderObject.cs" />
+     <Compile Include="Assets\Xffect\Script\RibbonTrail.cs" />
+     <Compile Include="Assets\Xffect\Script\Sprite.cs" />
+     <Compile Include="Assets\Xffect\Script\UVAnimation.cs" />
+     <Compile Include="Assets\Xffect\Script\VertexPool.cs" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\iGUI\Runtime\iGUI.xml" />
+     <None Include="Assets\iGUI\link.xml" />
+     <None Include="Assets\Media\Data\init_houses.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Media\Data\PersonalInfo.xml" />
+     <None Include="Assets\iGUI\readme.txt" />
+     <None Include="Assets\iGUI\iTweenReadme.txt" />
+     <None Include="Assets\Media\Data\init_tables.txt" />
+     <None Include="Assets\iGUI\Files\Toolbox\readme.txt" />
+     <None Include="Assets\Plugins\readme.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Resources\keyword.txt" />
+     <None Include="Assets\Media\Data\init_models.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\iGUI\Files\Skin\Normal\readme.txt" />
+     <None Include="Assets\iGUI\Files\Skin\Retina\readme.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Resources\Filelist.xml" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Media\Data\init_files.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Plugins\event\readme.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="iGUI">
+ <HintPath>Assets\iGUI\Runtime\iGUI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{3A1B43A0-276E-34FB-197E-1ACDE9001A0F}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

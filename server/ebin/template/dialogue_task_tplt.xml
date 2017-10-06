@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dialogue_task_tplt>
+		<id>1</id>
+		<content>请告诉在爱情海广场的环保回收大使，他需要的垃圾回收机器人已经装配完毕，可以投入使用了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他垃圾回收机器人的事</npc_options>
+		<npc_content>天哪，这真是太好来，这样我能省下不少时间了。</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>2</id>
+		<content>请转告在爱情海广场的旅行中的少女，她要前往旅途下一站的车票已经准备好了，可以随时登车。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她车票的事</npc_options>
+		<npc_content>真是感谢你，这样我又可以继续旅行了。</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>3</id>
+		<content>请转告在爱情海广场的等人中的少女，她丢失的钥匙已经找到啦，她终于可以回家了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她钥匙的事</npc_options>
+		<npc_content>哦哈哈哈哈，你都不知道钥匙丢了，等人来开门是件多么痛苦的事。这真是太好了！</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>4</id>
+		<content>请转告在爱情海广场的英俊的美男子，他指明要的那款护手霜已经卖断货啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他护手霜的事</npc_options>
+		<npc_content>唉……这真是让人情何以堪，让我这双娇嫩的手如何敢再暴露于空气之中？</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>5</id>
+		<content>请转告在爱情海广场的时尚的年青男子，最新款的手机已经到货，可以随时到商店选购啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他新款手机的事</npc_options>
+		<npc_content>太棒了！这真是让人兴奋的消息，我马上就去选购！</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>6</id>
+		<content>请告诉在爱情海广场的环保回收大使，他让我调查的工厂污染案件已经有结果了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他调查的事</npc_options>
+		<npc_content>很好，是时候惩治那些破坏环境的家伙了！</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>7</id>
+		<content>请告诉在爱情海广场的环保回收大使，他让我调查的噪音污染案件已经有结果了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他噪音的事</npc_options>
+		<npc_content>是应该让那些大喇叭闭上嘴了！</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>8</id>
+		<content>请告诉在爱情海广场的环保回收大使，他让我调查的倾倒垃圾事件已经有结果了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他倾倒垃圾的事</npc_options>
+		<npc_content>好的，那些不懂得处理垃圾的辛苦的懒鬼们，总算是让我逮到尾巴了！</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>9</id>
+		<content>请告诉在爱情海广场的环保回收大使，他让我调查的倾倒垃圾事件已经有结果了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他倾倒垃圾的事</npc_options>
+		<npc_content>好的，那些不懂得处理垃圾的辛苦的懒鬼们，总算是让我逮到尾巴了！</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>10</id>
+		<content>请告诉在爱情海广场的环保回收大使，他需要的废气处理机已经通过验收，不日就将安排到位。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他废气处理机的事</npc_options>
+		<npc_content>真是太好了，这样我们就不用再闻那些肮脏的废气了！</npc_content>
+		<target>找到爱情海广场的环保回收大使</target>
+		<npc_id>2</npc_id>
+		<npc_name>环保回收大使</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>11</id>
+		<content>请转告在爱情海广场的旅行中的少女，她需要的地图已经准备好了，只要有空随时可以来我这里领取。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她地图的事</npc_options>
+		<npc_content>嘿嘿，只要有了地图我就再也不会迷路啦。等等，我现在是在哪里？</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>12</id>
+		<content>请转告在爱情海广场的旅行中的少女，她需要的旅行签证已经准备好了，只要有空随时可以来我这里领取。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她签证的事</npc_options>
+		<npc_content>办理签证真是麻烦，总会有一些奇怪人的会问起一些奇怪的问题。我只是想去爬个山而已。</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>13</id>
+		<content>请转告在爱情海广场的旅行中的少女，新出的登月者2号运动鞋已经上架了，肯定会比登月者1号更耐磨更轻便。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她运动鞋的事</npc_options>
+		<npc_content>嘿嘿，收集运动鞋只是人家一点点的小嗜好啦，不用在意。</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>14</id>
+		<content>请转告在爱情海广场的旅行中的少女，最近天气多变，可能会引发雪崩。请不要轻易的攀爬雪山。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她天气的事</npc_options>
+		<npc_content>谢谢，我可不想变成什么冰雕。然后下次我们就只能在博物馆里见面了？</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>15</id>
+		<content>请转告在爱情海广场的旅行中的少女，前往海岛的旅游路线即将开通，还请耐心等待。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她新路线的事</npc_options>
+		<npc_content>太好了！大海、沙滩，我早就想好好的在海边晒个日光浴了！</npc_content>
+		<target>找到爱情海广场的旅行中的少女</target>
+		<npc_id>3</npc_id>
+		<npc_name>旅行中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>16</id>
+		<content>请转告在爱情海广场的等人中的少女，前往海岛的旅游路线即将开通，届时还请光临。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她新路线的事</npc_options>
+		<npc_content>这是好事啊，不过我要先等到我要找的人才行。</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>17</id>
+		<content>请转告在爱情海广场的等人中的少女，最新款的手机已经到货，可以随时到商店选购啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她新款手机的事</npc_options>
+		<npc_content>手机嘛，够用就好了。要是能有新的漂亮衣服就好啦。</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>18</id>
+		<content>请转告在爱情海广场的等人中的少女，交通堵塞，估计她要等的人一时半会来不了啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她交通堵塞的事</npc_options>
+		<npc_content>混蛋，都告诉过他要早点出来啦。这时候我应该拿出他的娃娃狠狠的扎上几针吗？</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>19</id>
+		<content>请转告在爱情海广场的等人中的少女，新的房屋即将上市了，还请期待。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她新房屋的事</npc_options>
+		<npc_content>唉，类似的消息已经听到过好几次了。这一次会是真的吗？</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>20</id>
+		<content>请转告在爱情海广场的等人中的少女，最近天气多变，还请注意保暖。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉她天气的事</npc_options>
+		<npc_content>呵呵，看不出来那个凶巴巴的光头还是挺可爱的嘛。谢谢他的一番好意啦。</npc_content>
+		<target>找到爱情海广场的等人中的少女</target>
+		<npc_id>4</npc_id>
+		<npc_name>等人中的少女</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>21</id>
+		<content>请转告在爱情海广场的英俊的美男子，他指明要的那款防晒霜已经卖断货啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他防晒霜的事</npc_options>
+		<npc_content>啊？那我这娇嫩的肌肤怎么办？就暴露给那无情的太阳吗？真是太可怕了！</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>22</id>
+		<content>请转告在爱情海广场的英俊的美男子，最近时尚界有一场新的服装展示会需要他的出席。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他时装展示会的事</npc_options>
+		<npc_content>哼哼，那些愚蠢的设计师又要在我面前暴露他们那些乏味和呆板的设计了吗？太天真了！</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>23</id>
+		<content>请转告在爱情海广场的英俊的美男子，有一件他的快递包裹，还请他及时前往邮局领取。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他快递包裹的事</npc_options>
+		<npc_content>包裹？一定又是哪位仰慕我设计师，送来他那不堪入目的作品了吧。</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>24</id>
+		<content>请转告在爱情海广场的英俊的美男子，他订购的新车已经送达，还请他尽快来提车。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他新车的事</npc_options>
+		<npc_content>真好，只有清风随影这种名贵跑车才能衬出我的气质。</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>25</id>
+		<content>请转告在爱情海广场的英俊的美男子，有一封他朋友发来的包裹，还请他速到邮局领取。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他包裹的事</npc_options>
+		<npc_content>一定是我的好朋友罗拉，只有他才真正懂得欣赏我的美！</npc_content>
+		<target>找到爱情海广场的英俊的美男子</target>
+		<npc_id>5</npc_id>
+		<npc_name>英俊的美男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>26</id>
+		<content>请转告在爱情海广场的时尚的年青男子，最新款的平板电脑已经到货，可以随时到商店选购啦。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他新款平板电脑的事</npc_options>
+		<npc_content>科技改变生活，这话一点没错，只要有了新的平板电脑，我的生活方式一定会大大的不同。</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>27</id>
+		<content>请转告在爱情海广场的时尚的年青男子，现在外面交通堵塞，如有出行还请谨慎。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他交通堵塞的事</npc_options>
+		<npc_content>啊哈哈，他还惦记着我约他一起去钓鱼的事啊。别看那个大叔凶巴巴的样子，其实他的钓鱼技术很厉害啊。</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>28</id>
+		<content>请转告在爱情海广场的时尚的年青男子，新的渔具已经上市，还请他移步商店选购。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他新渔具的事</npc_options>
+		<npc_content>哈哈，我上次的鱼饵刚好用完。知道吗？钓鱼现在可是最时尚的生活养生方式之一哦。</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>29</id>
+		<content>请转告在爱情海广场的时尚的年青男子，那位艺术家的新车已经送达。如有借车需要，还请他自己联系。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他别人买新车的事</npc_options>
+		<npc_content>哼哼，我再也不找会找那个娘娘腔艺术家借车啦。上次找他借车，他足足打电话给我唠叨了两个小时！</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>30</id>
+		<content>请转告在爱情海广场的时尚的年青男子，那位旅行少女的联系方式已经打探到了，大叔我只能帮他到这一步了。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他少女联系方式的事</npc_options>
+		<npc_content>嘻嘻，多可爱的姑娘啊。一个人这样四处旅行，会不会让人生出很想保护她的念头呢？嘿嘿。</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+	<dialogue_task_tplt>
+		<id>31</id>
+		<content>请转告在爱情海广场的时尚的年青男子，最近将召开“骑马舞”的选拔大赛，有兴趣的话还请尽快来报名。
+完成任务后，请回来向神秘探员领取奖励。</content>
+		<npc_options>告诉他选拔赛的事</npc_options>
+		<npc_content>嘿嘿，我现在就该开始练习了！偶巴刚南斯代~偶巴刚南斯代~！</npc_content>
+		<target>找到爱情海广场的时尚的年青男子</target>
+		<npc_id>6</npc_id>
+		<npc_name>时尚的年青男子</npc_name>
+	</dialogue_task_tplt>
+</root>

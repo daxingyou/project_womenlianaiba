@@ -1,0 +1,12 @@
+%% -*- erlang -*-
+{application, loveassist,
+ [{description, "loveassist"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'loveassist_app', []}},
+  {env, [
+  	{game_server, 'love@10.182.14.60'},
+  	{video_server, 'video@10.182.14.60'}
+  ]},
+  {applications, [kernel, stdlib, crypto]}]}.

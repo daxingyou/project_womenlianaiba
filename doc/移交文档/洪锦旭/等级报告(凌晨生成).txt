@@ -1,0 +1,13 @@
+1. 文件level_report.erl 
+2. 生成的时间较长，估计大于一个小时，这点要特别注意, 
+   往后加入新的数据库任务, 应留出1个小时以上
+3. 每天自动生成下列csv
+  high_level_player20130206.csv  高等级玩家列表
+  level_report20130206.csv       等级分布情况
+  new_players20130206.csv        前一天的新进玩家列表
+  yesterday_login20130206.csv    昨日进过游戏的玩家
+
+4. level_report:save_all_players 会在指定的时间点,
+  将游戏所有玩家信息保存到all_player.csv文件中.
+  这个功能也特别耗时
+  玩家信息包括：账号,性别,等级,最后等陆时间,名字utf8

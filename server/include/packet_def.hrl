@@ -1,0 +1,1155 @@
+-record(req_login, {version=0, login_type="", account="", password="", pf_key="", iopenid="", srvid=0, ch=0}).
+-record(notify_login_result, {result=0, nick_name="", sex=0}).
+-record(stime, {year=0, month=0, day=0, hour=0, minute=0, second=0}).
+-record(point, {x=0.00000000000000000000e+000, y=0.00000000000000000000e+000, z=0.00000000000000000000e+000}).
+-record(grid_pos, {x=0, y=0, z=0}).
+-record(item_property, {key="", value=0}).
+-record(item, {instance_id=0, template_id=0, del_time=#stime{}, property=[]}).
+-record(visit_log, {account="", openid="", visit_time=#stime{}}).
+-record(guest_book, {id=0, account="", content="", opened=0, create_time=#stime{}}).
+-record(pack_grid, {count=0, lock=0, item_data=#item{}}).
+-record(polymorph, {id=0, duration=0, start_at=#stime{}}).
+-record(player_basic_data, {account="", username="", sex=0, skin_color=0, hair=0, face=0, beard=0, online_time=0.00000000000000000000e+000, hair_color=0, last_login_time=#stime{}, house_id=0, mateup_status=0, hp=0, body=[], hp_update_time=#stime{}, create_time=#stime{}, first_photo_player="", animal_type=0, birthday=#stime{}, star=0, height=0, salary=0, blood_type=0, education=0, contact="", interest="", signature="", city=0, province=0, career="", weight=0, alter_body=#polymorph{}, charm=0, produce_experience=0, produce_level=0}).
+-record(player_info, {basic_data=#player_basic_data{}, scenename=""}).
+-record(npc_info, {npc_id=0, body=0, head=0, hair=0, equip1=0, equip2=0, skeleton=0, npc_name=""}).
+-record(npc_map_mapping_info, {id=0, npc_id=0, npc_name="", pos=#point{}, script_id=0, action=0, npc_key="", towards=0}).
+-record(furniture_position, {position_index=0, is_used=0, used_account="", status=0, func_id=0, use_time=#stime{}}).
+-record(furniture_goods_data, {goods_id=0, x=0, z=0, height=0.00000000000000000000e+000, floor=0, face=0}).
+-record(setting_info, {name="", value=0}).
+-record(player_setting, {account="", info=[]}).
+-record(house_furniture, {instance_id=0, template_id=0, x=0, z=0, height=0.00000000000000000000e+000, floor=0, face=0, item_tempid=0, status=0, del_time=#stime{}, property=[]}).
+-record(room_tex, {room_id=0, type=0, tex="", floor_id=0}).
+-record(house_info, {house_id=0, template_id=0, furniture_permission=0, furniture_vec=[], room_tex_vec=[], welcome_words="", house_permission=0, visit_logs=[], buy_date=#stime{}, level=0, house_clean=0, boy="", girl="", name="", mateup_status=0, decoration=0}).
+-record(notify_repeat_login, {account=""}).
+-record(req_create_role, {basic_data=#player_basic_data{}, equips=[], iopenid=""}).
+-record(notify_create_role_result, {result=0}).
+-record(req_enter_game, {}).
+-record(notify_enter_game, {}).
+-record(notify_body_data, {grid_vec=[]}).
+-record(client_ready_for_pop_msg, {}).
+-record(pair_int, {key=0, value=0}).
+-record(req_enter_player_house, {type=0, account=""}).
+-record(notify_enter_player_house, {house_tplt_id=0, data=#house_info{}, enter_pos=#point{}}).
+-record(req_scene_copy_list, {template_id=0}).
+-record(notify_scene_copy_list, {template_id=0, state_list=[]}).
+-record(req_enter_common_scene, {template_id=0, copy_id=0}).
+-record(notify_enter_common_scene, {template_id=0, copy_id=0, enter_pos=#point{}}).
+-record(req_kick_guest, {target_player=""}).
+-record(notify_other_player_data, {player=#player_info{}, curr_pos=#point{}, dest_pos=#point{}, type=0}).
+-record(notify_other_player_info, {player=#player_info{}}).
+-record(req_other_player_info, {account=""}).
+-record(notify_player_leave_scene, {account=""}).
+-record(req_logout, {}).
+-record(notify_player_data, {basic_data=#player_basic_data{}}).
+-record(req_start_walk, {curr_pos=#point{}, dest_pos=#point{}}).
+-record(notify_start_walk, {account="", curr_pos=#point{}, dest_pos=#point{}}).
+-record(req_stop_walk, {pos=#point{}}).
+-record(notify_stop_walk, {account="", pos=#point{}}).
+-record(req_sync_walk_type, {type=0}).
+-record(notify_sync_walk_type, {account="", type=0}).
+-record(req_sync_position, {pos=#point{}}).
+-record(req_walk_for_use_furniture, {curr_pos=#point{}, dest_pos=#point{}, instance_id=0, function_id=0, furni_temp_id=0, status=0}).
+-record(player_basic_information, {account="", imageurl="", nickname="", is_yellow_vip=0, is_yellow_year_vip=0, yellow_vip_level=0}).
+-record(friend_item, {account="", house_id=0, house_level=0, intimate=0, crop_event=0}).
+-record(req_friend_list, {}).
+-record(notify_player_friend_list, {friend_list=[]}).
+-record(req_invite_list, {}).
+-record(notify_invite_list, {friend_list=[]}).
+-record(req_chat_around, {content=""}).
+-record(notify_chat_around, {account="", player_name="", content=""}).
+-record(req_chat_tell, {target_player="", content=""}).
+-record(notify_chat_tell, {speaker="", speaker_name="", content=""}).
+-record(req_chat_world, {content=""}).
+-record(notify_chat_world, {account="", player_name="", content=""}).
+-record(notify_house_data, {data=#house_info{}}).
+-record(furniture_place_info, {instance_id=0, x=0, z=0, height=0.00000000000000000000e+000, floor=0, face=0}).
+-record(req_change_furnitures, {recovery_furnitures=[], placed_furnitures=[], move_furnitures=[], buy_goods_list=[]}).
+-record(notify_change_furnitures_fail, {error_code=0, unfind_bag_items=[]}).
+-record(notify_change_furnitures, {del_furnitures=[], add_furnitures=[], move_furnitures=[], add_items=[], del_items=[], decoration=0}).
+-record(req_start_edit_house, {}).
+-record(notify_start_edit_house, {result=0}).
+-record(req_end_edit_house, {}).
+-record(notify_end_edit_house, {}).
+-record(req_set_house_welcome_words, {words=""}).
+-record(notify_set_house_welcome_words, {result=0}).
+-record(req_set_house_permission, {house_permission=0, furniture_permission=0}).
+-record(notify_set_house_permission, {result=0}).
+-record(req_clear_house_log, {}).
+-record(notify_clear_house_log, {result=0}).
+-record(notify_start_use_furniture, {account="", position_index=0, instance_id=0, function_id=0, walk_pos=#point{}}).
+-record(req_stop_use_furniture, {}).
+-record(notify_stop_use_furniture, {account="", position_index=0, instance_id=0}).
+-record(notify_change_furniture_status, {account="", instance_id=0, function_id=0, new_status=0}).
+-record(req_swap_item, {type=0, index1=0, index2=0}).
+-record(req_use_item, {item_inst_id=0, target_list=[]}).
+-record(notify_use_item_result, {item_inst_id=0, item_tplt_id=0, result=0}).
+-record(req_move_item, {pack1_type=0, index1=0, pack2_type=0, index2=0}).
+-record(req_delete_item, {grid_index=0}).
+-record(req_split_item, {type=0, src_gindex=0, target_gindex=0, count=0}).
+-record(req_resize_player_pack, {}).
+-record(req_extend_aging_item, {item_inst_id=0}).
+-record(notify_extend_aging_item, {}).
+-record(notiy_use_item_by_scene, {item_id=0, item_inst_id=0, result=0}).
+-record(notify_sys_msg, {code=0, params=[]}).
+-record(notify_sys_broadcast, {id=0, type=0, content="", play_times=0, priority=0, show_seconds=0, start_time=#stime{}}).
+-record(req_fixed_broadcast, {type=0}).
+-record(notify_del_broadcast, {type=0, id=0}).
+-record(notify_gm_permission, {account="", enable=0, money=0, item=0}).
+-record(req_gm_command, {command="", params=[]}).
+-record(notify_npc_close_dialog, {}).
+-record(req_npc_command, {npc_id=0, function_name=""}).
+-record(button, {name="", function_name=""}).
+-record(notify_npc_open_dialog, {npc_id=0, talk="", button_list=[]}).
+-record(req_employ_waiter_data, {waiter_id=0}).
+-record(req_up_waiter_data, {waiter_id=0}).
+-record(req_query_waiter_id, {account=""}).
+-record(notify_query_waiter_id, {waiter_id=0}).
+-record(waiter_info, {waiter_type=0, waiter_id=0}).
+-record(notify_employ_state, {waiter_id=0, waiter_up=[]}).
+-record(req_player_basic_data, {}).
+-record(notify_player_basic_data, {basic_data=#player_basic_data{}}).
+-record(req_start_body_action, {action_status="", action_type=""}).
+-record(notify_start_body_action, {account="", action_status="", action_type=""}).
+-record(req_play_animation, {target_account="", loop=0, ani="", action=""}).
+-record(notify_play_animation, {player_account="", target_account="", loop=0, ani="", action=""}).
+-record(req_end_body_action, {}).
+-record(notify_end_body_action, {account=""}).
+-record(req_sync_body_state, {body_state=0}).
+-record(notify_other_body_state, {other_account="", body_state=0}).
+-record(req_start_change_looks, {}).
+-record(notify_start_change_looks, {type=0}).
+-record(req_cancel_change_looks, {}).
+-record(req_end_change_looks, {new_hair=0, new_hair_color=0, new_face=0, new_skin_color=0, new_beard=0}).
+-record(notify_change_looks, {account="", new_hair=0, new_hair_color=0, new_face=0, new_skin_color=0, new_beard=0}).
+-record(notify_end_change_looks, {}).
+-record(req_start_change_dress, {}).
+-record(notify_start_change_dress, {owner=#player_basic_data{}, lover=#player_basic_data{}}).
+-record(req_change_dress, {type=0, goods_list=[], lover_goods_list=[], item_list=[], putoff_list=[]}).
+-record(notify_change_dress, {type=0, item_list=[], body=[]}).
+-record(notify_around_change_dress, {account="", body=[]}).
+-record(req_invite_someone, {target_list=[], type=0}).
+-record(notify_invitation, {invitor="", invitor_name="", type=0}).
+-record(req_agree_invitation, {invitor="", type=0}).
+-record(goods_atom, {goods_id=0, count=0}).
+-record(req_buy_sys_shop_goods, {goods_id=0, count=0}).
+-record(notify_buy_sys_shop_goods, {}).
+-record(req_mutli_buy_sys_shop_goods, {goods_list=[]}).
+-record(flag_info, {key="", value=0, count=0}).
+-record(task_info, {inst_id=0, task_id=0, type=0, give_date=#stime{}, complete_date=#stime{}, reward_date=#stime{}, info=[]}).
+-record(notify_task_flag, {inst_id=0, info=[]}).
+-record(notify_task_list, {tasks=[]}).
+-record(notify_add_task, {tasks=[]}).
+-record(notify_dec_task, {inst_ids=[]}).
+-record(notify_complete_task, {info=#task_info{}}).
+-record(notify_reward_task, {info=#task_info{}}).
+-record(req_get_task_reward, {inst_id=0, type=0}).
+-record(notify_get_task_reward, {inst_id=0, task_id=0}).
+-record(req_change_task, {inst_id=0, type=0}).
+-record(notify_change_task, {inst_id=0, info=#task_info{}}).
+-record(req_immediate_complete, {inst_id=0, type=0}).
+-record(req_move_camera, {}).
+-record(req_move_player, {}).
+-record(req_close_windows, {type=0}).
+-record(ring_task_atom, {inst_id=0, ring_count=0, type=0, content_id=0, rule_id=0, complete_date=#stime{}, due_date=#stime{}, is_view=0, count=0}).
+-record(notify_add_ring_task, {task=#ring_task_atom{}}).
+-record(notify_show_ring_task, {}).
+-record(notify_delete_ring_task, {inst_id=0}).
+-record(req_give_up_ring_task, {inst_id=0}).
+-record(req_stop_ring_task, {inst_id=0}).
+-record(notify_stop_ring_task, {inst_id=0, due_date=#stime{}}).
+-record(req_immediate_complete_ring_task, {inst_id=0}).
+-record(notify_complete_ring_task, {inst_id=0, complete_date=#stime{}}).
+-record(req_view_ring_task, {inst_id=0}).
+-record(notify_view_ring_task, {count=0}).
+-record(req_ring_task_target, {inst_id=0}).
+-record(notify_ring_task_target, {targets=[]}).
+-record(req_mind_quiz_count, {}).
+-record(notify_mind_quiz_count, {count=0, love_coin_count=0}).
+-record(req_start_mind_quiz, {}).
+-record(notify_start_mind_quiz, {result=0}).
+-record(req_mind_quiz_reward, {level=0}).
+-record(notify_mind_quiz_reward, {}).
+-record(req_recharge_love_coin, {id=0}).
+-record(notify_recharge_love_coin, {love_coin=0}).
+-record(notify_init_love_coin, {love_coin=0}).
+-record(notify_love_coin, {love_coin=0}).
+-record(notify_open_recharge_ui, {}).
+-record(notify_open_yy_recharge_ui, {}).
+-record(req_open_ui, {type=0}).
+-record(notify_open_ui, {type=0}).
+-record(req_sys_time, {}).
+-record(notify_sys_time, {sys_time=#stime{}}).
+-record(notify_wallow_time, {wallow_seconds=0}).
+-record(notify_player_health_status, {status=0}).
+-record(notify_disease_special_event, {special_event_id=0}).
+-record(notify_show_picture, {id=0}).
+-record(req_is_active_game, {type=0}).
+-record(notify_active_game_result, {result=0}).
+-record(req_create_party, {house_id=0, house_name="", player_name="", type=0, title="", description="", cost_items=[], food_ids=[]}).
+-record(notify_create_party_result, {result=0}).
+-record(req_edit_party, {house_id=0, type=0, title="", description=""}).
+-record(notify_edit_party_result, {result=0}).
+-record(req_delete_party, {house_id=0}).
+-record(notify_delete_party_result, {result=0}).
+-record(notify_private_party_need_item, {item_id=0}).
+-record(req_get_party_list, {type=0, page=0}).
+-record(party_data, {house_id=0, house_name="", account="", player_name="", type=0, title="", desc="", create_time=#stime{}, freeze_seconds=0, rest_time=0, exp=0, cur_person=0, max_person=0}).
+-record(notify_party_list, {max_page=0, partys=[], hot_partys=[]}).
+-record(req_get_my_party_info, {house_id=0}).
+-record(notify_my_party_info, {data=#party_data{}, need_money=0}).
+-record(notify_start_party_exp_timer, {seconds=0, hide_seconds=0, exp=0}).
+-record(notify_stop_party_exp_timer, {}).
+-record(req_add_party_score, {}).
+-record(notify_party_score, {score=0, has_vote=0, remain_times=0}).
+-record(notify_add_party_score, {total_score=0, add_score=0, guest_account="", guest_name="", master_account="", master_name=""}).
+-record(notify_party_gain, {grade_scores=[], score=0, item_id=0}).
+-record(notify_party_exp_buffs, {buff_exps=[], lights=[], total_add_percent=0}).
+-record(notify_party_items, {items=[]}).
+-record(notify_update_party_items, {items=[]}).
+-record(notify_party_stop, {}).
+-record(req_party_food_eat, {food_id=0}).
+-record(notify_party_food_eat_count, {count=0}).
+-record(notify_party_food_ids, {food_ids=[]}).
+-record(req_equip_off, {item_inst_id=0}).
+-record(notify_equip_off, {account="", equip_pos=0}).
+-record(req_equip_on, {item_inst_id=0}).
+-record(notify_equip_on, {account="", equip_pos=0, item_grid=#pack_grid{}}).
+-record(notify_lover_package, {grid_vec=[]}).
+-record(notify_lover_diamond, {amount=0}).
+-record(req_delete_lover_item, {item_inst_ids=[]}).
+-record(notify_add_lover_items, {items=[]}).
+-record(pair_item_count, {item_inst_id=0, count=0}).
+-record(notify_update_items_count, {items=[]}).
+-record(req_lock_lover_item, {item_inst_id=0}).
+-record(req_unlock_lover_item, {item_inst_id=0}).
+-record(notify_lock_lover_item, {item_inst_id=0}).
+-record(notify_unlock_lover_item, {item_inst_id=0}).
+-record(req_house_guest_book, {house_id=0}).
+-record(notify_house_guest_book, {account="", lover_account="", guest_books=[]}).
+-record(req_house_visit_log_add, {guest="", openid="", account=""}).
+-record(notify_house_visit_log_add, {}).
+-record(req_house_visit_log, {}).
+-record(notify_house_visit_log, {visit_logs=[]}).
+-record(req_guest_book_delete, {account="", id=0}).
+-record(notify_guest_book_delete, {result=0, id=0}).
+-record(req_guest_book_add, {owner="", guest="", content="", opened=0}).
+-record(notify_new_guest_book, {}).
+-record(notify_guest_book_add, {result=0, item=#guest_book{}}).
+-record(req_guest_book_clear, {account=""}).
+-record(notify_guest_book_clear, {result=0}).
+-record(req_create_flower, {house_id=0, flower_id=0}).
+-record(req_get_flower, {house_id=0}).
+-record(notify_flower_data, {operate=0, house_id=0, id=0, level=0, grow=0, start_time=#stime{}, fruit_time=#stime{}}).
+-record(req_can_water_flower, {my_house_id=0, house_id=0}).
+-record(notify_can_water_flower, {result=0}).
+-record(req_water_flower, {my_house_id=0, name="", house_id=0}).
+-record(req_fertilize_flower, {my_house_id=0, name="", house_id=0}).
+-record(req_pick_fruit, {house_id=0}).
+-record(req_change_flower, {house_id=0, flower_id=0}).
+-record(flower_log, {name="", op=0, time=#stime{}, grow=0}).
+-record(req_flower_log, {house_id=0}).
+-record(notify_flower_log, {logs=[]}).
+-record(req_ask_today_water_flower, {owner_house_id=0}).
+-record(notify_today_water_flower, {result=0}).
+-record(check_in, {id="", account="", content="", opened=0, create_date=#stime{}}).
+-record(req_checkin_add, {account="", content="", opened=0}).
+-record(notify_checkin_add, {item=#check_in{}}).
+-record(notify_new_checkin, {}).
+-record(req_last_checkins, {owner=""}).
+-record(notify_last_checkins, {owner=#check_in{}, lover=#check_in{}}).
+-record(req_checkin_list, {owner="", start_id="", page_index=0, page_size=0}).
+-record(notify_checkin_list, {checkins=[]}).
+-record(req_checkin_delete, {account="", id=""}).
+-record(notify_checkin_delete, {result=0, id=""}).
+-record(req_modify_love_time, {house_id=0, love_time=#stime{}}).
+-record(req_get_love_time, {house_id=0}).
+-record(notify_love_time, {house_id=0, love_time=0}).
+-record(commemoration_day, {id=0, show_other=0, time=#stime{}, content=""}).
+-record(req_add_commemoration, {house_id=0, time=#stime{}, show_other=0, content=""}).
+-record(req_get_commemoration, {house_id=0, my_house_id=0, page=0}).
+-record(notify_commemoration, {days=[], total=0}).
+-record(req_delete_commemoration, {house_id=0, id=0}).
+-record(req_modify_commemoration, {house_id=0, id=0, show_other=0, time=#stime{}, content=""}).
+-record(req_platform_info, {open_ids=[], token=0}).
+-record(notify_platform_info, {player_informations=[], token=0}).
+-record(req_daily_visit, {account=""}).
+-record(notify_daily_visit, {visit_firends=[]}).
+-record(req_player_guide, {}).
+-record(notify_player_guide, {flags=[]}).
+-record(req_update_player_guide, {flags=[]}).
+-record(notify_update_player_guide, {result=0}).
+-record(notify_active_holiday_gift, {}).
+-record(req_get_holiday_gift, {}).
+-record(notify_get_holiday_gift_result, {result=0, item_id=0, item_count=0, diamond=0}).
+-record(lottery_item, {item_id=0, item_count=0}).
+-record(notify_use_lottery_item_result, {item_inst_id=0, items=[], hit_index=0}).
+-record(notify_heartbeat, {}).
+-record(notify_player_setting, {setting=#player_setting{}}).
+-record(req_player_setting, {setting=#setting_info{}}).
+-record(req_update_house_name, {name="", account=""}).
+-record(notify_update_house_name, {result=0}).
+-record(req_mateup, {boy_number="", girl_number=""}).
+-record(notify_mateup_list, {mateup_list=[]}).
+-record(notify_mateup_wait, {}).
+-record(notify_mateup_fail, {message=""}).
+-record(req_mateup_select, {match_account=""}).
+-record(notify_mateup_success, {boy=#player_basic_information{}, girl=#player_basic_information{}}).
+-record(req_mateup_number, {}).
+-record(notify_mateup_number, {boy_number="", girl_number=""}).
+-record(notify_house_warming, {title="", desc="", summary=""}).
+-record(client_device_info, {operate_system="", cpu="", cpu_count=0, memory=0, graphics_card="", graphics_card_memory=0, graphics_card_id=0, graphics_card_verson="", graphics_card_vendor="", graphics_card_vendor_id=0, graphics_card_shader_level=0, graphics_card_pixel_fillrate=0, support_shadow=0, support_render_texture=0, support_image_effect=0, device_name="", device_unique_identify="", device_model="", browser=""}).
+-record(notify_level_exp, {level=0, exp=0, max_exp=0}).
+-record(notify_hp, {hp=0, max_hp=0, total_seconds=0, restore_seconds=0}).
+-record(req_start_recover_hp, {}).
+-record(notify_start_recover_hp, {count=0, hp=0, love_coin=0}).
+-record(req_recover_hp, {}).
+-record(notify_recover_hp, {}).
+-record(req_add_attention, {account="", name=""}).
+-record(notify_add_attention, {info=#friend_item{}}).
+-record(req_cancel_attention, {account=""}).
+-record(notify_cancel_attention, {account=""}).
+-record(req_get_attention_list, {}).
+-record(notify_attention_list, {attentions=[]}).
+-record(req_opposite_sex_photos, {}).
+-record(notify_opposite_sex_photos, {photos=[]}).
+-record(gift_info, {gift_id=0, receiver="", sender="", gift_box=0, gift=#item{}, date=#stime{}}).
+-record(house_gift_info, {gift_id=0, gift_box=0, date=#stime{}}).
+-record(req_send_gift, {gift=#gift_info{}}).
+-record(notify_send_gift, {type=0}).
+-record(req_house_gift_box_list, {account=""}).
+-record(notify_house_gift_box_list, {boy="", girl="", boy_boxes=[], girl_boxes=[]}).
+-record(notify_add_house_gift_box, {account="", boxes=[]}).
+-record(notify_del_house_gift_box, {account="", boxes=[]}).
+-record(req_receive_gift, {gift_ids=[]}).
+-record(notify_receive_gift, {type=0}).
+-record(req_receive_gift_list, {}).
+-record(notify_receive_gift_list, {gift=[]}).
+-record(req_received_gift_list, {}).
+-record(notify_received_gift_list, {gift=[]}).
+-record(req_wish_add, {goods_id=0, wish_type=0}).
+-record(player_love_wish, {account="", wish_id=0, goods_id=0, wish_time=#stime{}, wish_type=0}).
+-record(notify_wish_add, {wish=#player_love_wish{}}).
+-record(notify_wish_add_fail, {message=""}).
+-record(req_wish_delete, {account="", wish_id=0}).
+-record(notify_wish_delete, {wish_id=0}).
+-record(req_wish_list, {account=""}).
+-record(notify_wish_list, {wish_list=[]}).
+-record(player_love_wish_history, {goods_id=0, satisfy_account="", wish_type=0}).
+-record(req_wish_history_list, {account=""}).
+-record(notify_wish_history_list, {history_list=[]}).
+-record(req_wish_satisfy, {wish_id=0}).
+-record(notify_wish_satisfy_successfully, {wish_id=0}).
+-record(notify_wish_satisfy_fail, {wish_id=0, message=""}).
+-record(req_complete_share, {type=0}).
+-record(base_person_info, {animal_type=0, birthday=#stime{}, star=0, city=0, province=0, height=0, salary=0, blood_type=0, career="", education=0, contact="", interest="", weight=0, signature="", name=""}).
+-record(req_change_person_info, {info=#base_person_info{}}).
+-record(req_close_person_info, {}).
+-record(person_info, {account="", username="", sex=0, info=#base_person_info{}}).
+-record(req_person_info, {account=""}).
+-record(notify_person_info, {info=#person_info{}}).
+-record(notify_show_buy_dialog, {token="", params="", context=""}).
+-record(req_cancel_qq_order, {context=""}).
+-record(notify_cancel_order, {}).
+-record(req_vip_gift_receive_info, {}).
+-record(notify_vip_gift_receive_info, {beginner=0, daily=0}).
+-record(vip_gift_item, {item_id=0, count=0}).
+-record(req_receive_vip_beginner_gift, {items=[]}).
+-record(req_receive_vip_daily_gift, {items=[]}).
+-record(notify_vip_gift, {status=0}).
+-record(login_info, {login_date=#stime{}, reward_date=#stime{}}).
+-record(req_give_login_reward, {}).
+-record(notify_give_login_reward, {}).
+-record(req_login_list, {}).
+-record(notify_login_list, {info=[], type=0}).
+-record(req_offline_notify, {}).
+-record(notify_offline_notify, {count=0}).
+-record(req_buy_house_right, {grade=0}).
+-record(notify_house_right_grade, {grade=0}).
+-record(req_unlock_special_house, {id=0}).
+-record(notify_unlock_special_house, {id=0}).
+-record(req_unlock_special_house_info, {}).
+-record(notify_unlock_special_house_info, {ids=[]}).
+-record(special_house_goods, {id=0, house_tplt_id=0, remain_count=0, q_coin=0}).
+-record(req_special_house_list, {}).
+-record(notify_special_house_list, {house_list=[]}).
+-record(notify_buy_special_house_success, {}).
+-record(req_self_special_house_list, {}).
+-record(notify_self_special_house_list, {house_list=[]}).
+-record(req_buy_special_house, {house_tplt_id=0}).
+-record(req_move_house, {new_house_tplt_id=0}).
+-record(notify_move_house_success, {}).
+-record(req_get_free_count_for_moving_special_house, {}).
+-record(notify_get_free_count_for_moving_special_house, {count=0}).
+-record(req_invite_active, {}).
+-record(notify_invite_active, {count=0, invite_list=[]}).
+-record(req_invite_award, {count=0, diamond=0, item_id=0, invite_list=[]}).
+-record(notify_invite_award, {result=0}).
+-record(req_open_search_items_ui, {}).
+-record(notify_open_search_items_ui, {rate=0, item_count=0}).
+-record(req_search_items, {is_npc=0, friend_account="", friend_name=""}).
+-record(notify_searching_items, {is_npc=0, friend_account="", friend_name="", remain_seconds=0, whip_count=0}).
+-record(req_quick_search_items, {whip_count=0}).
+-record(req_whip, {}).
+-record(notify_search_items_result, {is_npc=0, friend_account="", friend_name="", grid_count=0, gain_items=[]}).
+-record(notify_new_self_msgs, {}).
+-record(hire_msg, {time=#stime{}, is_npc=0, friend_account="", cost_money=0}).
+-record(be_hire_msg, {time=#stime{}, friend_account="", gain_exp=0}).
+-record(be_whip_msg, {time=#stime{}, friend_account=""}).
+-record(whip_msg, {time=#stime{}, account="", is_npc=0, whip_count=0, friend_account=""}).
+-record(req_self_msgs, {}).
+-record(notify_self_msgs, {hire_msgs=[], be_hire_msgs=[], be_whip_msgs=[], whip_msgs=[]}).
+-record(req_update_search_items, {}).
+-record(notify_polymorph_result, {account="", alter_body=#polymorph{}, message="", user=""}).
+-record(req_purify_polymorph, {target_account=""}).
+-record(req_player_info, {account=""}).
+-record(notify_player_info, {player=#player_basic_data{}}).
+-record(req_produce, {produce_manual_id=0, lucky_stone_count=0, has_insurance=0}).
+-record(notify_produce_ack, {}).
+-record(notify_produce, {result=0, message="", finished=#item{}, player=#player_basic_data{}}).
+-record(notify_produce_level, {level=0, experience=0}).
+-record(req_ranking, {type=0}).
+-record(ranking_data, {account="", data=0}).
+-record(notify_ranking, {type=0, self_ranking=0, data=[]}).
+-record(req_score_ranking, {}).
+-record(notify_score_ranking, {self_score=0, data=[]}).
+-record(req_set_guest_book_opened, {id=0, opened=0}).
+-record(notify_set_guest_book_opened, {id=0, opened=0}).
+-record(req_set_checkin_opened, {id="", opened=0}).
+-record(notify_set_checkin_opened, {id="", opened=0}).
+-record(crop_event, {id=0, type=0, time=0}).
+-record(crop_data, {inst_id=0, item_id=0, rest_time=0, fruit_id=[], fruit_count=[], evt=[]}).
+-record(req_plant_crop, {flowerpot_id=0, seed_id=0}).
+-record(notify_farm_data, {house_id=0, crops=[], water_limit=0}).
+-record(req_crop_event, {house_id=0, inst_id=0, event_type=0, event_id=0}).
+-record(req_all_crop_event, {house_id=0, event_type=0}).
+-record(req_delete_crop, {crop_id=0}).
+-record(notify_delete_crop, {crop_id=0, result=0}).
+-record(notify_crop_data, {house_id=0, op=0, crop=#crop_data{}, water_limit=0}).
+-record(req_pick_crop_fruit, {crop_id=0}).
+-record(notify_pick_crop_fruit, {house_id=0, crop_id=0, result=0}).
+-record(req_house_max_flowerpot, {}).
+-record(notify_house_max_flowerpot, {house_id=0, owner_number=0, max_number=0}).
+-record(req_add_flowerpot_number, {}).
+-record(req_breakup, {diamond=0, expect_items=[]}).
+-record(notify_breakup_ack, {}).
+-record(notify_breakup_error, {}).
+-record(req_player_breakup, {}).
+-record(notify_player_breakup_none, {}).
+-record(notify_player_breakup, {account="", diamond=0, unobtained_items=[]}).
+-record(req_player_breakup_diamond, {}).
+-record(notify_player_breakup_diamond, {}).
+-record(notify_player_be_breakuped, {}).
+-record(require_item_atom, {item_id=0, item_count=0, content=""}).
+-record(reward_item_atom, {item_id=0, item_count=0}).
+-record(req_open_post_reward_ui, {}).
+-record(notify_open_post_reward_ui, {content="", require_items=[], reward_items=[], reward_diamond=0, reward_exp=0}).
+-record(req_complete_post_reward, {}).
+-record(notify_complete_post_reward, {result=0}).
+-record(notify_active_score_lottery, {}).
+-record(req_open_score_lottery_ui, {}).
+-record(notify_open_score_lottery_ui, {items=[], remain_count=0}).
+-record(req_score_lottery, {}).
+-record(notify_score_lottery_result, {items=[], hit_index=0, remain_count=0}).
+-record(req_refresh_score_lottery_ui, {}).
+-record(notify_refresh_score_lottery_ui, {items=[], remain_count=0}).
+-record(req_daily_reward_ui, {}).
+-record(notify_daily_reward_ui, {progress_list=[], reward_score_list=[], has_reward_list=[]}).
+-record(req_daily_reward, {score=0}).
+-record(notify_daily_active_can_reward, {}).
+-record(req_close_daily_reward_ui, {}).
+-record(req_immediate_complete_daily_reward, {index=0}).
+-record(req_open_daily_task_ui, {}).
+-record(req_close_daily_task_ui, {}).
+-record(req_get_buff, {}).
+-record(player_buff_data, {id=0, rest_time=0}).
+-record(notify_player_buff, {account="", buffs=[]}).
+-record(notify_add_buff, {buff=#player_buff_data{}}).
+-record(pub_account_info, {account="", name="", level=0}).
+-record(pub_info, {pub_id=0, owner_info=#pub_account_info{}, pub_name="", person_count1=0, person_count2=0, max_person=0, status=0, admin_list=[], voice_id=0}).
+-record(req_pub_list, {page=0}).
+-record(notify_pub_list, {my_channel_id=0, max_page=0, pubs=[]}).
+-record(req_leave_pub_channel, {pub_id=0}).
+-record(req_enter_pub_channel, {pub_id=0}).
+-record(notify_enter_pub_channel, {info=#pub_info{}, accounts=[]}).
+-record(req_update_pub_voice_id, {pub_id=0, voice_id=0}).
+-record(notify_update_pub_voice_id, {pub_id=0, voice_id=0}).
+-record(req_chat_channel, {channel_id=0, content=""}).
+-record(notify_chat_channel, {channel_id=0, account="", player_name="", content=""}).
+-record(notify_channel_add_player, {channel_id=0, account_info=#pub_account_info{}}).
+-record(notify_channel_del_player, {channel_id=0, account=""}).
+-record(req_channel_tell, {target_player="", content=""}).
+-record(notify_channel_tell, {speaker="", speaker_name="", content=""}).
+-record(broadcast_kick_pub_player, {kicker="", be_kicket=""}).
+-record(notify_update_pub_player_count, {person_count1=0, max_count1=0, person_count2=0, max_count2=0}).
+-record(req_send_yy_gift, {recver_account="", gift_id=0, gift_count=0}).
+-record(broadcast_send_yy_gift, {gift_id=0, gift_count=0, sender_info=#pub_account_info{}, recver_info=#pub_account_info{}}).
+-record(req_kick_channel_player, {account=""}).
+-record(notify_unlock_furniture_list, {unlock_list=[]}).
+-record(req_unlock_furniture, {id=0}).
+-record(notify_unlock_furniture, {}).
+-record(req_exchange, {id=0}).
+-record(notify_exchange, {}).
+-record(notify_friend_intimate, {account="", intimate=0}).
+-record(req_flower_shake, {house_id=0, shake_count=0, enable_props=0}).
+-record(req_flower_love_coin_shake, {house_id=0}).
+-record(notify_flower_shake, {diamond=0, exp=0, items=[], shake_prop_count=0, free_shake=0}).
+-record(notify_flower_shake_prop_required, {}).
+-record(req_flower_shaked, {house_id=0}).
+-record(notify_flower_shaked, {free_shake=0, total_shake_count=0, free_shake_time=0}).
+-record(notify_flower_love_coin_shaked, {total_shake_count=0, love_coin_shake=0}).
+-record(notify_flower_shake_overflow, {available=0}).
+-record(req_first_payment_return_status, {}).
+-record(notify_first_payment_return_status, {returned=0}).
+-record(req_first_payment_return_reward, {}).
+-record(notify_first_payment_return_reward, {returned=0}).
+-record(single_payment_return_item, {return_diamond=0, return_count=0}).
+-record(req_single_payment_return, {}).
+-record(notify_single_payment_return, {items=[]}).
+-record(req_single_payment_return_reward, {return_diamond=0}).
+-record(notify_single_payment_return_reward, {returned=0}).
+-record(total_payment_return_item, {consume_amount=0, return_items=[], returned=0}).
+-record(req_total_payment_return, {}).
+-record(notify_total_payment_return, {total_amount=0, items=[]}).
+-record(req_total_payment_return_reward, {consume_amount=0}).
+-record(notify_total_payment_return_reward, {returned=0}).
+-record(req_item_upgrade, {instance_id=0}).
+-record(notify_item_upgrade, {upgrade_item_instanceid=0, result=0}).
+-record(req_mutli_item_upgrade, {inst_ids=[]}).
+-record(notify_mutli_item_upgrade, {furnitures=[], decoration=0}).
+-record(notify_make_up_info, {level=0}).
+-record(req_enter_pub_scene, {}).
+-record(notify_enter_pub_scene, {template_id=0, info=#pub_info{}, accounts=[], enter_pos=#point{}}).
+-record(req_get_sprites, {}).
+-record(req_click_sprite, {id=0}).
+-record(sprite, {id=0, curr_exp=0, level=0, remain_time=0}).
+-record(notify_sprite_data, {appraise=0, sprites=[]}).
+-record(notify_del_sprite, {id=0, del=0}).
+-record(req_click_guest, {appraise=0}).
+-record(notify_can_click_guest, {canClick=0}).
+-record(notify_sprite_upgrade, {id=0, level=0}).
+-record(req_unlock_food, {id=0}).
+-record(notify_unlock_food, {id=0}).
+-record(req_unlock_food_info, {}).
+-record(notify_unlock_food_info, {ids=[]}).
+-record(req_expand_food_stock, {id=0}).
+-record(food_stock_info, {id=0, size=0, value=0, seconds=0, due_time=#stime{}}).
+-record(notify_expand_food_stock, {id=0, due_time=#stime{}}).
+-record(notify_settlement_expand_food_stock, {id=0, size=0}).
+-record(req_food_stock_info, {}).
+-record(notify_food_stock_info, {stock_info=[]}).
+-record(req_cancel_expand_food_stock, {id=0}).
+-record(notify_cancel_expand_food_stock, {id=0}).
+-record(req_complete_expand_food_stock, {id=0, grid_index=0}).
+-record(notify_complete_expand_food_stock, {id=0, grid_index=0}).
+-record(req_immediately_complete_expand_stock, {id=0, grid_index=0}).
+-record(notify_immediately_complete_expand_stock, {id=0, grid_index=0}).
+-record(req_expand_produce_area, {grid_index=0}).
+-record(notify_expand_produce_area, {number=0, grid_index=0}).
+-record(req_produce_area, {}).
+-record(notify_produce_area, {number=0}).
+-record(req_upgrade_food, {id=0}).
+-record(notify_upgrade_food, {id=0, upgrade_id=0}).
+-record(food_upgrade_info, {id=0, upgrade_id=0}).
+-record(req_food_upgrade_info, {}).
+-record(notify_food_upgrade_info, {upgrade_info=[]}).
+-record(product_atom, {id=0, copies=0}).
+-record(req_make_product, {products=[], start_time=#stime{}}).
+-record(notify_make_product, {start_time=#stime{}}).
+-record(req_remove_product, {position=0}).
+-record(notify_remove_product, {start_time=#stime{}}).
+-record(req_complete_product, {}).
+-record(notify_complete_product, {}).
+-record(req_immediately_complete_product, {}).
+-record(notify_immediately_complete_product, {}).
+-record(req_products, {}).
+-record(product_info, {id=0, product_id=0, copies=0}).
+-record(notify_products, {start_time=#stime{}, info=[]}).
+-record(notify_food_settlement_diamond, {diamond=0}).
+-record(notify_reset_temp_diamond, {}).
+-record(req_ask_drink_count, {drink_id=0}).
+-record(shout_data, {id=0, count=0}).
+-record(notify_drink_count, {scene_player_count=0, cost=0, shout=[]}).
+-record(req_party_drink, {drink_id=0}).
+-record(req_calc_player_charm, {}).
+-record(notify_calc_player_charm, {charm=0}).
+-record(notify_init_party_coin, {coin=0}).
+-record(notify_party_score_coin, {coin=0}).
+
+-define(msg_req_login, 1).
+-define(msg_notify_login_result, 2).
+-define(msg_stime, 3).
+-define(msg_point, 4).
+-define(msg_grid_pos, 5).
+-define(msg_item_property, 6).
+-define(msg_item, 7).
+-define(msg_visit_log, 8).
+-define(msg_guest_book, 9).
+-define(msg_pack_grid, 10).
+-define(msg_polymorph, 11).
+-define(msg_player_basic_data, 12).
+-define(msg_player_info, 13).
+-define(msg_npc_info, 14).
+-define(msg_npc_map_mapping_info, 15).
+-define(msg_furniture_position, 16).
+-define(msg_furniture_goods_data, 17).
+-define(msg_setting_info, 18).
+-define(msg_player_setting, 19).
+-define(msg_house_furniture, 20).
+-define(msg_room_tex, 21).
+-define(msg_house_info, 22).
+-define(msg_notify_repeat_login, 23).
+-define(msg_req_create_role, 24).
+-define(msg_notify_create_role_result, 25).
+-define(msg_req_enter_game, 26).
+-define(msg_notify_enter_game, 27).
+-define(msg_notify_body_data, 28).
+-define(msg_client_ready_for_pop_msg, 29).
+-define(msg_pair_int, 30).
+-define(msg_req_enter_player_house, 31).
+-define(msg_notify_enter_player_house, 32).
+-define(msg_req_scene_copy_list, 33).
+-define(msg_notify_scene_copy_list, 34).
+-define(msg_req_enter_common_scene, 35).
+-define(msg_notify_enter_common_scene, 36).
+-define(msg_req_kick_guest, 37).
+-define(msg_notify_other_player_data, 38).
+-define(msg_notify_other_player_info, 39).
+-define(msg_req_other_player_info, 40).
+-define(msg_notify_player_leave_scene, 41).
+-define(msg_req_logout, 42).
+-define(msg_notify_player_data, 43).
+-define(msg_req_start_walk, 44).
+-define(msg_notify_start_walk, 45).
+-define(msg_req_stop_walk, 46).
+-define(msg_notify_stop_walk, 47).
+-define(msg_req_sync_walk_type, 48).
+-define(msg_notify_sync_walk_type, 49).
+-define(msg_req_sync_position, 50).
+-define(msg_req_walk_for_use_furniture, 51).
+-define(msg_player_basic_information, 52).
+-define(msg_friend_item, 53).
+-define(msg_req_friend_list, 54).
+-define(msg_notify_player_friend_list, 55).
+-define(msg_req_invite_list, 56).
+-define(msg_notify_invite_list, 57).
+-define(msg_req_chat_around, 58).
+-define(msg_notify_chat_around, 59).
+-define(msg_req_chat_tell, 60).
+-define(msg_notify_chat_tell, 61).
+-define(msg_req_chat_world, 62).
+-define(msg_notify_chat_world, 63).
+-define(msg_notify_house_data, 64).
+-define(msg_furniture_place_info, 65).
+-define(msg_req_change_furnitures, 66).
+-define(msg_notify_change_furnitures_fail, 67).
+-define(msg_notify_change_furnitures, 68).
+-define(msg_req_start_edit_house, 69).
+-define(msg_notify_start_edit_house, 70).
+-define(msg_req_end_edit_house, 71).
+-define(msg_notify_end_edit_house, 72).
+-define(msg_req_set_house_welcome_words, 73).
+-define(msg_notify_set_house_welcome_words, 74).
+-define(msg_req_set_house_permission, 75).
+-define(msg_notify_set_house_permission, 76).
+-define(msg_req_clear_house_log, 77).
+-define(msg_notify_clear_house_log, 78).
+-define(msg_notify_start_use_furniture, 79).
+-define(msg_req_stop_use_furniture, 80).
+-define(msg_notify_stop_use_furniture, 81).
+-define(msg_notify_change_furniture_status, 82).
+-define(msg_req_swap_item, 83).
+-define(msg_req_use_item, 84).
+-define(msg_notify_use_item_result, 85).
+-define(msg_req_move_item, 86).
+-define(msg_req_delete_item, 87).
+-define(msg_req_split_item, 88).
+-define(msg_req_resize_player_pack, 89).
+-define(msg_req_extend_aging_item, 90).
+-define(msg_notify_extend_aging_item, 91).
+-define(msg_notiy_use_item_by_scene, 92).
+-define(msg_notify_sys_msg, 93).
+-define(msg_notify_sys_broadcast, 94).
+-define(msg_req_fixed_broadcast, 95).
+-define(msg_notify_del_broadcast, 96).
+-define(msg_notify_gm_permission, 97).
+-define(msg_req_gm_command, 98).
+-define(msg_notify_npc_close_dialog, 99).
+-define(msg_req_npc_command, 100).
+-define(msg_button, 101).
+-define(msg_notify_npc_open_dialog, 102).
+-define(msg_req_employ_waiter_data, 103).
+-define(msg_req_up_waiter_data, 104).
+-define(msg_req_query_waiter_id, 105).
+-define(msg_notify_query_waiter_id, 106).
+-define(msg_waiter_info, 107).
+-define(msg_notify_employ_state, 108).
+-define(msg_req_player_basic_data, 109).
+-define(msg_notify_player_basic_data, 110).
+-define(msg_req_start_body_action, 111).
+-define(msg_notify_start_body_action, 112).
+-define(msg_req_play_animation, 113).
+-define(msg_notify_play_animation, 114).
+-define(msg_req_end_body_action, 115).
+-define(msg_notify_end_body_action, 116).
+-define(msg_req_sync_body_state, 117).
+-define(msg_notify_other_body_state, 118).
+-define(msg_req_start_change_looks, 119).
+-define(msg_notify_start_change_looks, 120).
+-define(msg_req_cancel_change_looks, 121).
+-define(msg_req_end_change_looks, 122).
+-define(msg_notify_change_looks, 123).
+-define(msg_notify_end_change_looks, 124).
+-define(msg_req_start_change_dress, 125).
+-define(msg_notify_start_change_dress, 126).
+-define(msg_req_change_dress, 127).
+-define(msg_notify_change_dress, 128).
+-define(msg_notify_around_change_dress, 129).
+-define(msg_req_invite_someone, 130).
+-define(msg_notify_invitation, 131).
+-define(msg_req_agree_invitation, 132).
+-define(msg_goods_atom, 133).
+-define(msg_req_buy_sys_shop_goods, 134).
+-define(msg_notify_buy_sys_shop_goods, 135).
+-define(msg_req_mutli_buy_sys_shop_goods, 136).
+-define(msg_flag_info, 137).
+-define(msg_task_info, 138).
+-define(msg_notify_task_flag, 139).
+-define(msg_notify_task_list, 140).
+-define(msg_notify_add_task, 141).
+-define(msg_notify_dec_task, 142).
+-define(msg_notify_complete_task, 143).
+-define(msg_notify_reward_task, 144).
+-define(msg_req_get_task_reward, 145).
+-define(msg_notify_get_task_reward, 146).
+-define(msg_req_change_task, 147).
+-define(msg_notify_change_task, 148).
+-define(msg_req_immediate_complete, 149).
+-define(msg_req_move_camera, 150).
+-define(msg_req_move_player, 151).
+-define(msg_req_close_windows, 152).
+-define(msg_ring_task_atom, 153).
+-define(msg_notify_add_ring_task, 154).
+-define(msg_notify_show_ring_task, 155).
+-define(msg_notify_delete_ring_task, 156).
+-define(msg_req_give_up_ring_task, 157).
+-define(msg_req_stop_ring_task, 158).
+-define(msg_notify_stop_ring_task, 159).
+-define(msg_req_immediate_complete_ring_task, 160).
+-define(msg_notify_complete_ring_task, 161).
+-define(msg_req_view_ring_task, 162).
+-define(msg_notify_view_ring_task, 163).
+-define(msg_req_ring_task_target, 164).
+-define(msg_notify_ring_task_target, 165).
+-define(msg_req_mind_quiz_count, 166).
+-define(msg_notify_mind_quiz_count, 167).
+-define(msg_req_start_mind_quiz, 168).
+-define(msg_notify_start_mind_quiz, 169).
+-define(msg_req_mind_quiz_reward, 170).
+-define(msg_notify_mind_quiz_reward, 171).
+-define(msg_req_recharge_love_coin, 172).
+-define(msg_notify_recharge_love_coin, 173).
+-define(msg_notify_init_love_coin, 174).
+-define(msg_notify_love_coin, 175).
+-define(msg_notify_open_recharge_ui, 176).
+-define(msg_notify_open_yy_recharge_ui, 177).
+-define(msg_req_open_ui, 178).
+-define(msg_notify_open_ui, 179).
+-define(msg_req_sys_time, 180).
+-define(msg_notify_sys_time, 181).
+-define(msg_notify_wallow_time, 182).
+-define(msg_notify_player_health_status, 183).
+-define(msg_notify_disease_special_event, 184).
+-define(msg_notify_show_picture, 185).
+-define(msg_req_is_active_game, 186).
+-define(msg_notify_active_game_result, 187).
+-define(msg_req_create_party, 188).
+-define(msg_notify_create_party_result, 189).
+-define(msg_req_edit_party, 190).
+-define(msg_notify_edit_party_result, 191).
+-define(msg_req_delete_party, 192).
+-define(msg_notify_delete_party_result, 193).
+-define(msg_notify_private_party_need_item, 194).
+-define(msg_req_get_party_list, 195).
+-define(msg_party_data, 196).
+-define(msg_notify_party_list, 197).
+-define(msg_req_get_my_party_info, 198).
+-define(msg_notify_my_party_info, 199).
+-define(msg_notify_start_party_exp_timer, 200).
+-define(msg_notify_stop_party_exp_timer, 201).
+-define(msg_req_add_party_score, 202).
+-define(msg_notify_party_score, 203).
+-define(msg_notify_add_party_score, 204).
+-define(msg_notify_party_gain, 205).
+-define(msg_notify_party_exp_buffs, 206).
+-define(msg_notify_party_items, 207).
+-define(msg_notify_update_party_items, 208).
+-define(msg_notify_party_stop, 209).
+-define(msg_req_party_food_eat, 210).
+-define(msg_notify_party_food_eat_count, 211).
+-define(msg_notify_party_food_ids, 212).
+-define(msg_req_equip_off, 213).
+-define(msg_notify_equip_off, 214).
+-define(msg_req_equip_on, 215).
+-define(msg_notify_equip_on, 216).
+-define(msg_notify_lover_package, 217).
+-define(msg_notify_lover_diamond, 218).
+-define(msg_req_delete_lover_item, 219).
+-define(msg_notify_add_lover_items, 220).
+-define(msg_pair_item_count, 221).
+-define(msg_notify_update_items_count, 222).
+-define(msg_req_lock_lover_item, 223).
+-define(msg_req_unlock_lover_item, 224).
+-define(msg_notify_lock_lover_item, 225).
+-define(msg_notify_unlock_lover_item, 226).
+-define(msg_req_house_guest_book, 227).
+-define(msg_notify_house_guest_book, 228).
+-define(msg_req_house_visit_log_add, 229).
+-define(msg_notify_house_visit_log_add, 230).
+-define(msg_req_house_visit_log, 231).
+-define(msg_notify_house_visit_log, 232).
+-define(msg_req_guest_book_delete, 233).
+-define(msg_notify_guest_book_delete, 234).
+-define(msg_req_guest_book_add, 235).
+-define(msg_notify_new_guest_book, 236).
+-define(msg_notify_guest_book_add, 237).
+-define(msg_req_guest_book_clear, 238).
+-define(msg_notify_guest_book_clear, 239).
+-define(msg_req_create_flower, 240).
+-define(msg_req_get_flower, 241).
+-define(msg_notify_flower_data, 242).
+-define(msg_req_can_water_flower, 243).
+-define(msg_notify_can_water_flower, 244).
+-define(msg_req_water_flower, 245).
+-define(msg_req_fertilize_flower, 246).
+-define(msg_req_pick_fruit, 247).
+-define(msg_req_change_flower, 248).
+-define(msg_flower_log, 249).
+-define(msg_req_flower_log, 250).
+-define(msg_notify_flower_log, 251).
+-define(msg_req_ask_today_water_flower, 252).
+-define(msg_notify_today_water_flower, 253).
+-define(msg_check_in, 254).
+-define(msg_req_checkin_add, 255).
+-define(msg_notify_checkin_add, 256).
+-define(msg_notify_new_checkin, 257).
+-define(msg_req_last_checkins, 258).
+-define(msg_notify_last_checkins, 259).
+-define(msg_req_checkin_list, 260).
+-define(msg_notify_checkin_list, 261).
+-define(msg_req_checkin_delete, 262).
+-define(msg_notify_checkin_delete, 263).
+-define(msg_req_modify_love_time, 264).
+-define(msg_req_get_love_time, 265).
+-define(msg_notify_love_time, 266).
+-define(msg_commemoration_day, 267).
+-define(msg_req_add_commemoration, 268).
+-define(msg_req_get_commemoration, 269).
+-define(msg_notify_commemoration, 270).
+-define(msg_req_delete_commemoration, 271).
+-define(msg_req_modify_commemoration, 272).
+-define(msg_req_platform_info, 273).
+-define(msg_notify_platform_info, 274).
+-define(msg_req_daily_visit, 275).
+-define(msg_notify_daily_visit, 276).
+-define(msg_req_player_guide, 277).
+-define(msg_notify_player_guide, 278).
+-define(msg_req_update_player_guide, 279).
+-define(msg_notify_update_player_guide, 280).
+-define(msg_notify_active_holiday_gift, 281).
+-define(msg_req_get_holiday_gift, 282).
+-define(msg_notify_get_holiday_gift_result, 283).
+-define(msg_lottery_item, 284).
+-define(msg_notify_use_lottery_item_result, 285).
+-define(msg_notify_heartbeat, 286).
+-define(msg_notify_player_setting, 287).
+-define(msg_req_player_setting, 288).
+-define(msg_req_update_house_name, 289).
+-define(msg_notify_update_house_name, 290).
+-define(msg_req_mateup, 291).
+-define(msg_notify_mateup_list, 292).
+-define(msg_notify_mateup_wait, 293).
+-define(msg_notify_mateup_fail, 294).
+-define(msg_req_mateup_select, 295).
+-define(msg_notify_mateup_success, 296).
+-define(msg_req_mateup_number, 297).
+-define(msg_notify_mateup_number, 298).
+-define(msg_notify_house_warming, 299).
+-define(msg_client_device_info, 300).
+-define(msg_notify_level_exp, 301).
+-define(msg_notify_hp, 302).
+-define(msg_req_start_recover_hp, 303).
+-define(msg_notify_start_recover_hp, 304).
+-define(msg_req_recover_hp, 305).
+-define(msg_notify_recover_hp, 306).
+-define(msg_req_add_attention, 307).
+-define(msg_notify_add_attention, 308).
+-define(msg_req_cancel_attention, 309).
+-define(msg_notify_cancel_attention, 310).
+-define(msg_req_get_attention_list, 311).
+-define(msg_notify_attention_list, 312).
+-define(msg_req_opposite_sex_photos, 313).
+-define(msg_notify_opposite_sex_photos, 314).
+-define(msg_gift_info, 315).
+-define(msg_house_gift_info, 316).
+-define(msg_req_send_gift, 317).
+-define(msg_notify_send_gift, 318).
+-define(msg_req_house_gift_box_list, 319).
+-define(msg_notify_house_gift_box_list, 320).
+-define(msg_notify_add_house_gift_box, 321).
+-define(msg_notify_del_house_gift_box, 322).
+-define(msg_req_receive_gift, 323).
+-define(msg_notify_receive_gift, 324).
+-define(msg_req_receive_gift_list, 325).
+-define(msg_notify_receive_gift_list, 326).
+-define(msg_req_received_gift_list, 327).
+-define(msg_notify_received_gift_list, 328).
+-define(msg_req_wish_add, 329).
+-define(msg_player_love_wish, 330).
+-define(msg_notify_wish_add, 331).
+-define(msg_notify_wish_add_fail, 332).
+-define(msg_req_wish_delete, 333).
+-define(msg_notify_wish_delete, 334).
+-define(msg_req_wish_list, 335).
+-define(msg_notify_wish_list, 336).
+-define(msg_player_love_wish_history, 337).
+-define(msg_req_wish_history_list, 338).
+-define(msg_notify_wish_history_list, 339).
+-define(msg_req_wish_satisfy, 340).
+-define(msg_notify_wish_satisfy_successfully, 341).
+-define(msg_notify_wish_satisfy_fail, 342).
+-define(msg_req_complete_share, 343).
+-define(msg_base_person_info, 344).
+-define(msg_req_change_person_info, 345).
+-define(msg_req_close_person_info, 346).
+-define(msg_person_info, 347).
+-define(msg_req_person_info, 348).
+-define(msg_notify_person_info, 349).
+-define(msg_notify_show_buy_dialog, 350).
+-define(msg_req_cancel_qq_order, 351).
+-define(msg_notify_cancel_order, 352).
+-define(msg_req_vip_gift_receive_info, 353).
+-define(msg_notify_vip_gift_receive_info, 354).
+-define(msg_vip_gift_item, 355).
+-define(msg_req_receive_vip_beginner_gift, 356).
+-define(msg_req_receive_vip_daily_gift, 357).
+-define(msg_notify_vip_gift, 358).
+-define(msg_login_info, 359).
+-define(msg_req_give_login_reward, 360).
+-define(msg_notify_give_login_reward, 361).
+-define(msg_req_login_list, 362).
+-define(msg_notify_login_list, 363).
+-define(msg_req_offline_notify, 364).
+-define(msg_notify_offline_notify, 365).
+-define(msg_req_buy_house_right, 366).
+-define(msg_notify_house_right_grade, 367).
+-define(msg_req_unlock_special_house, 368).
+-define(msg_notify_unlock_special_house, 369).
+-define(msg_req_unlock_special_house_info, 370).
+-define(msg_notify_unlock_special_house_info, 371).
+-define(msg_special_house_goods, 372).
+-define(msg_req_special_house_list, 373).
+-define(msg_notify_special_house_list, 374).
+-define(msg_notify_buy_special_house_success, 375).
+-define(msg_req_self_special_house_list, 376).
+-define(msg_notify_self_special_house_list, 377).
+-define(msg_req_buy_special_house, 378).
+-define(msg_req_move_house, 379).
+-define(msg_notify_move_house_success, 380).
+-define(msg_req_get_free_count_for_moving_special_house, 381).
+-define(msg_notify_get_free_count_for_moving_special_house, 382).
+-define(msg_req_invite_active, 383).
+-define(msg_notify_invite_active, 384).
+-define(msg_req_invite_award, 385).
+-define(msg_notify_invite_award, 386).
+-define(msg_req_open_search_items_ui, 387).
+-define(msg_notify_open_search_items_ui, 388).
+-define(msg_req_search_items, 389).
+-define(msg_notify_searching_items, 390).
+-define(msg_req_quick_search_items, 391).
+-define(msg_req_whip, 392).
+-define(msg_notify_search_items_result, 393).
+-define(msg_notify_new_self_msgs, 394).
+-define(msg_hire_msg, 395).
+-define(msg_be_hire_msg, 396).
+-define(msg_be_whip_msg, 397).
+-define(msg_whip_msg, 398).
+-define(msg_req_self_msgs, 399).
+-define(msg_notify_self_msgs, 400).
+-define(msg_req_update_search_items, 401).
+-define(msg_notify_polymorph_result, 402).
+-define(msg_req_purify_polymorph, 403).
+-define(msg_req_player_info, 404).
+-define(msg_notify_player_info, 405).
+-define(msg_req_produce, 406).
+-define(msg_notify_produce_ack, 407).
+-define(msg_notify_produce, 408).
+-define(msg_notify_produce_level, 409).
+-define(msg_req_ranking, 410).
+-define(msg_ranking_data, 411).
+-define(msg_notify_ranking, 412).
+-define(msg_req_score_ranking, 413).
+-define(msg_notify_score_ranking, 414).
+-define(msg_req_set_guest_book_opened, 415).
+-define(msg_notify_set_guest_book_opened, 416).
+-define(msg_req_set_checkin_opened, 417).
+-define(msg_notify_set_checkin_opened, 418).
+-define(msg_crop_event, 419).
+-define(msg_crop_data, 420).
+-define(msg_req_plant_crop, 421).
+-define(msg_notify_farm_data, 422).
+-define(msg_req_crop_event, 423).
+-define(msg_req_all_crop_event, 424).
+-define(msg_req_delete_crop, 425).
+-define(msg_notify_delete_crop, 426).
+-define(msg_notify_crop_data, 427).
+-define(msg_req_pick_crop_fruit, 428).
+-define(msg_notify_pick_crop_fruit, 429).
+-define(msg_req_house_max_flowerpot, 430).
+-define(msg_notify_house_max_flowerpot, 431).
+-define(msg_req_add_flowerpot_number, 432).
+-define(msg_req_breakup, 433).
+-define(msg_notify_breakup_ack, 434).
+-define(msg_notify_breakup_error, 435).
+-define(msg_req_player_breakup, 436).
+-define(msg_notify_player_breakup_none, 437).
+-define(msg_notify_player_breakup, 438).
+-define(msg_req_player_breakup_diamond, 439).
+-define(msg_notify_player_breakup_diamond, 440).
+-define(msg_notify_player_be_breakuped, 441).
+-define(msg_require_item_atom, 442).
+-define(msg_reward_item_atom, 443).
+-define(msg_req_open_post_reward_ui, 444).
+-define(msg_notify_open_post_reward_ui, 445).
+-define(msg_req_complete_post_reward, 446).
+-define(msg_notify_complete_post_reward, 447).
+-define(msg_notify_active_score_lottery, 448).
+-define(msg_req_open_score_lottery_ui, 449).
+-define(msg_notify_open_score_lottery_ui, 450).
+-define(msg_req_score_lottery, 451).
+-define(msg_notify_score_lottery_result, 452).
+-define(msg_req_refresh_score_lottery_ui, 453).
+-define(msg_notify_refresh_score_lottery_ui, 454).
+-define(msg_req_daily_reward_ui, 455).
+-define(msg_notify_daily_reward_ui, 456).
+-define(msg_req_daily_reward, 457).
+-define(msg_notify_daily_active_can_reward, 458).
+-define(msg_req_close_daily_reward_ui, 459).
+-define(msg_req_immediate_complete_daily_reward, 460).
+-define(msg_req_open_daily_task_ui, 461).
+-define(msg_req_close_daily_task_ui, 462).
+-define(msg_req_get_buff, 463).
+-define(msg_player_buff_data, 464).
+-define(msg_notify_player_buff, 465).
+-define(msg_notify_add_buff, 466).
+-define(msg_pub_account_info, 467).
+-define(msg_pub_info, 468).
+-define(msg_req_pub_list, 469).
+-define(msg_notify_pub_list, 470).
+-define(msg_req_leave_pub_channel, 471).
+-define(msg_req_enter_pub_channel, 472).
+-define(msg_notify_enter_pub_channel, 473).
+-define(msg_req_update_pub_voice_id, 474).
+-define(msg_notify_update_pub_voice_id, 475).
+-define(msg_req_chat_channel, 476).
+-define(msg_notify_chat_channel, 477).
+-define(msg_notify_channel_add_player, 478).
+-define(msg_notify_channel_del_player, 479).
+-define(msg_req_channel_tell, 480).
+-define(msg_notify_channel_tell, 481).
+-define(msg_broadcast_kick_pub_player, 482).
+-define(msg_notify_update_pub_player_count, 483).
+-define(msg_req_send_yy_gift, 484).
+-define(msg_broadcast_send_yy_gift, 485).
+-define(msg_req_kick_channel_player, 486).
+-define(msg_notify_unlock_furniture_list, 487).
+-define(msg_req_unlock_furniture, 488).
+-define(msg_notify_unlock_furniture, 489).
+-define(msg_req_exchange, 490).
+-define(msg_notify_exchange, 491).
+-define(msg_notify_friend_intimate, 492).
+-define(msg_req_flower_shake, 493).
+-define(msg_req_flower_love_coin_shake, 494).
+-define(msg_notify_flower_shake, 495).
+-define(msg_notify_flower_shake_prop_required, 496).
+-define(msg_req_flower_shaked, 497).
+-define(msg_notify_flower_shaked, 498).
+-define(msg_notify_flower_love_coin_shaked, 499).
+-define(msg_notify_flower_shake_overflow, 500).
+-define(msg_req_first_payment_return_status, 501).
+-define(msg_notify_first_payment_return_status, 502).
+-define(msg_req_first_payment_return_reward, 503).
+-define(msg_notify_first_payment_return_reward, 504).
+-define(msg_single_payment_return_item, 505).
+-define(msg_req_single_payment_return, 506).
+-define(msg_notify_single_payment_return, 507).
+-define(msg_req_single_payment_return_reward, 508).
+-define(msg_notify_single_payment_return_reward, 509).
+-define(msg_total_payment_return_item, 510).
+-define(msg_req_total_payment_return, 511).
+-define(msg_notify_total_payment_return, 512).
+-define(msg_req_total_payment_return_reward, 513).
+-define(msg_notify_total_payment_return_reward, 514).
+-define(msg_req_item_upgrade, 515).
+-define(msg_notify_item_upgrade, 516).
+-define(msg_req_mutli_item_upgrade, 517).
+-define(msg_notify_mutli_item_upgrade, 518).
+-define(msg_notify_make_up_info, 519).
+-define(msg_req_enter_pub_scene, 520).
+-define(msg_notify_enter_pub_scene, 521).
+-define(msg_req_get_sprites, 522).
+-define(msg_req_click_sprite, 523).
+-define(msg_sprite, 524).
+-define(msg_notify_sprite_data, 525).
+-define(msg_notify_del_sprite, 526).
+-define(msg_req_click_guest, 527).
+-define(msg_notify_can_click_guest, 528).
+-define(msg_notify_sprite_upgrade, 529).
+-define(msg_req_unlock_food, 530).
+-define(msg_notify_unlock_food, 531).
+-define(msg_req_unlock_food_info, 532).
+-define(msg_notify_unlock_food_info, 533).
+-define(msg_req_expand_food_stock, 534).
+-define(msg_food_stock_info, 535).
+-define(msg_notify_expand_food_stock, 536).
+-define(msg_notify_settlement_expand_food_stock, 537).
+-define(msg_req_food_stock_info, 538).
+-define(msg_notify_food_stock_info, 539).
+-define(msg_req_cancel_expand_food_stock, 540).
+-define(msg_notify_cancel_expand_food_stock, 541).
+-define(msg_req_complete_expand_food_stock, 542).
+-define(msg_notify_complete_expand_food_stock, 543).
+-define(msg_req_immediately_complete_expand_stock, 544).
+-define(msg_notify_immediately_complete_expand_stock, 545).
+-define(msg_req_expand_produce_area, 546).
+-define(msg_notify_expand_produce_area, 547).
+-define(msg_req_produce_area, 548).
+-define(msg_notify_produce_area, 549).
+-define(msg_req_upgrade_food, 550).
+-define(msg_notify_upgrade_food, 551).
+-define(msg_food_upgrade_info, 552).
+-define(msg_req_food_upgrade_info, 553).
+-define(msg_notify_food_upgrade_info, 554).
+-define(msg_product_atom, 555).
+-define(msg_req_make_product, 556).
+-define(msg_notify_make_product, 557).
+-define(msg_req_remove_product, 558).
+-define(msg_notify_remove_product, 559).
+-define(msg_req_complete_product, 560).
+-define(msg_notify_complete_product, 561).
+-define(msg_req_immediately_complete_product, 562).
+-define(msg_notify_immediately_complete_product, 563).
+-define(msg_req_products, 564).
+-define(msg_product_info, 565).
+-define(msg_notify_products, 566).
+-define(msg_notify_food_settlement_diamond, 567).
+-define(msg_notify_reset_temp_diamond, 568).
+-define(msg_req_ask_drink_count, 569).
+-define(msg_shout_data, 570).
+-define(msg_notify_drink_count, 571).
+-define(msg_req_party_drink, 572).
+-define(msg_req_calc_player_charm, 573).
+-define(msg_notify_calc_player_charm, 574).
+-define(msg_notify_init_party_coin, 575).
+-define(msg_notify_party_score_coin, 576).
+
+-define(proto_ver, 562).

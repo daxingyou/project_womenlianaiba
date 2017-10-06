@@ -1,0 +1,19 @@
+1:YY频道
+正式频道：15960514
+开发测试频道：12291656
+
+2: 运行YYAppTool，从\\10.35.16.73\Share下载
+appid 填 110138
+版本号填 1
+显示方式选择 弹出窗口
+高度：700
+宽度：760
+
+测试支付
+3: 修改C:\WINDOWS\system32\drivers\etc\hosts文件
+添加
+59.34.148.215 pay.duowan.com
+59.34.148.215 inf.pay.duowan.com
+
+4: 关闭上网代理
+5: 向YY申请Y币

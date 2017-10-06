@@ -1,0 +1,5 @@
+查看当前目录文件/文件夹的磁盘暂用情况
+du -ah --max-depth=1
+
+查找文件所在的目录
+find / -name "lovehome" -print

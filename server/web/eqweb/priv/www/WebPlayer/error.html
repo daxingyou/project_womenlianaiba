@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Unity Web Player | WebPlayer</title>
+		<link rel="stylesheet" type="text/css" href="../style/WebPlayer.css" />
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/PYConfig.js"></script>
+		<script type="text/javascript" src="../js/Suryani.js"></script>
+		<script type="text/javascript" src="../js/PYplatform.js"></script>
+		<script type="text/javascript" src="../js/UnityObject.js"></script>
+		<script type="text/javascript" src="../js/webplayer.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://fusion.qq.com/fusion_loader?appid=33734&platform=pengyou"></script>
+	</head>
+	<body>
+	    <table id="love_banner">
+            <tr>
+                <td colspan="7" style="height:45px;padding-left:200px;">为了保证游戏的稳定运行,建议您使用<a href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie-8" target="_blank">IE8.0</a>，<a href="http://firefox.com.cn/" target="_blank">Firefox</a>或<a href="http://www.google.com/chrome/" target="_blank">Chrome</a>浏览器.</td>
+            </tr>
+            <tr>
+                <td style="width:400px;"></td>
+                <td><div id="banner_invite" onclick="PYplatform.inviteFriends();"></div></td>
+                <td><div id="banner_help" onclick="window.open('http://sobar.soso.com/t/87189330', '_blank')"></div></td>
+                <td><div id="banner_weibo" onclick="window.open('http://t.qq.com/fallinlove35', '_blank')"></div></td>
+                <td><div id="banner_bbs" onclick="window.open('http://sobar.soso.com/b/3007483_1732', '_blank')"></div></td>
+                <td><div id="banner_cache" onclick="window.open('http://sobar.soso.com/t/87189157', '_blank')"></div></td>
+                <td><div id="banner_privilege"></div></td>
+                <td></td>
+            </tr>
+        </table>
+		<div style="margin:auto; width:760px; height:600px; background-image:url(../images/error.png)"></div>
+		<div id="canopy"></div>
+		<table style="margin:auto; width:760px; height:41px; color:White; background-image:url(../images/bottom.png);">
+		    <tr>
+                <td colspan="2" align="center" class="bottom">
+                    本应用由厦门三五互联信息技术有限公司提供,您在使用过程中遇到问题请联系 <a href="http://sobar.soso.com/b/3007483_1732" target="_blank"><span id="bbs">官方论坛</span></a> 玩家QQ群:212780251,191806588<br />
+                您的ID:<label id="GameIdLabel"></label>
+                帮助
+                </td>
+            </tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,169 @@
+封包加密流程:
+1. 假设网络消息内容为x, 把网络消息压缩c_x = 压缩算法(x)
+2. 加入封包步进码counter(4B). 如果先不做这个可以略过.
+3. 加入校验码Checkout(4B).
+4. 加入填充字符pad(0~3B). 这是为了把前面的长度size(c_x) + size(counter)填充为4的倍数-1
+   当然如果本来就是4的倍数-1. 则不需要填充字符.
+5. 加入一字节的标志位bPad, 标识前面的内容是否有填充字符. 到这个阶段封包的内容为4的倍数.
+6. 生成一个4字节的随机数RandPad. 用这个随机数作为参数对上面的内容进行加密crypto().
+7. 写入这个4字节随机数.
+
+
+封包解密流程:
+解密为加密的逆向流程.
+
+
+封包内容的大体结构:
+------------------------------------------------------------------------------------------------------
+(| Compress(x) | Counter(4B) | Checkout (4B) | pad (0~3B) | bPad(1B) |)->Crypto (0B) | RandPad (4B) |
+------------------------------------------------------------------------------------------------------
+
+
+
+压缩算法:
+使用现成的库有的压缩算法就可以. 服务器方面可能对效率需要做一些考量. 客户端方面无压力.
+
+
+封包的步进码说明:
+对于每一个连接(客户端只有一个连接)对应一个步进码.
+发送方从1开始. 每次发一个包步进1. 
+接收方也是从1开始, 接收一个步进1. 接收包的时候, 一旦发现客户端自身计算的步进码和封包
+解包后的步进码不一致. 则标识封包错误. 可以做异常处理. 比如: 服务器可以断开连接, 把用户
+踢下线. 客户端可以跳出可爱的异常. (好吧, 以前海乐就是这么做的)
+
+
+校验码方案:
+校验码不对说明封包错误. 可以做异常处理. 
+校验码只要对处理过的封包按字节累加就可以.
+unsigned int Checkout( unsigned char *in, int inl)
+{
+    unsigned int ret;
+    int i;
+    
+    if ( inl <= 0 )
+        return 0;
+    
+    ret = 0;
+    for( i = 0; i < inl; i++ )
+    {
+        ret += (unsigned int)in[i];
+    }
+    return ret;
+}
+
+
+pad (0~3B):
+如果有pad. 则是1~3个0~255的随机数.
+
+
+bPad:
+bPad只是需要是个随机书0~255. 算法为判定奇偶数就可以bPad%4. 
+
+
+crypto简单加密算法:
+使用移位和异或操作就ok, 且这些操作是可逆的.
+对于加密, 我们4字节为一个单元进行加密.
+为了提供解密的复杂度, 又不容易被破解. 我们引入一个随机数RandPad. 
+我们需要这个随机数生成我们要位移和异或的算法.
+
+移位操作, 确保n在0~31之间
+void LeftShift( unsigned int *data, int n )
+{
+    unsigned int da = *data;
+    da &= 0xFFFFFFFF << ( 32 - n );
+    da >>= 32 - n;
+
+    *data <<= n;
+    *data |= da;
+}
+
+void RightShift( unsigned int *data, int n )
+{
+    unsigned int da = *data;
+    da &= 0xFFFFFFFF >> ( 32 - n );
+    da <<= 32 - n;
+
+    *data >>= n;
+    *data |= da;
+}
+
+异或操作. 2次操作的数值是一样的.
+void Xor( unsigned int *data, unsigned int xor )
+{
+    *data ^= xor;
+}
+
+这里提提供的一些参考算法XOR 和XOR2是常量
+num是一个参数, 可以以目前的网络包的长度做参数. RandPad我生成的随机数.
+unsigned int ProduceShiftCount( unsigned int num, unsigned int RandPad)
+{
+    num = num ^ XOR ^ RandPad;
+    return num % 32;
+}
+
+unsigned int ProduceXor( unsigned int num, unsigned int RandPad)
+{
+    num = num ^ XOR2 ^ RandPad;
+    return num;
+}
+
+
+b = new byte[4];
+
+u = (uint)(b[0] | (b[1] << 8) | (b[2] << 16) | (b[3] << 24));
+
+b[0] = (byte)(u);
+b[1] = (byte)(u >> 8);
+b[2] = (byte)(u >> 16);
+b[3] = (byte)(u >> 24);
+
+
+. Packet.Decode代码移至GameSocket.ProcessPackets ==>
+  先处理packBuff, 再GetMsgID
+
+
+. Packet.Encode ==> 对bodyBytes进行加密
+
+bnot
+div
+rem
+band
+bor
+bxor
+bsl
+bsr
+
+
+. 所有的gen_tcp:send都要改
+. net_helper:get_data函数
+
+
+my_xor(Data, Key) ->
+  Data bxor Key.
+
+
+ProduceXor(Num, RandPad, XOR2) ->
+  Num bxor XOR2 bxor RandPad.
+
+
+ProduceShiftCount(Num, RandPad, XOR) ->
+  (num bxor XOR bxor RandPad) rem 32
+
+
+left_shift(Data, N) when Data > 0, 0 <= N and N < 32 ->
+  N2 = 32 - N,  
+  <<L:N, R:N2>> = <<Data:32>>,
+  <<Ret:32>> = <<R:N2, L:N>>,
+  Ret.
+
+right_shift(Data, N) when Data > 0, 0 <= N and N < 32 ->
+  N2 = 32 - N,  
+  <<L:N2, R:N>> = <<Data:32>>,
+  <<Ret:32>> = <<R:N, L:N2>>,
+  Ret.
+
+
+
+
+
+

@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>我们恋爱吧</title>
+    <link href="../style/default.css" rel="stylesheet" />
+    <link href="../style/popup.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../js/jquery.ad-gallery.css" />
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+
+    <script type="text/javascript" src="../js/UnityObject.js"></script>
+    
+    <script type="text/javascript" src="../js/timepicker.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.tablesorter.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.tablesorter.pager.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.json-2.3.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.query.js"></script>
+
+    <script type="text/javascript" src="../js/Suryani.js"></script>
+
+    <script type="text/javascript" src="../js/List.js"></script>
+
+    <script type="text/javascript" src="../js/MaskPopup.js"></script>
+
+    <script type="text/javascript" src="../js/commonHopup.js"></script>
+    
+    <script type="text/javascript" src="../js/PYConfig.js"></script>
+
+    <script type="text/javascript" src="../js/pengyou.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.ad-gallery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://fusion.qq.com/fusion_loader?appid=33734&platform=pengyou"></script>
+
+    <script type="text/javascript">
+  $(function() {
+    var galleries = $('.ad-gallery').adGallery();
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+  </script>
+    <style type="text/css">
+        ul
+        {
+            list-style-image: url(list-style.gif);
+        }
+        pre
+        {
+            font-family: "Lucida Console" , "Courier New" , Verdana;
+            border: 1px solid #CCC;
+            background: #f2f2f2;
+            padding: 10px;
+        }
+        code
+        {
+            font-family: "Lucida Console" , "Courier New" , Verdana;
+            margin: 0;
+            padding: 0;
+        }
+        #gallery
+        {
+            background-image: url(../images/2.png);
+            background-repeat: no-repeat;
+            width: 367px;
+            height: 333px;
+            *background: none;
+	        *filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='../images/2.png');
+        }
+    </style>
+</head>
+<body>
+    <table id="main" cellpadding="0" border="0" cellspacing="0">
+        <tr>
+            <td style="width: 395px; height: 528px;" valign="top">
+                <table style="width: 100%" cellpadding="0" border="0" cellspacing="0">
+                    <tr>
+                        <td style="width: 20px;">
+                        </td>
+                        <td style="height: 10px;">
+                        </td>
+                        <td style="width: 20px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <div id="MainLogo" style="background-image: url(../images/1.png); background-repeat:no-repeat;*background: none;*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='corp', src='../images/1.png');width:220px;height:75px;"></div>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td align="center">
+                            <div id="gallery" class="ad-gallery">
+                                <div class="ad-image-wrapper">
+                                </div>
+                                <div class="ad-controls">
+                                </div>
+                                <div class="ad-nav">
+                                    <div class="ad-thumbs">
+                                        <ul class="ad-thumb-list">
+                                            <li><a href="../images/1.jpg">
+                                                <img src="../images/thumbs/t1.jpg" class="image0">
+                                            </a></li>
+                                            <li><a href="../images/2.jpg">
+                                                <img src="../images/thumbs/t2.jpg" title="A title for 2.jpg" alt="This is a nice, and incredibly descriptive, description of the image 2.jpg"
+                                                    class="image6">
+                                            </a></li>
+                                            <li><a href="../images/3.jpg">
+                                                <img src="../images/thumbs/t3.jpg" title="A title for 3.jpg" alt="This is a nice, and incredibly descriptive, description of the image 3.jpg"
+                                                    class="image7">
+                                            </a></li>
+                                            <li><a href="../images/4.jpg">
+                                                <img src="../images/thumbs/t4.jpg" title="A title for 4.jpg" alt="This is a nice, and incredibly descriptive, description of the image 4.jpg"
+                                                    class="image8">
+                                            </a></li>
+                                            <li><a href="../images/5.jpg">
+                                                <img src="../images/thumbs/t5.jpg" title="A title for 5.jpg" alt="This is a nice, and incredibly descriptive, description of the image 5.jpg"
+                                                    class="image9">
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                            <table id="leftImage" cellpadding="0" border="0" cellspacing="0">
+                                <tr>
+                                    <td style="width:15px;"></td>
+                                    <td><img src="../images/13.png" /></td>
+                                    <td style="width:15px;"></td>
+                                </tr>
+                            </table>-->
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 365px;" valign="top">
+                <table cellpadding="0" border="0" cellspacing="0">
+                    <tr>
+                        <td style="width: 25px; height: 15px;">
+                        </td>
+                        <td colspan="2">
+                        </td>
+                        <td style="width: 25px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" id="inviting">
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" style="font-size: 14px;">
+                            赶快邀请你的心上人来我们恋爱吧。只有双方都添加应用后，你才可以选择她(他)哦。我们恋爱吧地址：<font color="red">http://url.cn/1v04X7</font>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" align="right">
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="height: 5px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" valign="top">
+                            <table id="invitedTableFrame" style="background-image: url(../images/11.png);background-repeat:no-repeat;width:310px;height:288px;">
+                                <tr>
+                                    <td style="height: 10px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 20px; text-align: center;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="invited" style="height:258px;" valign="top">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td colspan="2" align="center">
+                            <table id="InvitedPager" cellpadding="0" border="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <label class="prev" style="cursor: pointer">
+                                            上一页</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="text" readonly="readonly" style="width: 50px; text-align: center;" class="pagedisplay" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <label class="next" style="cursor: pointer">
+                                            下一页</label>
+                                        <select class="pagesize" style="visibility: hidden">
+                                            <option selected="selected" value="2">2</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" class="bottom">
+                本应用由厦门三五互联信息技术有限公司提供,您在使用过程中遇到问题请联系 官方论坛 交流。<br />
+                您的ID:<label id="GameIdLabel"></label>
+                帮助
+            </td>
+        </tr>
+    </table>
+    <div style="margin:auto; text-align:center; width:760px; height:230px;background-image:url(/images/daily_work.jpg)" title="每日必做"></div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+
+=INFO REPORT==== 7-Feb-2012::20:43:38 ===
+    application: eqweb
+    exited: {shutdown,{eqweb_app,start,[normal,[]]}}
+    type: temporary

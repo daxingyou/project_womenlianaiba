@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<function_task_tplt>
+		<id>1</id>
+		<content>最近大家都在忙着自己家里的事情，人与人之间的联系越来越冷清了。这可不是好的征兆，为活跃大家的感情，我需要你去3个不同的人家里留言3次。完成了再回来我这里领赏吧！</content>
+		<target>给其他人留言3次。  已完成b_count/3</target>
+		<event>create_other_guest_book_event</event>
+		<count>3</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>2</id>
+		<content>在我们看不到的地方，总有一些人在默默的努力。每个人都需要别人的关爱，所以去关注一下他们吧。完成了再回来我这里领赏吧！</content>
+		<target>关注3个人。  已完成b_count/3</target>
+		<event>add_attention_event</event>
+		<count>3</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>3</id>
+		<content>我们雇佣了许多的闲人来帮忙收集，但总有一些懒骨头好吃懒做，是到了该给他们一点苦头的时候了！去找到一名正在收集的奴隶，然后狠抽他一顿，让他明白谁才是这里主人。完成了再回来我这里领赏吧！</content>
+		<target>鞭打一名奴隶来加快收集。  已完成b_count/1</target>
+		<event>on_whip_player_success</event>
+		<count>1</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>4</id>
+		<content>世界上总会有许许多多的我们所不认识的陌生人，利用照片交友去多认识一些陌生人吧，去拜访他们，让他们都知道还会有人在关注他。完成了再回来我这里领赏吧！</content>
+		<target>从照片交友拜访3位陌生人。已完成b_count/3</target>
+		<event>enter_house_from_photo_friend_event</event>
+		<count>3</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>5</id>
+		<content>只有被施愈足够肥料的作物，才会茁壮的成长，快去试试吧。完成了再回来我这里领赏吧！</content>
+		<target>为种植的作物施肥一次。  已完成b_count/1</target>
+		<event>on_fertilize_success</event>
+		<count>1</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>6</id>
+		<content>这里太安静了，所以快用你的爱情小喇叭向全世界呐喊吧！让所有人都能听见你的声音，让这里变的热热闹闹起来！完成了再回来我这里领赏吧！</content>
+		<target>使用爱情小喇叭大喊！  已完成b_count/1</target>
+		<event>chat_world_event</event>
+		<count>1</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>7</id>
+		<content>当你感觉到自己体力不支，身心疲惫的时候，就快些喝下体力药剂吧。这可不是做广告，快试试看，你就会知道我不是在吹牛了！喝完了再回来我这里领赏吧！</content>
+		<target>喝下一瓶体力药剂。  已完成b_count/1</target>
+		<event>add_hp_event</event>
+		<count>1</count>
+	</function_task_tplt>
+	<function_task_tplt>
+		<id>8</id>
+		<content>要记得经常为作物浇水呀，别让娇嫩的小生命枯死了！所以，现在马上去为种植的作物浇一次水。完成了再回来我这里领赏吧！</content>
+		<target>为种植的作物浇一次水。  已完成b_count/1</target>
+		<event>on_water_success</event>
+		<count>1</count>
+	</function_task_tplt>
+</root>

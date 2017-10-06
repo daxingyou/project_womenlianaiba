@@ -1,0 +1,8 @@
+Model/Character/male_action.anis.u3d
+Model/Character/female_action.anis.u3d
+Music/love_home.mp3.u3d
+Music/love_tree.mp3.u3d
+UI/UpdateImage.png.u3d
+UI/UpdateImage2.png.u3d
+Skybox/bieshu_nightsky_00.mat.u3d
+Skybox/bieshu_sunsky_00.mat.u3d

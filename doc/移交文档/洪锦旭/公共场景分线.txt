@@ -1,0 +1,6 @@
+1. 分线的逻辑写在 common_scene.erl中, 数据在common_scene.xml中,
+  copy_count表示每个逻辑服务器的分线个数
+
+2. 每新开一个逻辑服务器，就会自动新开copy_count个分线
+
+3. 数据库对应的表名为scene_copies

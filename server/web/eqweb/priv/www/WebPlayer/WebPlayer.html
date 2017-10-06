@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Unity Web Player | WebPlayer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="../style/WebPlayer.css" />
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+
+    <script type="text/javascript" src="../js/PYConfig.js"></script>
+
+    <script type="text/javascript" src="../js/Suryani.js"></script>
+
+    <script type="text/javascript" src="../js/PYplatform.js"></script>
+
+    <script type="text/javascript" src="../js/UnityObject.js"></script>
+
+    <script type="text/javascript" src="../js/webplayer.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="http://fusion.qq.com/fusion_loader?appid=33734&platform=pengyou"></script>
+
+</head>
+<body>
+    </head>
+    <body>
+
+<script type="text/javascript">
+    if (typeof unityObject != "undefined") {
+				var params = {
+					logoimage: "../images/logo.png"
+			   		//,disableContextMenu:true
+				};
+
+	        unityObject.detectUnity(function(status) {
+	            switch(status)
+	            {
+	                case "installed":
+	                    createUnityObject();
+	                    break;
+	                default:
+	                	if(unityObject.ua.win && unityObject.ua.ie)
+                		{
+                    	createUnityObject();
+                  	}
+                  	else
+                  	{	
+	                    buildNewer("unityPlayer", 760, 600, "setup", "../images/plugin/bg.png");
+	                  }
+	            }
+		    });
+		}
+
+		function createUnityObject()
+		{
+			unityObject.embedUnity("unityPlayer", "WebPlayer20121127112309.unity3d", 760, 600, params);
+		}
+		
+		function buildNewer(id, width, height, tag, bg)
+		{
+		  if (unityObject.ua.win && unityObject.ua.ie) 
+		        buildNewerForIE(id, width, height, tag, bg);
+			else
+			    buildNewerForFireFox(id, width, height, tag, bg);
+		}
+		
+		function buildNewerForIE(id, width, height, tag, bg)
+		{
+		    var re = document.getElementById(id);
+		    var exefile=getExeFile();
+		    at="<a id="+tag+" href="+ exefile +" target=_blank></a>";
+		    var ft = '<div style="width:' + width + 'px; height:' + height + 'px; text-align:left; margin: auto; position: relative;  background-image:url('+bg+');">' + at + '</div>';
+		    re.outerHTML = '<div id="' + id + '" style="width: ' + width + 'px; height:' + height + 'px;">' + ft + '</div>';
+		}
+		
+		function buildNewerForFireFox(id, width, height, tag, bg)
+		{
+		    var re = document.getElementById(id);
+		    var exefile=getExeFile();
+		    var ue = document.createElement("div");
+				ue.setAttribute("id", id);
+				ue.style.width = width;
+				ue.style.height = height;
+				var fe = document.createElement("div");
+				fe.style.width = width+"px";	
+				fe.style.height = height+"px";	
+				fe.style.margin = "auto";
+				fe.style.position = "relative";
+				fe.style.backgroundImage="url("+bg+")";
+				
+				var ae = document.createElement("a");
+				ae.setAttribute("target", "_blank");
+				ae.setAttribute("href", exefile);
+				ae.setAttribute("title", "点击这里下载unity3d插件的离线安装包");
+				ae.id=tag;
+				fe.appendChild(ae);
+				ue.appendChild(fe);
+		    re.parentNode.replaceChild(ue, re);
+		}
+		
+		function getExeFile()
+		{
+			if(unityObject.ua.mac)
+				return "webplayer-i386.dmg";
+			else
+				return unityObject.ua.x64?"UnityWebPlayerFull64.exe":"UnityWebPlayerFull.exe";
+		}
+    </script>
+
+        <table id="love_banner">
+            <tr>
+                <td colspan="7" style="height: 65px; padding-left: 200px;">
+                    为了保证游戏的稳定运行,建议您使用<a href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie-8"
+                        target="_blank">IE8.0</a>，<a href="http://firefox.com.cn/" target="_blank">Firefox</a>或<a
+                            href="http://www.google.com/chrome/" target="_blank">Chrome</a>浏览器.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 410px;">
+                </td>
+                <td>
+                    <div id="banner_enter" onclick="location.reload();">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_invite" onclick="PYplatform.inviteFriends();">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_help" onclick="window.open('http://sobar.soso.com/t/87189330', '_blank')">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_weibo" onclick="window.open('http://t.qq.com/fallinlove35', '_blank')">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_bbs" onclick="window.open('http://bbs.open.qq.com/forum.php?mod=forumdisplay&action=list&fid=716', '_blank')">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_cache" onclick="window.open('http://sobar.soso.com/t/87189157', '_blank')">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_recharge" onclick="PYplatform.recharge();">
+                    </div>
+                </td>
+                <td>
+                    <div id="banner_privilege" onclick="window.open('http://app35398.qzoneapp.com/WebPlayer/vip.html', '_blank')">
+                    </div>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+        <div class="content">
+            <div id="unityPlayer">
+                <div class="missing">
+                    <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                        <img alt="Unity Web Player. Install now!" src="../images/setup_normal.png"
+                            width="406" height="110" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="canopy">
+        </div>
+        <div style="margin: auto; width: 760px; height: 230px; background-image: url(../images/daily_work.jpg)"
+            title="每日必做">
+        </div>
+        <table style="margin: auto; width: 760px; height: 41px; color: White; background-image: url(../images/bottom.png);">
+            <tr>
+                <td colspan="2" align="center" class="bottom">
+                    本应用由厦门三五互联信息技术有限公司提供,您在使用过程中遇到问题请联系 <a href="http://sobar.soso.com/b/3007483_1732"
+                        target="_blank"><span id="bbs">官方论坛</span></a> 玩家QQ群:212780251,191806588<br />
+                    您的ID:<label id="GameIdLabel"></label>
+                    帮助
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+. 家装             house_edit.erl
+. 物品时效         item.erl
+. 数据库升级       database.erl db_update.erl
+. 网络层的加密解密 packet_crypto.c
+. 节日礼物         holiday_gift.erl
+. 玩家体力         player_hp.erl
+. 玩家等级         house_level_exp.erl
+. 照片交友         photos_make_friend.erl
+. 物品金钱记录     item_money_log.erl
+. 人物资料         player.erl
+. 商城             sysshop.erl
+. 聊天相关         player_chat.erl
+. 公共场景家具使用 gen_scene.erl
+. 房屋产权         player_move_house.erl
+. 别墅购买         special_house_shop.erl
+. 积分抽奖         score_lottery.erl
+. 收集             friend_search_item.erl   
+. 每日活跃奖励       daily_active_reward.erl
+. 踢人               player_be_kick.erl
+. npc 对话           npc_dialog.erl
+. 搬家               player_move_house.erl
+. 等级报告(凌晨生成) level_report.erl
+. 酒吧频道           pub.erl
+. 酒吧场景           pub_scene.erl
+. 派对积分货币       party_coin.erl
+. A星寻路            IndoorPath.js AStarPathSearcher.cs

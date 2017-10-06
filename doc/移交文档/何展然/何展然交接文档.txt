@@ -1,0 +1,281 @@
+（一）账户
+电脑账号：xiejun
+开机密码：为空，直接按Enter就可以
+（二）《我们恋爱吧》游戏系统模块
+1、数据表存放路径
+	如果是腾讯平台的数据表资源，则放在目录AssetBundles\Data下面，
+	如果是YY平台的数据表资源，则放在目录AssetBundles\DataYY下面，
+	格式都是以.xml.u3d结尾的资源文件，同时，必须在Assets\Media\Data\init_tables.txt文件里初始新添加的数据表资源
+	格式如：Data/house_comp.xml.u3d 或 DataYY/love_coin_recharge_tplt.xml.u3d
+	确保该文件不存在其他非法字符如空格、回车等
+2、通用背包模块
+	模块目录：Assets\Scripts\Backpack
+	Backpack.js：通用背包的逻辑文件
+	BackpackPage.js：通用背包的分页逻辑文件
+	BackpackSlot.js：通用背包界面单个格子的逻辑文件
+	界面文件：Assets\iGUI\iGUICode_BackpackUI.js
+3、游戏内的照相机系统
+	模块目录：Assets\Scripts\Camera
+	EQCamera.js：负责处理游戏内的摄像机模块（基本上不需要再修改了）
+4、连环任务系统（这个系统现在好像已经摒弃不用了）
+	模块目录：Assets\Scripts\ChainTask
+	ChainTaskLogic.js：连环任务逻辑文件
+	界面文件：Assets\iGUI\iGUICode_ChainTaskUI.js
+5、一些通用模块
+	模块目录：Assets\Scripts\Common
+	CommFunc.js：里面封装了一些全局通用的函数
+	Controller.js：这个实现了一个简单的事件处理系统（基本不需要再修改）
+	LogicTableManager.js：实现了数据表的读取，有增加\删除数据表、修改数据表字段，都需要也在这个文件内做相应修改
+	Model.js：实现了模型组合的逻辑（基本不需要再修改）
+	TimerEx.js：实现了一个定时器，功能和Timer.js差不多，只不过该功能必须得挂接在一个GameObject下才可作用，可参考调用的地方（基本不需要再修改）
+	目录内的其他文件基本不需要再做修改了
+6、离婚系统
+	模块目录：Assets\Scripts\Divorce
+	Divorce.js：离婚系统的逻辑文件
+	DivorceSlot.js：离婚系统界面单个格子的逻辑文件
+	界面文件：Assets\iGUI\iGUICode_DivorceUI.js
+7、抽奖系统（前身是为端午节抽奖而开发的，后来扩展为抽奖系统）
+	模块目录：Assets\Scripts\DragonBoatFestival
+	DragonBoatFestival.js：抽奖系统的逻辑文件
+	界面文件：Assets\iGUI\iGUICode_DragonBoatFestivalUI.js
+8、家装系统（该系统属于游戏内的核心，也是比较复杂的，如果需求不修改，基本上不需要动到吧）
+	模块目录：Assets\Scripts\Fitment
+	AutoFitmentLogic.js：实现自动家装的模块
+	FitmentEvent.js：实现家装时，家具摆放到房屋内的一些事件逻辑，主要是对场景的操作（基本不需要再修改）
+	FitmentEventMgr.js：对FitmentEvent.js的进一步封装（基本不需要再修改）
+	FitmentSlot.js：家装系统界面上，单个格子的逻辑
+	FurnitureUnlockLogic.js：家装下，商场系列家具的解锁模块
+	界面文件：Assets\iGUI\iGUICode_StorageBoxUI.js 该文件比较混乱，当时制作时没考虑好和背包的界面制作在一起
+9、家具操作系统
+	模块目录：Assets\Scripts\FurnitureInteract
+	FurnitureComponent.js：针对家具操作系统，对家具做了进一步的封装，使操作起来更加方便
+	FurnitureDataHandler.js：封装家具操作所需的一些数据接口
+	FurnitureInteract.js：处理家具操作的主要逻辑文件
+	FurnitureParticle.js：封装操作家具时显示粒子效果的一些逻辑
+	界面文件：Assets\iGUI\iGUICode_FurnitureInteractUI.js
+10、礼物系统
+	模块目录：Assets\Scripts\Gift
+	GiftLogic.js：礼物系统主要逻辑文件
+	界面文件：Assets\iGUI\iGUICode_GiftBoxUI.js	礼盒界面
+			  Assets\iGUI\iGUICode_GiftMakeUI.js	礼物制作界面
+			  Assets\iGUI\iGUICode_GiftReceiveUI.js	礼物接收界面
+			  Assets\iGUI\iGUICode_GiftUI.js	礼物清单界面
+11、客人系统（后来这块由 高奕聪 接手）
+	模块目录：Assets\Scripts\Guest
+12、房屋编辑模块（基本不需要再修改）
+	模块目录：Assets\Scripts\HouseEditor
+	HouseEditorWritter.js：实现房屋编辑时写相关数据到xml文件的功能
+	ZoneLightProperty.js：在编辑房屋时，保存灯光属性的功能
+13、房屋场景模块（基本不需要再修改）
+	模块目录：Assets\Scripts\HouseScene
+	EQSceneManager.js：实现房屋场景管理器
+	Gird.js：家装时，家具底部显示的格子效果
+	HouseAsynLoadEvent.js：房屋相关的异步加载事件，实现家具的异步加载和房屋场景的异步加载
+	HouseGridGraphics.js：家装时，格子显示规则的辅助类
+	HouseRes.js：描述房屋各类资源
+	HouseScene.js：房屋场景的主要逻辑
+	HouseSceneComponent.js：房屋部件的主要逻辑（可以说一个家具就对应一个该类）
+	HouseSceneDef.js：定义房屋场景需要用到的一些常量或枚举值
+	HouseSceneFloor.js：房屋楼层类
+	HouseSceneGrid.js：房屋里单个格子类（抽象的一个概念）
+	HouseSceneRoom.js：抽象出房屋的每个房间（当时是为了制作“更换墙纸和地板”功能时设计的，该功能后来没有继续开发，所以就没用了）
+	HouseSceneWall.js：抽象出房屋的墙壁（当时是为了制作“更换墙纸和地板”功能时设计的，该功能后来没有继续开发，所以就没用了）
+	HSCFitmentCtrl.js：家装时，房屋部件（即家具）在摆放时所需要用到的控制类
+	HSCManager.js：房屋部件管理器，每个房屋部件（家具）都是通过该管理器创建的
+	UpDownStair.js：实现楼上楼下的功能
+14、房屋更新系统（之前由 黄达嘉 设计，后来由我接收）
+	模块目录：Assets\Scripts\HouseUpdate
+	HouseUpdateComp.js：处理房屋更新的一些网络消息及事件
+	界面文件：Assets\iGUI\iGUICode_HouseUpdateRootUI.js 该文件比较混乱
+15、鼠标状态模块（没特殊需求也不需要再修改）
+	模块目录：Assets\Scripts\MouseState
+	MouseStateManager.js：实现在不用状态下鼠标图标（即鼠标状态）的切换
+16、新版本的新手任务模块（之前 黄达嘉 已经制作了新手系统，后来由于需求的变更，我重新设计了一套）
+	模块目录：Assets\Scripts\NewHandTask
+	这个目录是用来存放新手任务脚本文件的，newhand_ 开头的文件是老版本的脚本，newhandtask_ 开头的是新版本的脚本
+	模块目录：Assets\Scripts
+	NewHandGuideLogic.js：该文件实现了新版新手任务的主要逻辑
+	界面文件：Assets\iGUI\iGUICode_NewHandGuideUI.js 新手任务的界面
+			  Assets\iGUI\iGUICode_NewHandGuideRewardUI.js 新手任务奖励界面（后来也用于系列任务的奖励界面）
+17、悬赏任务系统
+	模块目录：Assets\Scripts\OfferRewardTask
+	OfferRewardTaskLogic.js：悬赏任务逻辑文件
+	界面文件：Assets\iGUI\iGUICode_OfferRewardTaskUI.js
+18、派对系统（后来由 高奕聪、郑李军 接手）
+	模块目录：Assets\Scripts\Party
+19、充值系统
+	模块目录：Assets\Scripts\Pay
+	PayLogic.js：充值逻辑文件
+	界面文件：Assets\iGUI\iGUICode_SinglePayUI.js 单笔充值界面
+			  Assets\iGUI\iGUICode_AccumulatePayUI.js 累计充值界面
+20、平台相关模块（之前由 朱义辉 设计，后来我有接手，基本上也不需要再动到，除非有再扩展新的平台）
+	模块目录：Assets\Scripts\Platform
+21、玩家模块（除非有新的需求，否则基本不需要再改动）
+	模块目录：Assets\Scripts\Player
+	MainPlayer.js：主玩家脚本，只作用于主玩家本身
+	Player.js：玩家脚本（对Model.js做了异步封装），所有玩家都必须挂接
+	PlayerAnimationLoop.js：这个脚本是 洪锦旭 设计的，应该是用于创建角色时，角色的随机自身动作吧
+	PlayerChatBubble.js：实现玩家说话时，头顶显示的聊天泡泡
+	PlayerCheckin.js：该脚本由 朱义辉 设计，功能的话忘了
+	PlayerFirend.js：该脚本由 朱义辉 设计，是好友列表相关的
+	PlayerMove.js：实现玩家移动相关功能（走路，跑步，寻路），所有玩家都必须挂接
+	PlayerPreview.js：玩家预览相关，由 洪锦旭 设计，应该是用于创建角色时，预览角色用的
+	PlayerTransform.js：由 朱义辉 设计的，实现了玩家变身相关逻辑
+22、道具模块
+	模块目录：Assets\Scripts\Prop
+	PropBuyCommonLogic.js：实现通用购买道具的逻辑
+	PropFireworksLogic.js：实现道具焰火的功能
+	PropShopLogic.js：道具商城逻辑
+	PropShopPage.js：道具商城界面的分页逻辑
+	PropShopSlot.js：道具商城界面单个格子的逻辑
+	PropUseLogic.js：道具使用逻辑
+	界面文件：Assets\iGUI\iGUICode_PropBuyCommonUI.js 通用购买道具界面
+			  Assets\iGUI\iGUICode_PropShopUI.js 道具商城界面
+23、属性模块
+	模块目录：Assets\Scripts\Property
+	Property.js：封装了可会获取属性（玩家魅力值，房屋装饰度等）的接口
+24、排行榜系统
+	模块目录：Assets\Scripts\RankList
+	RankListLogic.js：实现了排行榜的主要逻辑
+	RankListPage.js：排行榜界面的分页逻辑
+	RankListSlot.js：排行榜界面单个格子的逻辑
+	界面文件：Assets\iGUI\iGUICode_RankListUI.js
+25、公共场景、别墅场景模块（此模块由 严毅赟 设计，后来由我接手，没有特殊需求，不需要再修改）
+	模块目录：Assets\Scripts\Scene
+26、小精灵系统
+	模块目录：Assets\Scripts\Sprite
+	SpriteLogic.js：实现小精灵的主要逻辑
+	SpriteModel.js：抽象了小精灵模型
+27、任务系统（由 严毅赟 设计，后来由我接手）
+	模块目录：Assets\Scripts\Task
+	DailyTaskCtrl.js：抽象了日常任务控件（由于日常任务次功能后来屏蔽了，所以该脚本应该没用了）
+	SeriesTaskLogic.js：实现了系列任务的逻辑
+	Task.js：所有玩家任务的主要逻辑，实现了任务的分配功能
+	界面文件：Assets\iGUI\iGUICode_TaskUI.js 系列任务界面
+28、时效模块
+	模块目录：Assets\Scripts\TimeEffect
+	TimeEffect.js：封装了一些获取时效、剩余时间的接口
+29、墙来了系统（此模块后来停止开发了，所以没用了）
+	模块目录：Assets\Scripts\WallComing
+	界面文件：Assets\iGUI\iGUICode_WallComingUI.js
+30、更好墙纸地板系统（此模块后来停止开发了，所以没用了）
+	模块目录：Assets\Scripts\WallFloorReplace
+31、YY平台频道模块（部分由 黄达嘉 设计）
+	模块目录：Assets\Scripts\YYChannelListLogic
+	YYChannelGiftPage.js：频道界面上礼物分页的逻辑
+	YYChannelGiftSlot.js：频道界面上礼物格子的逻辑
+	YYChannelGuestSlot.js：频道界面上客人列表上格子的逻辑
+	YYChannelListLogic.js：实现频道列表的网络消息、事件的处理
+	YYGift2D.js：抽象礼物的2D表现形式
+	YYGift3D.js：抽象礼物的3D表现形式
+	YYGiftDisplayLogic.js：显示礼物的主要处理逻辑
+	YYUserInfoClass.js：抽象了用户信息的异步控件
+	界面文件：Assets\iGUI\iGUICode_YYChannelListRoot.js 频道列表界面
+			  Assets\iGUI\iGUICode_YYPubUI.js 酒吧界面
+32、游戏内白天/黑夜切换模块（此模块基本不用再做修改，除非有提新的特殊需求）
+	模块目录：Assets\Scripts
+	AmbientMgr.js：实现游戏内昼夜变化的功能
+33、玩家创建工厂的模块（此模块基本不用再做修改，除非有新的特殊需求）
+	模块目录：Assets\Scripts
+	CharacterFactory.js：封装了创建玩家的便利接口，实现了一些异步加载事件
+34、数据获取中心（可以在此模块下获取到一些通用的数据）
+	模块目录：Assets\Scripts
+	DataCenter.js：封装了一些全局的静态接口
+35、自定义字符变量
+	模块目录：Assets\Scripts
+	Define.js：封装了一些通用的字符变量，在该模块内可以获取得到系统消息表里的文字字段，在游戏内的一些中文显示的地方
+			   最好不要写死，而是通过该模块来获取，这样，以后如果实现多语言版本的话，就比较通用
+36、场景管理器（这模块有些乱）
+	模块目录：Assets\Scripts
+	EQGameScene.js：场景的抽象父类
+	EQGaemSceneMgr.js：同样是场景管理器，可能会产生歧义，注意对比场景模块中的 EQSceneManager.js
+37、食物消耗模块
+	模块目录：Assets\Scripts
+	FoodConsumeLogic.js：实现食物消耗的逻辑和食物消耗后获取奖励的逻辑
+	界面文件：Assets\iGUI\iGUICode_FoodSettlementDiamondUI.js 食物水晶结算界面
+38、游戏登陆后的处理模块
+	模块目录：Assets\Scripts
+	HandleAfterLogin.js：处理登陆游戏后的逻辑,主要是消息的主动请求、事件的分布,如新手,公告等
+39、界面动画控件
+	模块目录：Assets\Scripts
+	iGUIAnimation.js：实现了基于iGUI的动画控件（基本不需要修改）
+40、客户端信息收集
+	模块目录：Assets\Scripts
+	InformationCollect.js：收集客户端的一些设备信息，然后发给服务端（此功能后来不用了）
+41、游戏物品
+	模块目录：Assets\Scripts
+	Item.js：抽象了游戏内的物品、背包里的格子信息（基本不需要修改）
+42、鼠标移到某个控件上的itemhint提示
+	模块目录：Assets\Scripts
+	ItemHint.js：封装了一些便利使用的接口（基本不需要修改）
+43、抽象了游戏物品图片的异步加载
+	模块目录：Assets\Scripts
+	ItemIcon.js：物品图片,其实是对AsynIcon做进一步封装,方便使用
+44、登陆模块
+	模块目录：Assets\Scripts
+	Login.js：实现了在登陆时需要处理的逻辑，比如连接服务端等（基本不需要修改）
+	界面文件：Assets\iGUI\iGUICode_LoginUI.js 该界面在使用编辑器登录时有用
+45、游戏的主模块（主入口）
+	模块目录：Assets\Scripts
+	Main.js：实现登陆游戏时的一些主要逻辑（基本不需要修改）
+46、音乐处理模块
+	模块目录：Assets\Scripts
+	MusicMgr.js：处理播放声音的模块
+47、网络消息处理模块
+	模块目录：Assets\Scripts
+	NetMsgHandler.js：用来接收服务端发过来的网络消息（通常大部分的网络消息有各个系统去处理，除非一些不知道放哪里处理的消息才放这里）
+48、公告模块
+	模块目录：Assets\Scripts
+	NoticeLogic.js：实现了各种公告的的显示及切换（基本不需要再修改）
+	界面文件：Assets\iGUI\iGUICode_NoticeUpdateUI.js
+49、分页管理器（共实现了两个，看情况自己选择哪个）
+	模块目录：Assets\Scripts
+	Page.js：用来管理页相关
+	PagerMgr.js：用来管理页相关
+50、结婚模块（有 严毅赟 设计，后来由我接手）
+	模块目录：Assets\Scripts
+	Peidui.js：处理结婚（配对）相关的逻辑
+	界面文件：Assets\iGUI\iGUICode_Peidui.js
+51、鼠标碰撞场景类物件模块（此模块已经封装很好了，不需要再修改）
+	模块目录：Assets\Scripts
+	PickMgr.js：实现了鼠标响应游戏内3D物件的事件，并分布出去
+52、玩家房屋的抽象类
+	模块目录：Assets\Scripts
+	PlayerHouse.js：抽象了玩家房屋，保存了玩家房屋的数据等
+53、游戏设置模块
+	模块目录：Assets\Scripts
+	PlayerSettingMgr.js：实现了设置游戏的一些属性，如音乐开/关，游戏品质等
+54、玩家管理模块
+	模块目录：Assets\Scripts
+	ScenePlayerMgr.js：用来管理当前场景中的所有玩家
+55、抽象了选中框控件
+	模块目录：Assets\Scripts
+	SelectFrame.js：抽象了一个选中框控件，看情况选择是否使用
+56、玩家背包模块（此模块很有用，要获取玩家的物品，可以通过此模块）
+	模块目录：Assets\Scripts
+	SelfItemLogic.js：在客户端这边用来保存玩家的所有物品
+	StorageLogic.js：背包界面的逻辑
+	界面文件：Assets\iGUI\iGUICode_StorageBoxUI.js 该文件比较混乱，当时制作时没考虑好和家装的界面制作在一起
+57、游戏系统时间模块（不需要再修改了）
+	模块目录：Assets\Scripts
+	SysTimer.js：在登陆游戏时和服务端的时间进行了校对，通过该模块获取的时间是为服务端的当前时间
+58、界面管理模块（挺重要的，基本不需要再修改了）
+	模块目录：Assets\Scripts
+	UI.js：封装了一些接口用来操作界面，如打开/关闭/隐藏界面、设置界面模态、设置界面为顶层等
+（三）《我们恋爱吧》工具模块
+1、GridEditor，房屋格子编辑器
+	该工具的开发是为了让策划可以更好的编辑房屋格子，该工具算是比较完善，可以满足策划的制作需求了，目前是不需要再做功能扩展，以后看需要再扩展新功能
+2、LoveHomeSceneEditor，房屋场景编辑器
+	该工具主要是用来编辑别墅类型的房屋和室外场景，提供给策划使用的，目前不需要再做功能扩展，以后看需要再扩展新功能
+3、ResManager，资源管理器
+	该工具是用来管理游戏里需要异步加载的资源的，通过该工具可以生产.u3d的资源文件，功能已经完善了，目前不需要再做功能扩展，以后看需要再扩展新功能
+（四）资料网址
+1、iGUI官网：http://avamstudios.com/
+	unity3d商店，购买了iGUI，200美元，账号：yanyy@35info.cn，密码：Aa35info
+2、Unity官网：http://unity3d.com/
+3、Unity圣典官方翻译：http://game.ceeger.com/
+（五）建议
+这个项目的架构有点乱，各个系统之间有的耦合度比较好，且部分系统设计不合理，建议如果非必要，对原有的系统尽量不要去
+重构，这个代价太高，要开发新功能时，如果需要涉及到修改原有系统，最好是设计个中间层，避免对原有的代码直接修改，否
+则容易出现bug且不易于查找。
+

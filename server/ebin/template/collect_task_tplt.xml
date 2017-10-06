@@ -1,0 +1,3595 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<collect_task_tplt>
+		<id>1</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200147</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>2</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200133</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>3</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200137</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>4</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200009</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>5</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200011</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>6</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200013</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>7</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200025</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>8</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200015</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>9</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200010</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>10</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200036</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>11</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200012</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>12</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200035</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>13</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200034</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>14</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200030</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>15</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200027</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>16</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200033</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>17</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200014</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>18</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200029</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>19</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200021</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>20</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200023</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>21</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200032</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>22</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200018</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>23</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200019</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>24</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200016</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>25</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200017</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>26</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200020</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>27</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200028</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>28</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200022</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>29</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200024</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>30</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200031</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>31</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200026</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>32</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200140</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>33</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200146</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>34</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200131</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>35</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200136</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>36</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200144</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>37</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200148</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>38</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200128</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>39</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200129</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>40</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200130</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>41</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200132</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>42</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200142</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>43</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200134</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>44</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200135</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>45</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200138</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>46</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200139</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>47</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200141</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>48</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200143</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>49</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200145</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>50</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200056</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>51</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200077</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>52</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200076</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>53</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200037</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>54</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200039</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>55</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200061</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>56</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200058</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>57</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200040</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>58</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200123</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>59</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200063</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>60</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200125</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>61</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200126</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>62</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200124</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>63</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200042</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>64</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200064</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>65</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200049</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>66</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200050</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>67</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200065</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>68</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200051</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>69</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200057</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>70</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200055</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>71</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200053</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>72</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200054</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>73</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200059</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>74</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200038</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>75</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200060</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>76</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200045</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>77</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200052</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>78</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200046</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>79</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200044</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>80</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200048</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>81</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200067</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>82</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200041</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>83</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200068</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>84</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200071</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>85</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200072</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>86</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200073</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>87</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200069</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>88</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200070</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>89</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200062</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>90</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200074</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>91</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200075</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>92</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200085</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>93</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200082</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>94</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200149</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>95</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200080</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>96</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200094</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>97</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200097</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>98</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200185</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>99</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200079</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>100</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200095</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>101</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200102</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>102</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200096</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>103</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200099</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>104</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200098</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>105</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200101</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>106</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200100</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>107</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200081</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>108</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200078</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>109</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200093</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>110</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200104</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>111</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200127</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>112</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200087</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>113</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200091</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>114</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200090</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>115</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200086</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>116</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200088</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>117</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200092</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>118</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200089</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>119</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200103</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>120</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200083</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>121</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200084</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>122</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200105</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>123</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200106</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>124</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200114</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>125</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200119</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>126</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200107</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>127</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200108</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>128</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200109</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>129</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200110</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>130</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200111</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>131</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200112</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>132</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200113</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>133</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200115</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>134</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200116</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>135</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200117</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>136</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200118</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>137</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200120</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>138</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200408</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>139</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200403</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>140</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200402</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>141</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200404</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>142</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200411</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>143</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200419</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>144</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200421</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>145</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200428</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>146</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200429</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>147</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200406</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>148</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200433</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>149</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200481</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>150</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200436</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>151</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200482</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>152</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200442</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>153</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200416</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>154</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200423</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>155</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200439</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>156</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200438</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>157</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200443</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>158</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200440</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>159</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200437</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>160</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200444</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>161</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200483</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>162</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200474</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>163</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200475</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>164</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200476</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>165</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200441</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>166</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200424</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>167</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200425</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>168</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200418</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>169</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200427</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>170</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200445</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>171</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200446</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>172</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200447</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>173</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200400</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>174</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200401</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>175</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200405</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>176</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200417</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>177</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200426</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>178</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200422</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>179</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200435</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>180</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200430</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>181</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200431</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>182</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200432</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>183</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200434</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>184</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200477</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>185</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200479</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>186</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200480</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>187</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200150</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>188</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200151</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>189</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200337</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>190</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200339</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>191</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200341</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>192</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200478</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>193</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200152</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>194</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200332</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>195</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200333</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>196</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200334</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>197</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200335</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>198</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200336</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>199</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200200</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>200</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200201</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>201</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200202</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>202</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200203</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>203</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200204</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>204</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200205</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>205</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200206</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>206</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200207</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>207</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200208</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>208</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200153</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>209</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200154</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>210</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200155</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>211</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200156</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>212</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200157</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>213</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200158</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>214</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200159</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>215</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200160</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>216</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200161</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>217</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200162</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>218</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200163</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>219</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200164</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>220</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200165</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>221</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200166</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>222</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200183</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>223</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200167</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>224</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200168</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>225</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200169</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>226</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200170</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>227</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200171</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>228</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200172</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>229</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200173</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>230</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200174</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>231</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200175</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>232</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200176</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>233</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200177</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>234</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200184</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>235</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200178</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>236</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200179</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>237</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200180</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>238</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200181</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>239</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200182</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>240</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200448</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>241</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200449</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>242</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200450</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>243</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200451</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>244</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200452</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>245</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200453</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>246</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200454</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>247</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200455</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>248</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200456</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>249</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200457</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>250</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200458</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>251</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200459</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>252</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200460</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>253</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200461</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>254</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200462</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>255</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200463</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>256</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200464</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>257</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200465</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>258</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200466</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>259</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200467</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>260</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200468</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>261</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200469</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>262</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200470</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>263</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200471</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>264</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200472</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>265</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200473</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>266</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200303</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>267</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200301</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>268</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200302</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>269</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200300</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>270</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200304</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>271</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200329</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>272</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200306</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>273</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200308</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>274</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200307</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>275</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200343</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>276</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200312</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>277</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200314</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>278</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200313</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>279</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200311</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>280</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200309</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>281</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200310</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>282</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200305</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>283</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200318</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>284</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200340</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>285</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200328</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>286</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200315</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>287</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200319</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>288</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200320</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>289</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200323</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>290</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200322</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>291</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200321</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>292</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200324</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>293</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200326</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>294</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200327</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>295</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200325</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>296</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200342</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>297</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200338</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>298</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200330</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>299</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200331</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>300</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200503</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>301</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200506</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>302</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200507</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>303</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200504</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>304</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200508</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>305</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200510</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>306</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200509</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>307</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200511</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>308</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200512</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>309</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200513</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>310</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200500</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>311</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200501</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>312</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200502</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>313</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200514</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>314</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200505</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>315</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200515</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>316</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200516</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>317</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200518</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>318</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200517</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>319</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200520</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>320</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200521</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>321</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200522</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>322</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200519</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>323</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200523</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>324</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200525</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>325</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200524</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>326</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200526</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>327</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200527</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>328</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200529</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>329</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200530</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>330</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200526</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>331</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200527</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>332</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200529</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>333</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200530</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>334</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>2200046</require_item>
+		<require_item_count>2</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>335</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>2200047</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>336</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>220000</require_item>
+		<require_item_count>20</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>337</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>220001</require_item>
+		<require_item_count>20</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>338</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>220002</require_item>
+		<require_item_count>20</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>339</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>220003</require_item>
+		<require_item_count>20</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>340</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200603</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>341</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200602</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>342</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200601</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>343</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200600</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>344</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200606</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>345</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200609</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>346</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200605</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>347</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200610</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>348</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200614</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>349</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200613</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>350</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200612</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>351</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200611</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>352</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200604</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>353</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200608</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>354</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200607</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>355</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200615</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>356</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200622</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>357</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200616</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>358</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200617</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>359</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200618</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>360</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200619</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>361</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200621</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>362</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200620</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>363</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200623</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>364</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200624</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>365</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200625</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>366</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200626</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>367</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200627</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>368</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200700</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>369</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200701</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>370</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200702</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>371</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200703</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>372</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200709</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>373</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200704</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>374</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200705</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>375</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200706</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>376</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200707</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>377</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200708</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>378</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200710</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>379</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200711</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>380</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200712</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>381</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200713</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>382</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200714</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>383</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200715</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>384</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200729</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>385</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200718</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>386</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200719</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>387</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200720</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>388</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200721</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>389</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200722</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>390</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200723</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>391</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200724</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>392</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200725</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>393</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200726</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>394</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200727</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>395</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200728</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>396</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200756</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>397</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200757</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>398</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200758</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>399</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200759</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>400</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200760</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>401</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200761</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>402</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200762</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>403</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200763</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>404</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200764</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>405</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200765</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>406</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200766</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>407</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200767</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>408</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200768</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>409</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200769</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>410</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200770</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>411</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200771</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>412</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200772</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>413</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200773</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>414</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200774</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>415</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200775</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>416</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200776</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>417</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200777</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>418</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200800</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>419</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200801</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>420</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200802</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>421</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200803</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>422</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200805</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>423</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200806</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>424</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200807</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>425</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200900</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>426</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200901</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>427</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200902</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>428</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200903</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>429</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200904</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>430</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200905</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>431</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200906</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>432</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200907</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>433</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200908</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>434</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200909</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>435</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200910</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>436</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200911</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>437</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200912</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>438</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200913</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>439</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200914</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>440</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200915</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>441</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200916</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>442</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>200917</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>443</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>9910000</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>444</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>9910001</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>445</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>9910003</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>446</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>9910005</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>447</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>9910006</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>448</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>2200027</require_item>
+		<require_item_count>2</require_item_count>
+	</collect_task_tplt>
+	<collect_task_tplt>
+		<id>449</id>
+		<content>我需要一些i_name1，不要试图了解这是为了什么，知道的越少对你就越安全。
+把i_count1个i_name1交给我，我会给你奖励的。(i_name1可以在家具商城或道具商城中购买获得)</content>
+		<target>将i_count1个i_name1交给神秘探员</target>
+		<require_item>2200028</require_item>
+		<require_item_count>1</require_item_count>
+	</collect_task_tplt>
+</root>

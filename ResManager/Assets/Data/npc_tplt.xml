@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<npc_tplt>
+		<id>1</id>
+		<sex>1</sex>
+		<name>神秘探员Mr.Big</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>2</id>
+		<sex>1</sex>
+		<name>环保回收大使</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>3</id>
+		<sex>2</sex>
+		<name>旅行中的少女</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>4</id>
+		<sex>2</sex>
+		<name>等人中的少女</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>5</id>
+		<sex>1</sex>
+		<name>英俊的美男子</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>6</id>
+		<sex>1</sex>
+		<name>时尚的年青男子</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>7</id>
+		<sex>2</sex>
+		<name>圣诞礼物派送员</name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>8</id>
+		<sex>2</sex>
+		<name> </name>
+	</npc_tplt>
+	<npc_tplt>
+		<id>9</id>
+		<sex>2</sex>
+		<name> </name>
+	</npc_tplt>
+</root>

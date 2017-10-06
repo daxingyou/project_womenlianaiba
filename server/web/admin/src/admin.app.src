@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, admin,
+ [{description, "admin"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'admin_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

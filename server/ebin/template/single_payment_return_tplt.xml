@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<single_payment_return_tplt>
+		<consume_amount>100</consume_amount>
+		<award_items>[{9999998,1}]</award_items>
+	</single_payment_return_tplt>
+	<single_payment_return_tplt>
+		<consume_amount>200</consume_amount>
+		<award_items>[{9999998,2}]</award_items>
+	</single_payment_return_tplt>
+	<single_payment_return_tplt>
+		<consume_amount>500</consume_amount>
+		<award_items>[{9999998,5}]</award_items>
+	</single_payment_return_tplt>
+	<single_payment_return_tplt>
+		<consume_amount>1000</consume_amount>
+		<award_items>[{9999998,10},{9999999,1}]</award_items>
+	</single_payment_return_tplt>
+</root>

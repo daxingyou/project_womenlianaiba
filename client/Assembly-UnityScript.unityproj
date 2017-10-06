@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{CC5A699E-A288-206A-CD29-1D8FDCB9CBC1}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_3;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>G:/program files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>G:/program files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Config\createRoleConfig.js" />
+     <Compile Include="Assets\Scripts\AmbientMgr.js" />
+     <Compile Include="Assets\Scripts\AssetbundleLoader.js" />
+     <Compile Include="Assets\Scripts\AsynLoadImage.js" />
+     <Compile Include="Assets\Scripts\AudioLogic\YYAudioLogic.js" />
+     <Compile Include="Assets\Scripts\Backpack\Backpack.js" />
+     <Compile Include="Assets\Scripts\Backpack\BackpackPage.js" />
+     <Compile Include="Assets\Scripts\Backpack\BackpackSlot.js" />
+     <Compile Include="Assets\Scripts\BartenderSys\BartenderHintStyles.js" />
+     <Compile Include="Assets\Scripts\BartenderSys\BartenderSys.js" />
+     <Compile Include="Assets\Scripts\BartenderSys\BartenderSysTablesMgr.js" />
+     <Compile Include="Assets\Scripts\BubbleTipMgr.js" />
+     <Compile Include="Assets\Scripts\Buff\BuffIcon.js" />
+     <Compile Include="Assets\Scripts\Buff\BuffLogic.js" />
+     <Compile Include="Assets\Scripts\Camera\EQCamera.js" />
+     <Compile Include="Assets\Scripts\ChainTask\ChainTaskLogic.js" />
+     <Compile Include="Assets\Scripts\CharacterFactory.js" />
+     <Compile Include="Assets\Scripts\Chat\ChatHistory.js" />
+     <Compile Include="Assets\Scripts\Chat\ChatLogic.js" />
+     <Compile Include="Assets\Scripts\Chat\ChatNameInfo_LatestVersion.js" />
+     <Compile Include="Assets\Scripts\Chat\OnHandleChatScript.js" />
+     <Compile Include="Assets\Scripts\Chat\YYChannelChatLogic.js" />
+     <Compile Include="Assets\Scripts\Chuangguan\ChuangguanComp.js" />
+     <Compile Include="Assets\Scripts\CollectComp\CollectComp.js" />
+     <Compile Include="Assets\Scripts\CommemorationDayMgr.js" />
+     <Compile Include="Assets\Scripts\Common\AsynIcon.js" />
+     <Compile Include="Assets\Scripts\Common\AsynModelCtrl.js" />
+     <Compile Include="Assets\Scripts\Common\AsynModelCtrlEvent.js" />
+     <Compile Include="Assets\Scripts\Common\CommFunc.js" />
+     <Compile Include="Assets\Scripts\Common\Controller.js" />
+     <Compile Include="Assets\Scripts\Common\ExternalFlatform.js" />
+     <Compile Include="Assets\Scripts\Common\GlobalBlock.js" />
+     <Compile Include="Assets\Scripts\Common\IndoorPath.js" />
+     <Compile Include="Assets\Scripts\Common\Int2AABBBox.js" />
+     <Compile Include="Assets\Scripts\Common\LogicTableManager.js" />
+     <Compile Include="Assets\Scripts\Common\Model.js" />
+     <Compile Include="Assets\Scripts\Common\ObjectManager.js" />
+     <Compile Include="Assets\Scripts\Common\ResManager.js" />
+     <Compile Include="Assets\Scripts\Common\SceneObject.js" />
+     <Compile Include="Assets\Scripts\Common\TimerEx.js" />
+     <Compile Include="Assets\Scripts\Common\XmlDataParser.js" />
+     <Compile Include="Assets\Scripts\Common\XmlDataTable.js" />
+     <Compile Include="Assets\Scripts\Common\XmlManager.js" />
+     <Compile Include="Assets\Scripts\Common\ZoneLight.js" />
+     <Compile Include="Assets\Scripts\ConfigMgr.js" />
+     <Compile Include="Assets\Scripts\Consume\ConsumeLogic.js" />
+     <Compile Include="Assets\Scripts\Consume\ConsumeNet.js" />
+     <Compile Include="Assets\Scripts\Consume\CreditLogic.js" />
+     <Compile Include="Assets\Scripts\Consume\DiamondLogic.js" />
+     <Compile Include="Assets\Scripts\CreateRole.js" />
+     <Compile Include="Assets\Scripts\DailyActiveAward\DailyActiveAwardComp.js" />
+     <Compile Include="Assets\Scripts\DataCenter.js" />
+     <Compile Include="Assets\Scripts\Define.js" />
+     <Compile Include="Assets\Scripts\Divorce\Divorce.js" />
+     <Compile Include="Assets\Scripts\Divorce\DivorceSlot.js" />
+     <Compile Include="Assets\Scripts\DragonBoatFestival\DragonBoatFestival.js" />
+     <Compile Include="Assets\Scripts\Dress\DressAvatar.js" />
+     <Compile Include="Assets\Scripts\Dress\DressData.js" />
+     <Compile Include="Assets\Scripts\Dress\DressLogicCenter.js" />
+     <Compile Include="Assets\Scripts\Dress\DressMall.js" />
+     <Compile Include="Assets\Scripts\Dress\DressNet.js" />
+     <Compile Include="Assets\Scripts\Dress\DressPack.js" />
+     <Compile Include="Assets\Scripts\EQGameScene.js" />
+     <Compile Include="Assets\Scripts\EQGameSceneMgr.js" />
+     <Compile Include="Assets\Scripts\ExchangeModule\ExchangeComp.js" />
+     <Compile Include="Assets\Scripts\FirstPayComp\FirstPayComp.js" />
+     <Compile Include="Assets\Scripts\Fitment\AutoFitmentLogic.js" />
+     <Compile Include="Assets\Scripts\Fitment\FitmentEvent.js" />
+     <Compile Include="Assets\Scripts\Fitment\FitmentEventMgr.js" />
+     <Compile Include="Assets\Scripts\Fitment\FitmentLogic.js" />
+     <Compile Include="Assets\Scripts\Fitment\FitmentSlot.js" />
+     <Compile Include="Assets\Scripts\Fitment\FurnitureUnlockLogic.js" />
+     <Compile Include="Assets\Scripts\Flower.js" />
+     <Compile Include="Assets\Scripts\FlowerFactory.js" />
+     <Compile Include="Assets\Scripts\FlowerRotate.js" />
+     <Compile Include="Assets\Scripts\FlowerTable.js" />
+     <Compile Include="Assets\Scripts\Follow\FollowLogic.js" />
+     <Compile Include="Assets\Scripts\Follow\FollowNet.js" />
+     <Compile Include="Assets\Scripts\FoodConsumeLogic.js" />
+     <Compile Include="Assets\Scripts\FriendInvite\FriendInviteLogic.js" />
+     <Compile Include="Assets\Scripts\FriendInvite\FriendInviteNet.js" />
+     <Compile Include="Assets\Scripts\FurnitureInteract\FurnitureComponent.js" />
+     <Compile Include="Assets\Scripts\FurnitureInteract\FurnitureDataHandler.js" />
+     <Compile Include="Assets\Scripts\FurnitureInteract\FurnitureInteract.js" />
+     <Compile Include="Assets\Scripts\FurnitureInteract\FurnitureParticle.js" />
+     <Compile Include="Assets\Scripts\Gift\GiftLogic.js" />
+     <Compile Include="Assets\Scripts\GiftMgr.js" />
+     <Compile Include="Assets\Scripts\Global.js" />
+     <Compile Include="Assets\Scripts\GmCtrl.js" />
+     <Compile Include="Assets\Scripts\Guest\GuestComp.js" />
+     <Compile Include="Assets\Scripts\Guest\GuestLogic.js" />
+     <Compile Include="Assets\Scripts\Guest\GuestModel.js" />
+     <Compile Include="Assets\Scripts\Guest\SpriteGuestComp.js" />
+     <Compile Include="Assets\Scripts\HandleAfterLogin.js" />
+     <Compile Include="Assets\Scripts\HeadIcon.js" />
+     <Compile Include="Assets\Scripts\Holiday\HolidayLogic.js" />
+     <Compile Include="Assets\Scripts\Holiday\HolidayNet.js" />
+     <Compile Include="Assets\Scripts\HouseEditor\HouseEditorWritter.js" />
+     <Compile Include="Assets\Scripts\HouseEditor\ZoneLightProperty.js" />
+     <Compile Include="Assets\Scripts\HouseScene\EQSceneManager.js" />
+     <Compile Include="Assets\Scripts\HouseScene\Grid.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HSCFitmentCtrl.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HSCManager.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseAsynLoadEvent.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseGridGraphics.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseRes.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseScene.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneComponent.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneDef.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneFloor.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneGrid.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneRoom.js" />
+     <Compile Include="Assets\Scripts\HouseScene\HouseSceneWall.js" />
+     <Compile Include="Assets\Scripts\HouseScene\UpDownStair.js" />
+     <Compile Include="Assets\Scripts\HouseUpdate\HouseUpdateComp.js" />
+     <Compile Include="Assets\Scripts\InformationCollect.js" />
+     <Compile Include="Assets\Scripts\Item.js" />
+     <Compile Include="Assets\Scripts\ItemHint.js" />
+     <Compile Include="Assets\Scripts\ItemIcon.js" />
+     <Compile Include="Assets\Scripts\ItemUpgrade\ItemUpgradeLogic.js" />
+     <Compile Include="Assets\Scripts\ItemUpgrade\ItemUpgradeNet.js" />
+     <Compile Include="Assets\Scripts\ItemsMake\ItemsMakeLogic.js" />
+     <Compile Include="Assets\Scripts\ItemsMake\ItemsMakeNet.js" />
+     <Compile Include="Assets\Scripts\KeyWordShield.js" />
+     <Compile Include="Assets\Scripts\Login.js" />
+     <Compile Include="Assets\Scripts\LogonAward\LogonAwardLogic.js" />
+     <Compile Include="Assets\Scripts\LogonAward\LogonAwardNet.js" />
+     <Compile Include="Assets\Scripts\LvExpMgr.js" />
+     <Compile Include="Assets\Scripts\Main.js" />
+     <Compile Include="Assets\Scripts\Message\MessageMgr.js" />
+     <Compile Include="Assets\Scripts\Message\YYMessageMgr.js" />
+     <Compile Include="Assets\Scripts\ModelLoader.js" />
+     <Compile Include="Assets\Scripts\ModelLoaderMgr.js" />
+     <Compile Include="Assets\Scripts\Mouse.js" />
+     <Compile Include="Assets\Scripts\MouseState\MouseStateManager.js" />
+     <Compile Include="Assets\Scripts\MusicMgr.js" />
+     <Compile Include="Assets\Scripts\NetMsgHandler.js" />
+     <Compile Include="Assets\Scripts\NewHandGuideLogic.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10000.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10001.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10002.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10003.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10004.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10005.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10006.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10007.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10008.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10009.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10010.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_10011.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20000.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20001.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20002.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20003.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20004.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20005.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20006.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20007.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20008.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20009.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20010.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20011.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20012.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20013.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20014.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20015.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20016.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20017.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20018.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20019.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20020.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20021.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20022.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20023.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20024.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20025.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20026.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20027.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20030.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20031.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20032.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20033.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20034.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20035.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20036.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20037.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20038.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20039.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20040.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20041.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20043.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20044.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20045.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhand_20046.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30000.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30001.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30002.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30003.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30004.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30005.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30006.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30007.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30008.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30009.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30010.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30011.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30012.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30013.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30014.js" />
+     <Compile Include="Assets\Scripts\NewHandTask\newhandtask_30015.js" />
+     <Compile Include="Assets\Scripts\NewPlayGuideModule.js" />
+     <Compile Include="Assets\Scripts\NoticeLogic.js" />
+     <Compile Include="Assets\Scripts\Npc\NpcIns.js" />
+     <Compile Include="Assets\Scripts\Npc\NpcMgr.js" />
+     <Compile Include="Assets\Scripts\Npc\NpcNet.js" />
+     <Compile Include="Assets\Scripts\OfferRewardTask\OfferRewardTaskLogic.js" />
+     <Compile Include="Assets\Scripts\OwnerIcon.js" />
+     <Compile Include="Assets\Scripts\Page.js" />
+     <Compile Include="Assets\Scripts\PagerMgr.js" />
+     <Compile Include="Assets\Scripts\PaoPaoControl.js" />
+     <Compile Include="Assets\Scripts\ParticleSys\ParticleDestroy.js" />
+     <Compile Include="Assets\Scripts\Party\Party.js" />
+     <Compile Include="Assets\Scripts\Party\PartyExpBuffSlot.js" />
+     <Compile Include="Assets\Scripts\Party\PartyFoodComp.js" />
+     <Compile Include="Assets\Scripts\Party\PartyFoodModel.js" />
+     <Compile Include="Assets\Scripts\Party\PartyInviteSlot.js" />
+     <Compile Include="Assets\Scripts\Party\PartyPropAwardSlot.js" />
+     <Compile Include="Assets\Scripts\Party\PartyPropSelectSlot.js" />
+     <Compile Include="Assets\Scripts\Party\PartySlot.js" />
+     <Compile Include="Assets\Scripts\Pay\PayLogic.js" />
+     <Compile Include="Assets\Scripts\Peidui.js" />
+     <Compile Include="Assets\Scripts\PersonalInfo.js" />
+     <Compile Include="Assets\Scripts\PhotoFriend.js" />
+     <Compile Include="Assets\Scripts\PhyPowerMgr.js" />
+     <Compile Include="Assets\Scripts\PickMgr.js" />
+     <Compile Include="Assets\Scripts\Plant\Plant.js" />
+     <Compile Include="Assets\Scripts\Plant\PlantLogic.js" />
+     <Compile Include="Assets\Scripts\Plant\PlantNet.js" />
+     <Compile Include="Assets\Scripts\PlatResLoader.js" />
+     <Compile Include="Assets\Scripts\PlatResLoaderMgr.js" />
+     <Compile Include="Assets\Scripts\Platform\PYplatform.js" />
+     <Compile Include="Assets\Scripts\Platform\Platform.js" />
+     <Compile Include="Assets\Scripts\Platform\PlatformData.js" />
+     <Compile Include="Assets\Scripts\Platform\PlatformLoader.js" />
+     <Compile Include="Assets\Scripts\Platform\PlatformMgr.js" />
+     <Compile Include="Assets\Scripts\Platform\YYplatform.js" />
+     <Compile Include="Assets\Scripts\PlatformResMgr.js" />
+     <Compile Include="Assets\Scripts\Player\MainPlayer.js" />
+     <Compile Include="Assets\Scripts\Player\Player.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimationLoop.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerChatBubble.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerCheckin.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerFriend.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerMove.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerPreview.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerTransform.js" />
+     <Compile Include="Assets\Scripts\PlayerHouse.js" />
+     <Compile Include="Assets\Scripts\PlayerSettingMgr.js" />
+     <Compile Include="Assets\Scripts\Prop\PropBuyCommonLogic.js" />
+     <Compile Include="Assets\Scripts\Prop\PropFireworksLogic.js" />
+     <Compile Include="Assets\Scripts\Prop\PropShopLogic.js" />
+     <Compile Include="Assets\Scripts\Prop\PropShopPage.js" />
+     <Compile Include="Assets\Scripts\Prop\PropShopSlot.js" />
+     <Compile Include="Assets\Scripts\Prop\PropUseLogic.js" />
+     <Compile Include="Assets\Scripts\Property\Property.js" />
+     <Compile Include="Assets\Scripts\QQHome\QQHomeLogic.js" />
+     <Compile Include="Assets\Scripts\QQHome\QQHomeNet.js" />
+     <Compile Include="Assets\Scripts\RankList\RankListLogic.js" />
+     <Compile Include="Assets\Scripts\RankList\RankListPage.js" />
+     <Compile Include="Assets\Scripts\RankList\RankListSlot.js" />
+     <Compile Include="Assets\Scripts\Remedy\RemedyLogic.js" />
+     <Compile Include="Assets\Scripts\Remedy\RemedyNet.js" />
+     <Compile Include="Assets\Scripts\Scene\CommScene.js" />
+     <Compile Include="Assets\Scripts\Scene\CommSceneLogic.js" />
+     <Compile Include="Assets\Scripts\Scene\LoveHomeSceneConfig.js" />
+     <Compile Include="Assets\Scripts\Scene\LoveHomeSceneMgr.js" />
+     <Compile Include="Assets\Scripts\Scene\ObjectCullLogic.js" />
+     <Compile Include="Assets\Scripts\ScenePlayerMgr.js" />
+     <Compile Include="Assets\Scripts\SelectFrame.js" />
+     <Compile Include="Assets\Scripts\SelfAnimation\SelfAnimationComp.js" />
+     <Compile Include="Assets\Scripts\SelfItemLogic.js" />
+     <Compile Include="Assets\Scripts\ShowError.js" />
+     <Compile Include="Assets\Scripts\Social\KickLogic.js" />
+     <Compile Include="Assets\Scripts\Social\SocialLogic.js" />
+     <Compile Include="Assets\Scripts\Social\SocialNet.js" />
+     <Compile Include="Assets\Scripts\SpeakerComp.js" />
+     <Compile Include="Assets\Scripts\Sprite\SpriteLogic.js" />
+     <Compile Include="Assets\Scripts\Sprite\SpriteModel.js" />
+     <Compile Include="Assets\Scripts\StorageLogic.js" />
+     <Compile Include="Assets\Scripts\SysBoard\SysBoardLogic.js" />
+     <Compile Include="Assets\Scripts\SysLog.js" />
+     <Compile Include="Assets\Scripts\SysMsgHandler.js" />
+     <Compile Include="Assets\Scripts\SysTimer.js" />
+     <Compile Include="Assets\Scripts\Task\DailyTaskCtrl.js" />
+     <Compile Include="Assets\Scripts\Task\SeriesTaskLogic.js" />
+     <Compile Include="Assets\Scripts\Task\Task.js" />
+     <Compile Include="Assets\Scripts\TimeEffect\TimeEffect.js" />
+     <Compile Include="Assets\Scripts\TooltipBuild.js" />
+     <Compile Include="Assets\Scripts\Transform\TransformLogic.js" />
+     <Compile Include="Assets\Scripts\UI.js" />
+     <Compile Include="Assets\Scripts\UIAnimation.js" />
+     <Compile Include="Assets\Scripts\UnLockModule\UnLockModule.js" />
+     <Compile Include="Assets\Scripts\Waiter\WaiterItem.js" />
+     <Compile Include="Assets\Scripts\Waiter\WaiterLogicCenter.js" />
+     <Compile Include="Assets\Scripts\Waiter\WaiterModel.js" />
+     <Compile Include="Assets\Scripts\Waiter\WaiterModelComp.js" />
+     <Compile Include="Assets\Scripts\WallComing\WallComingAvatar.js" />
+     <Compile Include="Assets\Scripts\WallComing\WallComingLogic.js" />
+     <Compile Include="Assets\Scripts\WallComing\WallComingScene2v2v2v2.js" />
+     <Compile Include="Assets\Scripts\WallComing\WallComingWall.js" />
+     <Compile Include="Assets\Scripts\WallComing\WallComingWallMove.js" />
+     <Compile Include="Assets\Scripts\WallFloorReplace\WallFloorReplace.js" />
+     <Compile Include="Assets\Scripts\WaterTipPp.js" />
+     <Compile Include="Assets\Scripts\WelcomeComp.js" />
+     <Compile Include="Assets\Scripts\WishListComp.js" />
+     <Compile Include="Assets\Scripts\XMLParser\XMLNode.js" />
+     <Compile Include="Assets\Scripts\XMLParser\XMLNodeList.js" />
+     <Compile Include="Assets\Scripts\XMLParser\XMLParser.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYChannelGiftPage.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYChannelGiftSlot.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYChannelGuestSlot.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYChannelListLogic.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYGift2D.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYGift3D.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYGiftDisplayLogic.js" />
+     <Compile Include="Assets\Scripts\YYChannelListLogic\YYUserInfoClass.js" />
+     <Compile Include="Assets\Scripts\iGUIAnimation.js" />
+     <Compile Include="Assets\Shaders\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
+     <Compile Include="Assets\Shaders\Image Effects (Pro Only)\BloomAndLensFlares.js" />
+     <Compile Include="Assets\Shaders\Image Effects (Pro Only)\PostEffectsBase.js" />
+     <Compile Include="Assets\Xffect\Examples\Scripts\XftFpsDisplay.js" />
+     <Compile Include="Assets\iGUI\FlowerChoiceUI.js" />
+     <Compile Include="Assets\iGUI\FlowerGuestUI.js" />
+     <Compile Include="Assets\iGUI\FlowerHelp.js" />
+     <Compile Include="Assets\iGUI\FlowerLog.js" />
+     <Compile Include="Assets\iGUI\FlowerOwnerUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_AccumulatePayUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_BackpackUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_BarCntrProduceUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_BartenderUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_BuffUIRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_BuyTheDrinksUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ChainTaskUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ChatPaoPaoRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_CheckinUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ChuangguanRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_CollectRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_CommSceneUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ConsumeUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_CreatePlayerUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DailyTaskUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DaliyActiveRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DecorateUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DiamondUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DivorceUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DragonBoatFestivalUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_DressUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_EntertainUIRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ExchangeUIRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FirstPayRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FollowUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FoodSettlementDiamondUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FriendInviteUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FurnitureInteractUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_FurnitureUnlockUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_GiftBoxUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_GiftMakeUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_GiftReceiveUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_GiftUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_HolidayUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_HouseUpdateRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ItemUpgradeUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ItemsMakeUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_LoadingModalRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_LoadingUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_LoginUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_LogonAwardUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_MainUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_MessageUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_ModalRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NewGuideModalRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NewHandGuideUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NewHandTaskRewardUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NewhandTaskGuide.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NoModalTipRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NoticeRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NoticeUpdateUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_NpcDialogUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_OfferRewardTaskUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyAcceptUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyCreateUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyFunctionUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyInviteUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyOverAwardUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyPackUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyPropAwardUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyPropSelectUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PartyUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_Peidui.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PeiduiSuccess.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PersonalInfoUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PhotoFriend.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PlantUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PlayerHeadupRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PropBuyCommonUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_PropShopUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_QQHomeUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_RankListUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_RemedyUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_RoleAssist.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SelfAnimationRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SettingPanelUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SinglePayUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SocialUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SpeakerRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_StepLeadRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_StorageBoxUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SummonUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_SysBoardUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_TaskSelectUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_TaskUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_Tooltip.js" />
+     <Compile Include="Assets\iGUI\iGUICode_UIAnimationRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_UnLockInfoRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_UpgradeFoodUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_UpgradeFurnitureUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_VoiceChannelUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_WaiterUIRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_WallComingUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_WelcomeRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_WishListRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_YYChannelListRoot.js" />
+     <Compile Include="Assets\iGUI\iGUICode_YYPubUI.js" />
+     <Compile Include="Assets\iGUI\iGUICode_makePrefabRoot.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_ChannelItemSO.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_CommemorationDay.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_ExchangeItemPanel.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_PrivateChatItemContainer.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_SOCheckinFemalePan.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_SOCheckinMalePan.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_SOMessagePanel.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_SpecialHouseItm.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_VisitItem.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_WishItem.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_WishRecordItem.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_active_item.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_foodReservesItem.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_reward_score_item.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_shakingPanel.js" />
+     <Compile Include="Assets\iGUI\iGUISmartPrefab_stockInfoItemContainer.js" />
+     <Compile Include="Assets\iGUI\iGUISmart_active_item.js" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\iGUI\Runtime\iGUI.xml" />
+     <None Include="Assets\iGUI\link.xml" />
+     <None Include="Assets\Media\Data\init_houses.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Media\Data\PersonalInfo.xml" />
+     <None Include="Assets\iGUI\readme.txt" />
+     <None Include="Assets\iGUI\iTweenReadme.txt" />
+     <None Include="Assets\Media\Data\init_tables.txt" />
+     <None Include="Assets\iGUI\Files\Toolbox\readme.txt" />
+     <None Include="Assets\Plugins\readme.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Resources\keyword.txt" />
+     <None Include="Assets\Media\Data\init_models.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\iGUI\Files\Skin\Normal\readme.txt" />
+     <None Include="Assets\iGUI\Files\Skin\Retina\readme.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Resources\Filelist.xml" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Media\Data\init_files.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Plugins\event\readme.txt" />
+     <None Include="Assets\Shaders\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="iGUI">
+ <HintPath>Assets\iGUI\Runtime\iGUI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3A1B43A0-276E-34FB-197E-1ACDE9001A0F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Unity Web Player | WebPlayer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="../style/WebPlayer.css" />
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    
+    <script type="text/javascript" src="../js/yyapi.js"></script>
+
+    <script type="text/javascript" src="../js/YYplatform.js"></script>
+
+    <script type="text/javascript" src="../js/UnityObject.js"></script>
+
+</head>
+<body bgcolor="black" style="background-image: url(../images/love.png);">
+
+<script type="text/javascript">
+    if (typeof unityObject != "undefined") {
+				var params = {
+					logoimage: "../images/logo.png"
+			   		//,disableContextMenu:true
+				};
+
+	        unityObject.detectUnity(function(status) {
+	            switch(status)
+	            {
+	                case "installed":
+	                    createUnityObject();
+	                    break;
+	                default:
+	                	if(unityObject.ua.win && unityObject.ua.ie)
+                		{
+                    	createUnityObject();
+                  	}
+                  	else
+                  	{	
+	                    buildNewer("unityPlayer", 760, 600, "setup", "../images/plugin/bg.png");
+	                  }
+	            }
+		    });
+		}
+
+		function createUnityObject()
+		{
+			unityObject.embedUnity("unityPlayer", "WebPlayer20130216100825.unity3d", 760, 600, params);
+		}
+		
+		function buildNewer(id, width, height, tag, bg)
+		{
+		  if (unityObject.ua.win && unityObject.ua.ie) 
+		        buildNewerForIE(id, width, height, tag, bg);
+			else
+			    buildNewerForFireFox(id, width, height, tag, bg);
+		}
+		
+		function buildNewerForIE(id, width, height, tag, bg)
+		{
+		    var re = document.getElementById(id);
+		    var exefile=getExeFile();
+		    at="<a id="+tag+" href="+ exefile +" target=_blank></a>";
+		    var ft = '<div style="width:' + width + 'px; height:' + height + 'px; text-align:left; margin: auto; position: relative;  background-image:url('+bg+');">' + at + '</div>';
+		    re.outerHTML = '<div id="' + id + '" style="width: ' + width + 'px; height:' + height + 'px;">' + ft + '</div>';
+		}
+		
+		function buildNewerForFireFox(id, width, height, tag, bg)
+		{
+		    var re = document.getElementById(id);
+		    var exefile=getExeFile();
+		    var ue = document.createElement("div");
+				ue.setAttribute("id", id);
+				ue.style.width = width;
+				ue.style.height = height;
+				var fe = document.createElement("div");
+				fe.style.width = width+"px";	
+				fe.style.height = height+"px";	
+				fe.style.margin = "auto";
+				fe.style.position = "relative";
+				fe.style.backgroundImage="url("+bg+")";
+				
+				var ae = document.createElement("a");
+				ae.setAttribute("target", "_blank");
+				ae.setAttribute("href", exefile);
+				ae.setAttribute("title", "点击这里下载unity3d插件的离线安装包");
+				ae.id=tag;
+				fe.appendChild(ae);
+				ue.appendChild(fe);
+		    re.parentNode.replaceChild(ue, re);
+		}
+		
+		function getExeFile()
+		{
+			if(unityObject.ua.mac)
+				return "webplayer-i386.dmg";
+			else
+				return unityObject.ua.x64?"UnityWebPlayerFull64.exe":"UnityWebPlayerFull.exe";
+		}
+    </script>
+        <div class="content">
+            <div id="unityPlayer">
+                <div class="missing">
+                    <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                        <img alt="Unity Web Player. Install now!" src="../images/setup_normal.png"
+                            width="406" height="110" />
+                    </a>
+                </div>
+            </div>
+            <div id="yyno"></div>
+        </div>
+    </body>
+</html>

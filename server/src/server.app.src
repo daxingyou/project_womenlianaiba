@@ -1,0 +1,37 @@
+{application, server,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  inets,
+		  crypto,
+		  public_key,
+		  ssl,
+		  mongodb,
+		  bson,
+		  erlcron
+                 ]},
+  {mod, { server_app, []}},
+
+  {env, [{template_data, "./template/"},
+         {party_size, 200}, %% 配对的最大数量
+	 {party_time, 60},  %% 派对能够持续的时间, 单位分钟
+	 {party_dec_hp, 25}, %% 开一次派对消耗的体力值
+         %%mongodb的配置 host-主机，port-端口号, 进程池-poolsize
+         {mongodb_host, "127.0.0.1"},
+         {mongodb_port, 27017},
+         {mongodb_poolsize, 1}, 
+         %%Open API 设置
+         {app_id, "35398"}, %% 腾讯平台AppId
+         {app_key, "9142f12312c0ba142b526ce3ef477637"}, %% 腾讯平台AppKey
+         {app_name, "app35398"}, 
+         {open_api_host, "113.108.20.23"}, %%服务器
+    	 {master_db, 'love@10.182.14.60'},
+    	 {backup_db, 'backupdb@10.142.81.117'},
+	 {server_id, [{'love@127.0.0.1', 1},
+		     {'love@10.182.14.60', 1}, 
+		     {'love@10.182.13.86', 2}]}]}
+ ]}.

@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<House>
+  <PassLights>
+    <PassLight pos="2.655334 1.959663 2.587189" dColor="87.37762 255 0" dRange="5.73" floor="1" room="1" dInte="2.6" nColor="87.37762 255 0" nRange="5.73" nInte="2.6" />
+    <PassLight pos="-5.543502 2.624884 4.785154" dColor="18.12096 76.21629 220.7463" dRange="3.18" floor="1" room="1" dInte="8" nColor="18 76 221" nRange="3.18" nInte="8" />
+    <PassLight pos="-5.160969 2.624884 -4.142302" dColor="96.46845 77.42593 220.7463" dRange="3.41" floor="1" room="1" dInte="8" nColor="96.46845 77.42593 220.7463" nRange="3.41" nInte="8" />
+    <PassLight pos="3.700583 2.624884 -3.941784" dColor="198.0568 0 234.0672" dRange="4.01" floor="1" room="1" dInte="8" nColor="198 0 234" nRange="4.01" nInte="8" />
+    <PassLight pos="-1.750003 2.624884 1.142822" dColor="249.291 11.16229 166.0292" dRange="8" floor="1" room="1" dInte="8" nColor="249 11 166" nRange="8" nInte="8" />
+  </PassLights>
+  <Floors rootNO="1" radius="25">
+    <Floor NO="1" height="0">
+      <Grids>
+        <Grid param1="" z="-1" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-1">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-5" room="-1" type="144" x="-2">
+        </Grid>
+        <Grid param1="" z="-6" room="-1" type="144" x="-2">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="4" room="-1" type="144" x="-2">
+        </Grid>
+        <Grid param1="" z="5" room="-1" type="144" x="-2">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-2">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-5" room="-1" type="144" x="-3">
+        </Grid>
+        <Grid param1="" z="-6" room="-1" type="144" x="-3">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="4" room="-1" type="144" x="-3">
+        </Grid>
+        <Grid param1="" z="5" room="-1" type="144" x="-3">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-3">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-4">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-5">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-6">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-7">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-8">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="7" room="1" type="128" x="-9">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="5" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="6" room="1" type="128" x="0">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="3" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="4" room="1" type="128" x="1">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="2" room="1" type="128" x="2">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="3">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="1" room="1" type="128" x="4">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="5">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="6">
+        </Grid>
+        <Grid param1="" z="-1" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-2" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-3" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-4" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-5" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-6" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-7" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="-8" room="1" type="128" x="7">
+        </Grid>
+        <Grid param1="" z="0" room="1" type="128" x="7">
+        </Grid>
+      </Grids>
+      <Walls>
+      </Walls>
+    </Floor>
+  </Floors>
+</House>

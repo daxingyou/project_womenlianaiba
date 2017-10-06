@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<post_reward_task_tplt>
+		<id>1</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230000</require_item2>
+		<require_item2_count>100</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>600</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>2</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230001</require_item2>
+		<require_item2_count>80</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>960</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>3</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230002</require_item2>
+		<require_item2_count>100</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>900</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>4</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230003</require_item2>
+		<require_item2_count>100</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>900</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>5</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230004</require_item2>
+		<require_item2_count>80</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>960</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>6</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230005</require_item2>
+		<require_item2_count>80</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>960</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>7</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>0230006</require_item2>
+		<require_item2_count>180</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>1080</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>8</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>230007</require_item2>
+		<require_item2_count>80</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>960</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+	<post_reward_task_tplt>
+		<id>9</id>
+		<content>    总有一些没吃完的水果被藏起来，与其收在仓库里白白
+的烂掉，不如把它们交给我。
+    带回来一些我要的水果和关键计划书，我会给你一些合
+适的奖励的。
+    至于计划书，完成了日常活跃的奖励里应该就有。
+</content>
+		<require_item1>2200045</require_item1>
+		<require_item1_count>1</require_item1_count>
+		<require_item1_content>需要关键计划书1个</require_item1_content>
+		<require_item2>230008</require_item2>
+		<require_item2_count>120</require_item2_count>
+		<require_item2_content>需要i_name2i_count2个</require_item2_content>
+		<require_item3>0</require_item3>
+		<require_item3_count>0</require_item3_count>
+		<require_item3_content>0</require_item3_content>
+		<reward_items>0</reward_items>
+		<reward_items_count>0</reward_items_count>
+		<reward_diamond>1080</reward_diamond>
+		<reward_exp>0</reward_exp>
+	</post_reward_task_tplt>
+</root>

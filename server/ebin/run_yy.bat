@@ -1,0 +1,1 @@
+erl -name love@127.0.0.1 -env template yy  -setcookie efg -pz ..\lib\mongodb\deps\bson\ebin  -pz ..\lib\mongodb\ebin -pz ..\lib\db_manager\ebin -pz ..\lib\erlsom\ebin -pz ..\lib\erlcron\ebin -boot start_sasl -config elog -s inets -s logger -s ecrn_app manual_start -s gamesvr -s security start

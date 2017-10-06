@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<special_house_tplt>
+		<id>1</id>
+		<house_tplt_id>130000</house_tplt_id>
+		<q_coin>999</q_coin>
+		<count>189</count>
+		<broadcast_id>2</broadcast_id>
+	</special_house_tplt>
+	<special_house_tplt>
+		<id>2</id>
+		<house_tplt_id>130002</house_tplt_id>
+		<q_coin>4880</q_coin>
+		<count>200</count>
+		<broadcast_id>2</broadcast_id>
+	</special_house_tplt>
+	<special_house_tplt>
+		<id>3</id>
+		<house_tplt_id>130000</house_tplt_id>
+		<q_coin>999</q_coin>
+		<count>200</count>
+		<broadcast_id>2</broadcast_id>
+	</special_house_tplt>
+	<special_house_tplt>
+		<id>4</id>
+		<house_tplt_id>130004</house_tplt_id>
+		<q_coin>1</q_coin>
+		<count>500</count>
+		<broadcast_id>2</broadcast_id>
+	</special_house_tplt>
+</root>

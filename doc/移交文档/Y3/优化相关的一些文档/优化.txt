@@ -1,0 +1,25 @@
+NGUI
+主界面是否更换为NGUI
+烘培的研究
+室外场景制作方式的修改. 
+加载完u3d文件, 内存就很大了.
+如何彻底删除无用纹理来释放内存的研究.
+灯光对于渲染物件的影响
+游戏场景物件的剔除方案, 现在场景物件的剔除,  家具物件的剔除.
+头顶名字的隐藏, 以及头顶名字是否更换gui
+游戏玩家的隐藏
+游戏品质等级的选择方案.
+
+显示需要一个统一的借口
+
+
+
+
+http://answers.unity3d.com/questions/9715/how-do-i-profile-in-the-web-player.html
+
+
+http://game.ceeger.com/Manual/Web_Player_Streaming.html
+Web Player Streaming
+
+
+想去除svn在导出

@@ -1,0 +1,1 @@
+./mongod -f mongodb.conf --journal --logpath=/data/mongodb_log/love/r.log --fork

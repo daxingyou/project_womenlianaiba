@@ -1,0 +1,4 @@
+[Variable]
+CheckFileVer=1
+host=10.35.0.10
+port=8001

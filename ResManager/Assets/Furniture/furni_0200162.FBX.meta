@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 680ac8d346513b642afb3797ce11af9e
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: furni_0200162
+    4300002: furni_0200169
+    4300004: furni_0200159
+    4300006: furni_0200160
+    4300008: furni_0200165
+    4300010: furni_0200167
+    4300012: furni_0200168
+    4300014: furni_0200170
+    4300016: furni_0200171
+    4300018: furni_0200172
+    4300020: furni_0200173
+    4300022: furni_0200174
+    4300024: furni_0200175
+    4300026: furni_0200176
+    4300028: furni_0200177
+    4300030: furni_0200178
+    4300032: furni_0200179
+    4300034: furni_0200180
+    4300036: furni_0200182
+    4300038: furni_0200161
+    4300040: furni_0200163
+    4300042: furni_0200164
+    4300044: furni_0200166
+    4300046: furni_0200181
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+      data:
+        first: 111
+        second: 605fa900

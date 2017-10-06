@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<rate_tplt>
+		<id>1</id>
+		<rate>80</rate>
+		<type>1</type>
+	</rate_tplt>
+	<rate_tplt>
+		<id>2</id>
+		<rate>7</rate>
+		<type>1</type>
+	</rate_tplt>
+	<rate_tplt>
+		<id>3</id>
+		<rate>10</rate>
+		<type>1</type>
+	</rate_tplt>
+	<rate_tplt>
+		<id>4</id>
+		<rate>3</rate>
+		<type>1</type>
+	</rate_tplt>
+</root>
